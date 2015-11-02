@@ -54,7 +54,7 @@ class TicketsViewController: UIViewController {
             prixButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
             prixButton.backgroundColor = UIColor(red: 10/255, green: 167/255, blue: 233/255, alpha: 1.0)
         } else  {
-            UIApplication.sharedApplication().openURL(NSURL(string: "http://maps.apple.com/?q=Mexican+Restaurant")!)
+            
         }
 
         

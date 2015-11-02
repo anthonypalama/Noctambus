@@ -85,10 +85,10 @@
 		9D58FB461BD2579C00B2ACCC /* Noctambus */ = {
 			isa = PBXGroup;
 			children = (
+				9DA775AD1BD3F29B002E5E7C /* TicketsViewController.swift */,
 				9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */,
 				9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */,
 				9DE717911BD6856800443A6D /* ItineraireViewController.swift */,
-				9DA775AD1BD3F29B002E5E7C /* TicketsViewController.swift */,
 				9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */,
 				9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */,
 				9DEE6AA51BD275A7002FF393 /* Tickets.swift */,
