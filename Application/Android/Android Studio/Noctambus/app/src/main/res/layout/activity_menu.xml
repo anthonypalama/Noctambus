@@ -1,0 +1,323 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBleuFonce"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TableLayout
+        android:id="@+id/layPortrait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TableRow
+            android:id="@+id/rowPortrait1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iwHorairesPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logohoraires" />
+
+            <ImageView
+                android:id="@+id/iwProximitePortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logoproximite"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPortrait2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/twHorairesPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libHoraires"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twProximitePortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libProximite"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPortrait3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iwItinerairesPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logoitineraires" />
+
+            <ImageView
+                android:id="@+id/iwLignesPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logolignes" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPortrait4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/twItinerairesPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libItineraires"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twLignesPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libLignes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPortrait5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iwTicketsPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="allerVersTickets"
+                android:src="@drawable/logotickets" />
+
+            <ImageView
+                android:id="@+id/iwAutresPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logoautres" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPortrait6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/twTicketsPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libTickets"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twAutresPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libAutres"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/layPaysage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TableRow
+            android:id="@+id/rowPaysage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iwHorairesPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logohoraires" />
+
+            <ImageView
+                android:id="@+id/iwProximitePaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logoproximite" />
+
+            <ImageView
+                android:id="@+id/iwItinerairesPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logoitineraires"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPaysage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/twHorairesPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libHoraires"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twProximitePaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libProximite"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twItinerairesPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libItineraires"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPaysage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iwLignesPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logolignes" />
+
+            <ImageView
+                android:id="@+id/iwTicketsPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="allerVersTickets"
+                android:src="@drawable/logotickets" />
+
+            <ImageView
+                android:id="@+id/iwAutresPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/logoautres" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowPaysage4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/twLignesPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libLignes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twTicketsPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libTickets"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+            <TextView
+                android:id="@+id/twAutresPaysage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/libAutres"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorJaune" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/iwLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logonoctambus"
+        />
+
+
+</LinearLayout>
+

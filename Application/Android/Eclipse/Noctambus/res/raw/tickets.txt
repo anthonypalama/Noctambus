@@ -1,0 +1,2 @@
+tpg1;Billet;Plein tarif;60;Tout Genève;10;3
+tpg2;Billet;Tarif réduit;60;Tout Genève;10;2
