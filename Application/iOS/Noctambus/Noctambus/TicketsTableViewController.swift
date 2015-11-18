@@ -7,71 +7,92 @@
 //
 
 import UIKit
+import MessageUI
 
-class TicketsTableViewController: UITableViewController {
+class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeViewControllerDelegate{
     
+  
     // MARK: Properties
-    var tickets = [Tickets]()
     
     override func viewDidLoad() {
         super.viewDidLoad()        
-        loadTickets()
     }
     
-    func loadTickets() {
-        
-        let photo1 = UIImage(named: "tpg1")!
-        let ticket1 = Tickets(code: "tpg1", name: "Billet", description: "Plein tarif, 60', Tout Genève, zone 10", prix: 3.00, logo: photo1)!
-        
-        let photo2 = UIImage(named: "tpg2")!
-        let ticket2 = Tickets(code: "tpg2", name: "Billet", description: "Tarif réduit, 60', Tout Genève, zone 10", prix: 2.0, logo: photo2)!
-        
-        let photo3 = UIImage(named: "cj1")!
-        let ticket3 = Tickets(code: "tpg1", name: "Carte journ.", description: "Plein tarif, Tout Genève, zone 10", prix: 10.0, logo: photo3)!
-        
-        let photo4 = UIImage(named: "cj2")!
-        let ticket4 = Tickets(code: "tpg2", name: "Carte journ.", description: "Tarif réduit, Tout Genève, zone 10", prix: 7.3, logo: photo4)!
-        
-        let photo5 = UIImage(named: "cj91")!
-        let ticket5 = Tickets(code: "tpg1", name: "Carte journ. 9h", description: "Plein tarif, 60', Tout Genève, zone 10", prix: 8.0, logo: photo5)!
-        
-        let photo6 = UIImage(named: "cj92")!
-        let ticket6 = Tickets(code: "tpg2", name: "Carte journ. 9h", description: "Tarif réduit, Tout Genève, zone 10", prix: 5.6, logo: photo6)!
-        
-        tickets += [ticket1, ticket2, ticket3, ticket4, ticket5, ticket6]
+   
+    //1
+    override func viewWillAppear(animated: Bool) {
+        loadObjects()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //2
+    override func queryForTable() -> PFQuery {
+        let query = Tickets.query()
+        return query!
     }
-
-    // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return tickets.count
-    }
-
-
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cellIdentifier = "TicketsTableViewCell"
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! TicketsTableViewCell
-        let ticket = tickets[indexPath.row]
+    
+    //3
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject!) -> PFTableViewCell? {
+        //4
+        let cell = tableView.dequeueReusableCellWithIdentifier("TicketsCell", forIndexPath: indexPath) as! TicketsTableViewCell
         
-        cell.descriptionLabel.text = ticket.description
-        cell.logoImageView.image = ticket.logo
-        cell.prixText.text = "\(ticket.prix)0 CHF"
-        //cell.prixLabel.text =         
+        //5
+        let ticket = object as! Tickets
+        
+        //6
+        
+        let photo = UIImage(named: ticket.namelogo)
+        cell.descriptionLabel.text = ticket.descriptionT
         cell.typeLabel.text = ticket.name
+        cell.prixText.text = "\(ticket.prix)0 CHF"
+        cell.logoImageView.image = photo
         
         return cell
     }
-
-
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+       
+        let ticketSelect = self.objects![indexPath.row] as! Tickets
+        let messageConfirmation = "\(ticketSelect.descriptionT), \(ticketSelect.prix)0 CHF"
+        
+        let alertController = UIAlertController(title: "Confirmer ?", message: messageConfirmation, preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let deleteAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
+            print("Delete button tapped")
+        })
+        alertController.addAction(deleteAction)
+        
+        let okAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
+            print("OK button tapped")
+            let messageVC = MFMessageComposeViewController()
+            
+            messageVC.body = ticketSelect.code;
+            messageVC.recipients = [Tickets.numTelSMS]
+            messageVC.messageComposeDelegate = self;
+            
+            self.presentViewController(messageVC, animated: false, completion: nil)
+            
+        })
+        alertController.addAction(okAction)
+        
+        presentViewController(alertController, animated: true, completion: nil)
+        
+    }
+    
+    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult){
+        switch (result.rawValue) {
+        case MessageComposeResultCancelled.rawValue:
+            print("Message was cancelled")
+            self.dismissViewControllerAnimated(true, completion: nil)
+        case MessageComposeResultFailed.rawValue:
+            print("Message failed")
+            self.dismissViewControllerAnimated(true, completion: nil)
+        case MessageComposeResultSent.rawValue:
+            print("Message was sent")
+            self.dismissViewControllerAnimated(true, completion: nil)
+        default:
+            break;
+        }    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -110,22 +131,6 @@ class TicketsTableViewController: UITableViewController {
     
     // MARK: - Navigation
 
-    //In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "ShowDetail" {
-            let ticketDetailViewController = segue.destinationViewController as! TicketsViewController
-            
-            // Get the cell that generated this segue.
-            if let selectedTicketCell = sender as? TicketsTableViewCell {
-                let indexPath = tableView.indexPathForCell(selectedTicketCell)!
-                let selectedTicket = tickets[indexPath.row]
-                ticketDetailViewController.ticket = selectedTicket
-            }
-        }
-        else if segue.identifier == "Conditions" {
-            print("Conditions")
-        }
-    }
-    
+     
 
 }

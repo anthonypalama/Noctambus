@@ -6,73 +6,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Tickets View Controller-->
-        <scene sceneID="thJ-SQ-Wdf">
-            <objects>
-                <viewController id="Qke-Qa-w2R" userLabel="Tickets View Controller" customClass="TicketsViewController" customModule="Noctambus" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qc4-OD-gdQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="14a-bQ-TRa"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zyJ-tg-7La">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="N3v-1W-hCh">
-                                <rect key="frame" x="20" y="124" width="560" height="194"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8C-C4-2je">
-                                        <rect key="frame" x="235" y="0.0" width="90" height="90"/>
-                                        <animations/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" text="Nom billet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vN5-Wr-BpS">
-                                        <rect key="frame" x="0.0" y="98" width="560" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="20" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQS-cX-IoJ">
-                                        <rect key="frame" x="0.0" y="136" width="560" height="20"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uN-dv-jjZ">
-                                        <rect key="frame" x="230" y="164" width="100" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="Prix">
-                                            <color key="titleColor" red="0.039215686270000001" green="0.65490196079999996" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="prixButton:" destination="Qke-Qa-w2R" eventType="touchUpInside" id="VeH-gx-i72"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <animations/>
-                            </stackView>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="N3v-1W-hCh" firstAttribute="leading" secondItem="zyJ-tg-7La" secondAttribute="leadingMargin" id="0y2-47-W5R"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="N3v-1W-hCh" secondAttribute="trailing" id="2MJ-S5-Cru"/>
-                            <constraint firstItem="N3v-1W-hCh" firstAttribute="top" secondItem="qc4-OD-gdQ" secondAttribute="bottom" constant="60" id="NW1-fb-xnd"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Ticket" id="wc6-tJ-ht2"/>
-                    <connections>
-                        <outlet property="descriptionLabel" destination="ZQS-cX-IoJ" id="SeP-an-Y7Z"/>
-                        <outlet property="logoImageView" destination="R8C-C4-2je" id="6Th-L3-D3l"/>
-                        <outlet property="nomLabel" destination="vN5-Wr-BpS" id="Nba-Uh-zZ9"/>
-                        <outlet property="prixButton" destination="2uN-dv-jjZ" id="RF0-Zz-4jY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mH5-dO-9vh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="694" y="2042"/>
-        </scene>
         <!--Conditions View Controller-->
         <scene sceneID="5eG-We-rZH">
             <objects>
@@ -103,7 +36,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TicketsTableViewCell" rowHeight="90" id="bfh-0v-xlb" customClass="TicketsTableViewCell" customModule="Noctambus" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TicketsCell" rowHeight="90" id="bfh-0v-xlb" customClass="TicketsTableViewCell" customModule="Noctambus" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bfh-0v-xlb" id="wfP-oO-Z9Y">
@@ -154,7 +87,6 @@
                                     <outlet property="logoImageView" destination="vpT-L9-jVg" id="Nqz-S4-FwJ"/>
                                     <outlet property="prixText" destination="QgI-RZ-lUW" id="I7o-80-jMT"/>
                                     <outlet property="typeLabel" destination="Svc-OX-uzx" id="ZoL-AC-xxt"/>
-                                    <segue destination="Qke-Qa-w2R" kind="show" identifier="ShowDetail" id="JgP-5j-f6c"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -195,53 +127,11 @@
                     </tabBar>
                     <connections>
                         <segue destination="rP0-e1-FYv" kind="relationship" relationship="viewControllers" id="dd6-y3-PEP"/>
-                        <segue destination="h3h-tH-sLy" kind="relationship" relationship="viewControllers" id="HeN-EG-FXh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-124" y="256"/>
-        </scene>
-        <!--Itinéraire-->
-        <scene sceneID="woB-qb-9UA">
-            <objects>
-                <viewController id="h3h-tH-sLy" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="myV-67-vO2"/>
-                        <viewControllerLayoutGuide type="bottom" id="nZ8-LZ-RNl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HPW-01-3kA">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R8Z-EB-clQ">
-                                <rect key="frame" x="20" y="20" width="560" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pz4-hD-JyB">
-                                <rect key="frame" x="20" y="58" width="560" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mGX-Ir-YGw">
-                                <rect key="frame" x="20" y="96" width="560" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Itinéraire" image="LogoItineraire" id="Oo8-bi-KOV"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jq9-Ui-Le1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="763" y="256"/>
         </scene>
         <!--Tickets-->
         <scene sceneID="SWQ-J5-kKZ">
@@ -275,7 +165,6 @@
     </scenes>
     <resources>
         <image name="LogoInfo" width="24" height="24"/>
-        <image name="LogoItineraire" width="24" height="24"/>
         <image name="LogoTicket" width="24" height="24"/>
     </resources>
 </document>

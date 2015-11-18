@@ -7,32 +7,49 @@
 //
 
 import UIKit
+import Foundation
 
-class Tickets {
+class Tickets : PFObject, PFSubclassing{
     // MARK: Properties
+   @NSManaged var code: String
+    @NSManaged var name: String
+    @NSManaged var descriptionT : String
+    @NSManaged var prix : Double
+    @NSManaged var namelogo: String
     
-    var code: String
-    var name: String
-    var description : String
-    var prix : Double
-    var logo: UIImage?
+    static let numTelSMS = "788"
   
     
-    // MARK: Initialization
-    
-    init?(code: String, name: String, description: String, prix: Double, logo: UIImage?) {
-        // Initialize stored properties.
-        self.code = code
-        self.name = name
-        self.description = description
-        self.prix = prix
-        self.logo = logo
-       
-        // Initialization should fail if there is no name or if the rating is negative.
-        if name.isEmpty {
-            return nil
+    override class func initialize() {
+        var onceToken: dispatch_once_t = 0
+        dispatch_once(&onceToken) {
+            self.registerSubclass()
         }
     }
     
+    // MARK: Initialization
+    init(code: String, name: String, descriptionT: String, prix: Double, namelogo: String) {
+        // Initialize stored properties.
+        super.init()
+        self.code = code
+        self.name = name
+        self.descriptionT = descriptionT
+        self.prix = prix
+        self.namelogo = namelogo
+       
+    }
+    
+    override class func query() -> PFQuery? {
+        let query = PFQuery(className: Tickets.parseClassName()) //1
+        return query
+    }
+    
+    class func parseClassName() -> String {
+        return "Tickets"
+    }
+    
+    override init() {
+        super.init()
+    }
 }
 

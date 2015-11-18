@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TicketsTableViewCell: UITableViewCell {
+class TicketsTableViewCell: PFTableViewCell {
     
     // MARK: Properties
     
