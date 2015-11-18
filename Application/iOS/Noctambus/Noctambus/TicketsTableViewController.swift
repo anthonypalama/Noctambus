@@ -16,7 +16,6 @@ class TicketsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()        
         loadTickets()
-
     }
     
     func loadTickets() {
