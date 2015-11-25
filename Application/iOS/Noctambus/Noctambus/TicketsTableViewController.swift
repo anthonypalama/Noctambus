@@ -69,7 +69,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             messageVC.recipients = [Tickets.numTelSMS]
             messageVC.messageComposeDelegate = self;
             
-            self.presentViewController(messageVC, animated: false, completion: nil)
+            self.presentViewController(messageVC, animated: true, completion: nil)
             
         })
         alertController.addAction(okAction)

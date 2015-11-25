@@ -1,0 +1,36 @@
+
+/* Class = "UINavigationItem"; title = "Arrêts"; ObjectID = "3ku-a2-P4A"; */
+"3ku-a2-P4A.title" = "Arrêts";
+
+/* Class = "UITabBarItem"; title = "Horaires"; ObjectID = "8dQ-kl-6qv"; */
+"8dQ-kl-6qv.title" = "Horaires";
+
+/* Class = "UINavigationItem"; title = "Conditions de vente"; ObjectID = "Avz-Co-Cy3"; */
+"Avz-Co-Cy3.title" = "Conditions de vente";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "CGC-Jc-FAC"; */
+"CGC-Jc-FAC.text" = "Description";
+
+/* Class = "UITabBarItem"; title = "Tickets"; ObjectID = "GoI-kV-Yh3"; */
+"GoI-kV-Yh3.title" = "Tickets";
+
+/* Class = "UISearchBar"; placeholder = "Rechercher un arrêt"; ObjectID = "IFa-g2-w9e"; */
+"IFa-g2-w9e.placeholder" = "Rechercher un arrêt";
+
+/* Class = "UINavigationItem"; title = "Tickets"; ObjectID = "ObS-2g-UNP"; */
+"ObS-2g-UNP.title" = "Tickets";
+
+/* Class = "UITableViewController"; title = "Arrets"; ObjectID = "PLM-Au-Tlu"; */
+"PLM-Au-Tlu.title" = "Arrets";
+
+/* Class = "UITextField"; text = "Prix"; ObjectID = "QgI-RZ-lUW"; */
+"QgI-RZ-lUW.text" = "Prix";
+
+/* Class = "UILabel"; text = "Type Billet"; ObjectID = "Svc-OX-uzx"; */
+"Svc-OX-uzx.text" = "Type Billet";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d9W-nQ-lKY"; */
+"d9W-nQ-lKY.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Tickets"; ObjectID = "v24-8j-XGc"; */
+"v24-8j-XGc.title" = "Tickets";
