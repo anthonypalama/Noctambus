@@ -5,19 +5,21 @@ package ch.noctambus.geneve;
  */
 public class Ticket implements Comparable<Ticket>{
     public static final int NUMERO = 788;
-
+    private String objectId;
     private String code;
-    private String typeBillet;
-    private String description;
+    private String name;
+    private String descriptionT;
+    private String nameLogo;
     private double prix;
     //private int logo;
 
-    public Ticket (String code, String typeBillet, String description, double prix/*, int logo*/) {
+    public Ticket (String objectId,String code, String name, String descriptionT,String nameLogo, double prix/*, int logo*/) {
+        this.objectId = objectId;
         this.code = code;
-        this.typeBillet = typeBillet;
-        this.description = description;
+        this.name = name;
+        this.descriptionT = descriptionT;
+        this.nameLogo = nameLogo;
         this.prix = prix;
-        //this.logo = logo; /* Identifiant de l'image du logo */
     } // Constructeur
 
     @Override
@@ -30,28 +32,31 @@ public class Ticket implements Comparable<Ticket>{
         return res;
     } // compareTo
 
-    public static int getNumero() {
+    public static int getNUMERO() {
         return NUMERO;
+    }
+
+    public String getObjectId() {
+        return objectId;
     }
 
     public String getCode() {
         return code;
     }
 
-    public String getTypeBillet() {
-        return typeBillet;
+    public String getName() {
+        return name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDescriptionT() {
+        return descriptionT;
+    }
+
+    public String getNameLogo() {
+        return nameLogo;
     }
 
     public double getPrix() {
         return prix;
     }
-
-    /*public int getLogo() {
-        return logo;
-    }*/
-
 }
