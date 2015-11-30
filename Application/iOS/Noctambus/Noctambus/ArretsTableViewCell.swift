@@ -10,8 +10,9 @@ import UIKit
 
 class ArretsTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var nomArretLabel: UILabel!
+    @IBOutlet weak var arretNomLabel: UILabel!
 
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

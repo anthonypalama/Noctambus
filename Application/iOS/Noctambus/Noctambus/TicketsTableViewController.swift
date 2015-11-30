@@ -27,6 +27,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     //2
     override func queryForTable() -> PFQuery {
         let query = Tickets.query()
+        query?.fromLocalDatastore()
         return query!
     }
     

@@ -1,15 +1,17 @@
 //
-//  ArretsTableViewController.swift
-//  Noctambus
+//  ViewController.swift
+//  SwiftSearch
 //
-//  Created by Luca Falvo on 25.11.15.
-//  Copyright © 2015 Noctambus. All rights reserved.
+//  Created by Shrikar Archak on 2/16/15.
+//  Copyright (c) 2015 Shrikar Archak. All rights reserved.
 //
 
 import UIKit
 
-class ArretsTableViewController: UITableViewController, UISearchBarDelegate {
-
+class ArretViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate{
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     @IBOutlet weak var searchBar: UISearchBar!
     
     var searchActive : Bool = false
@@ -19,18 +21,25 @@ class ArretsTableViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /* Setup delegates */
+        tableView.delegate = self
+        tableView.dataSource = self
         searchBar.delegate = self
-        search()
+        
+        //search()
+        
+        
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(animated: Bool) {
+        search()
     }
     
     func search(searchText: String? = nil){
         let query = PFQuery(className: "Arrets")
         query.limit = 1000
+        query.fromLocalDatastore()
+        query.orderByAscending("nomArret")
         if(searchText != nil){
             query.whereKey("nomArret", containsString: searchText)
         }
@@ -40,27 +49,6 @@ class ArretsTableViewController: UITableViewController, UISearchBarDelegate {
         }
         
     }
-    
-    
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if(self.data != nil){
-            return self.data.count
-        }
-        return 0
-    }
-    
-    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ArretsCell", forIndexPath: indexPath) as! ArretsTableViewCell
-        let obj = self.data[indexPath.row]
-        cell.nomArretLabel.text = obj["nomArret"] as? String
-        return cell
-    }
-    
     func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
         searchActive = true;
     }
@@ -84,5 +72,24 @@ class ArretsTableViewController: UITableViewController, UISearchBarDelegate {
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         search(searchText)
     }
-
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if(self.data != nil){
+            return self.data.count
+        }
+        return 0
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("ArretsCell", forIndexPath: indexPath) as! ArretsTableViewCell
+        let obj = self.data[indexPath.row]
+        cell.arretNomLabel.text = obj["nomArret"] as? String
+        return cell
+    }
+    
 }

@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D2D802E1BFCCF580097ED1E /* noctambus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D802D1BFCCF580097ED1E /* noctambus.png */; };
 		9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53F7D11C05C0B400DD8D51 /* Arrets.swift */; };
 		9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */; };
 		9D58FB4F1BD2579C00B2ACCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */; };
 		9D58FB511BD2579C00B2ACCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FB501BD2579C00B2ACCC /* Assets.xcassets */; };
 		9D58FB5F1BD2579C00B2ACCC /* NoctambusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */; };
-		9D95502C1C05E42000FA1C4A /* ArretsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95502B1C05E42000FA1C4A /* ArretsTableViewController.swift */; };
-		9D95502E1C05E48B00FA1C4A /* ArretsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95502D1C05E48B00FA1C4A /* ArretsTableViewCell.swift */; };
+		9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */; };
+		9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */; };
 		9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA51BD275A7002FF393 /* Tickets.swift */; };
 		9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */; };
 		9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */; };
@@ -44,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D2D802D1BFCCF580097ED1E /* noctambus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noctambus.png; sourceTree = "<group>"; };
 		9D53F7D11C05C0B400DD8D51 /* Arrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrets.swift; sourceTree = "<group>"; };
 		9D53F7D31C05C46100DD8D51 /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/Main.strings"; sourceTree = "<group>"; };
 		9D58FB441BD2579C00B2ACCC /* Noctambus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noctambus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,8 +53,8 @@
 		9D58FB5A1BD2579C00B2ACCC /* NoctambusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoctambusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoctambusTests.swift; sourceTree = "<group>"; };
 		9D58FB601BD2579C00B2ACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D95502B1C05E42000FA1C4A /* ArretsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsTableViewController.swift; sourceTree = "<group>"; };
-		9D95502D1C05E48B00FA1C4A /* ArretsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsTableViewCell.swift; sourceTree = "<group>"; };
+		9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretViewController.swift; sourceTree = "<group>"; };
+		9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsTableViewCell.swift; sourceTree = "<group>"; };
 		9DEE6AA51BD275A7002FF393 /* Tickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
 		9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		9D58FB3B1BD2579C00B2ACCC = {
 			isa = PBXGroup;
 			children = (
-				9D2D802D1BFCCF580097ED1E /* noctambus.png */,
 				9DF0B0311BFC6F91006F3553 /* Noctambus-Bridging-Header.h */,
 				9DF0B0181BFC6E15006F3553 /* Frameworks */,
 				9D58FB461BD2579C00B2ACCC /* Noctambus */,
@@ -145,8 +142,8 @@
 				9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */,
 				9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */,
 				9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */,
-				9D95502B1C05E42000FA1C4A /* ArretsTableViewController.swift */,
-				9D95502D1C05E48B00FA1C4A /* ArretsTableViewCell.swift */,
+				9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */,
+				9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */,
 				9D58FB501BD2579C00B2ACCC /* Assets.xcassets */,
 				9D58FB551BD2579C00B2ACCC /* Info.plist */,
 			);
@@ -263,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2D802E1BFCCF580097ED1E /* noctambus.png in Resources */,
 				9D58FB511BD2579C00B2ACCC /* Assets.xcassets in Resources */,
 				9D58FB4F1BD2579C00B2ACCC /* Main.storyboard in Resources */,
 			);
@@ -284,11 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */,
+				9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */,
 				9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */,
+				9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */,
 				9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */,
-				9D95502E1C05E48B00FA1C4A /* ArretsTableViewCell.swift in Sources */,
 				9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */,
-				9D95502C1C05E42000FA1C4A /* ArretsTableViewController.swift in Sources */,
 				9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -430,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;

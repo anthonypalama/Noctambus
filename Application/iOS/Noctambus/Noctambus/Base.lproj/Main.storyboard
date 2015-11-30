@@ -6,66 +6,74 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Arrets-->
-        <scene sceneID="n59-rZ-uhl">
+        <!--Arrêts-->
+        <scene sceneID="aWA-yA-OQV">
             <objects>
-                <tableViewController title="Arrets" id="PLM-Au-Tlu" customClass="ArretsTableViewController" customModule="Noctambus" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tZ6-x8-XoR">
+                <viewController id="F32-4b-kws" customClass="ArretViewController" customModule="Noctambus" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WG3-FX-p7y"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gzk-Hi-bah"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rqk-pT-kg5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Rechercher un arrêt" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5MA-ff-rBf">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <animations/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yo0-Uh-XQY">
+                                <rect key="frame" x="0.0" y="108" width="600" height="443"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArretsCell" rowHeight="47" id="YjJ-cx-q0i" customClass="ArretsTableViewCell" customModule="Noctambus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YjJ-cx-q0i" id="UwA-gU-vU9">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="46.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aja-pN-3Gx">
+                                                    <rect key="frame" x="8" y="13" width="277" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <outlet property="arretNomLabel" destination="Aja-pN-3Gx" id="JZk-BG-7ma"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Rechercher un arrêt" showsCancelButton="YES" id="IFa-g2-w9e">
-                            <rect key="frame" x="0.0" y="64" width="600" height="44"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <animations/>
-                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
-                        </searchBar>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArretsCell" id="xHB-C7-LY6" customClass="ArretsTableViewCell" customModule="Noctambus" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xHB-C7-LY6" id="5pp-oM-Jbg">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9W-nQ-lKY">
-                                            <rect key="frame" x="8" y="11" width="280" height="21"/>
-                                            <animations/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="u82-gs-g05">
-                                            <rect key="frame" x="565" y="3" width="27" height="16"/>
-                                            <animations/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="knD-QR-iJY">
-                                            <rect key="frame" x="565" y="20" width="27" height="16"/>
-                                            <animations/>
-                                        </imageView>
-                                    </subviews>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                                <connections>
-                                    <outlet property="nomArretLabel" destination="d9W-nQ-lKY" id="XAv-3r-bzn"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="PLM-Au-Tlu" id="arA-p6-mn7"/>
-                            <outlet property="delegate" destination="PLM-Au-Tlu" id="KrZ-VW-ayL"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Arrêts" id="3ku-a2-P4A"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="5MA-ff-rBf" secondAttribute="trailing" constant="-20" id="4Rb-7I-KdE"/>
+                            <constraint firstItem="yo0-Uh-XQY" firstAttribute="leading" secondItem="Rqk-pT-kg5" secondAttribute="leadingMargin" constant="-20" id="D07-Zq-q11"/>
+                            <constraint firstItem="5MA-ff-rBf" firstAttribute="leading" secondItem="Rqk-pT-kg5" secondAttribute="leadingMargin" constant="-20" id="H00-Te-rrc"/>
+                            <constraint firstItem="yo0-Uh-XQY" firstAttribute="top" secondItem="5MA-ff-rBf" secondAttribute="bottom" id="JPG-Zi-bzB"/>
+                            <constraint firstItem="5MA-ff-rBf" firstAttribute="top" secondItem="WG3-FX-p7y" secondAttribute="bottom" id="JX9-Ov-1AR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yo0-Uh-XQY" secondAttribute="trailing" constant="-20" id="UNM-Lz-fE1"/>
+                            <constraint firstItem="Gzk-Hi-bah" firstAttribute="top" secondItem="yo0-Uh-XQY" secondAttribute="bottom" id="eIF-xC-oik"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Arrêts" id="lcb-CG-Ybz"/>
                     <connections>
-                        <outlet property="searchBar" destination="IFa-g2-w9e" id="nc9-Uj-XlU"/>
+                        <outlet property="searchBar" destination="5MA-ff-rBf" id="Bfq-3Q-tpe"/>
+                        <outlet property="tableView" destination="yo0-Uh-XQY" id="hVC-ua-fkB"/>
                     </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oWG-cf-7JZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7XU-mC-2OT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1533" y="256"/>
+            <point key="canvasLocation" x="1442" y="256"/>
         </scene>
         <!--Horaires-->
         <scene sceneID="38F-as-dhR">
@@ -82,7 +90,7 @@
                         </textAttributes>
                     </navigationBar>
                     <connections>
-                        <segue destination="PLM-Au-Tlu" kind="relationship" relationship="rootViewController" id="FBO-D1-c9g"/>
+                        <segue destination="F32-4b-kws" kind="relationship" relationship="rootViewController" id="wsD-4K-dAb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LXW-1T-1me" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -123,7 +131,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bfh-0v-xlb" id="wfP-oO-Z9Y">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpT-L9-jVg">
@@ -248,7 +256,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="3" width="77" height="57"/>
         <image name="LogoInfo" width="24" height="24"/>
         <image name="LogoTicket" width="24" height="24"/>
         <image name="logoHoraire" width="24" height="24"/>
