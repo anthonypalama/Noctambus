@@ -15,6 +15,8 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet weak var searchBar: UISearchBar!
     
     var searchActive : Bool = false
+    //var data = ["San Francisco","New York","San Jose","Chicago","Los Angeles","Austin","Seattle"]
+    //var filtered:[String] = []
     var data:[PFObject]!
     var filtered:[PFObject]!
     
@@ -26,23 +28,18 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
         tableView.dataSource = self
         searchBar.delegate = self
         
-        //search()
-        
-        
-    }
-    
-    override func viewWillAppear(animated: Bool) {
         search()
+        
     }
     
-    func search(searchText: String? = nil){
+    func search(searchText: String? = ""){
         let query = PFQuery(className: "Arrets")
         query.limit = 1000
         query.fromLocalDatastore()
         query.orderByAscending("nomArret")
-        if(searchText != nil){
-            query.whereKey("nomArret", containsString: searchText)
-        }
+        if(searchText != ""){
+            query.whereKey("nomArret", matchesRegex: searchText!, modifiers: "i")
+    }
         query.findObjectsInBackgroundWithBlock { (results, error) -> Void in
             self.data = results as [PFObject]?
             self.tableView.reloadData()
@@ -51,10 +48,13 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
         searchActive = true;
+        searchBar.showsCancelButton = true;
     }
     
     func searchBarTextDidEndEditing(searchBar: UISearchBar) {
         searchActive = false;
+        searchBar.showsCancelButton = false;
+
     }
     
     func searchBarCancelButtonClicked(searchBar: UISearchBar) {
@@ -91,5 +91,27 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
         cell.arretNomLabel.text = obj["nomArret"] as? String
         return cell
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier ==  "ShowNextDepart"{
+            let mealDetailViewController = segue.destinationViewController as! DepartTableViewController
+            
+            // Get the cell that generated this segue.
+            if let selectedArretCell = sender as? ArretsTableViewCell {
+                let indexPath = tableView.indexPathForCell(selectedArretCell)!
+                let selectedMeal = data[indexPath.row]
+                mealDetailViewController.arret = selectedMeal as! Arrets
+            }
+        }
+    }
+
+        
+    
+    
+    
+    
+    
+    
+    
     
 }

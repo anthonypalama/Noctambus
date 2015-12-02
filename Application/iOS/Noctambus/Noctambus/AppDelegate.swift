@@ -24,18 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
-        
-        //LocalStorage TICKETS
-        let query = Tickets.query()
-        query!.findObjectsInBackgroundWithBlock { (objects, error) -> Void in
-            
-            if (error == nil) {
-                print("bla")
-                // shuffle objects here?
-                PFObject.pinAllInBackground(objects, withName:"Tickets", block: nil)
-                
-            }
-        }
         //LocalStorage ARRETS
         let queryArrets = Arrets.query()
         queryArrets!.limit = 1000
@@ -46,7 +34,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 
             }
         }
-        print("JE SUIS LA")
+        
+        //LocalStorage TICKETS
+        let query = Tickets.query()
+        query!.findObjectsInBackgroundWithBlock { (objects, error) -> Void in
+            
+            if (error == nil) {
+                // shuffle objects here?
+                PFObject.pinAllInBackground(objects, withName:"Tickets", block: nil)
+                
+            }
+        }
+
+        
         
         
         return true

@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" placeholder="Rechercher un arrêt" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5MA-ff-rBf">
+                            <searchBar contentMode="redraw" placeholder="Rechercher un arrêt" translatesAutoresizingMaskIntoConstraints="NO" id="5MA-ff-rBf">
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                 <animations/>
                                 <textInputTraits key="textInputTraits"/>
@@ -32,7 +32,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="47"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YjJ-cx-q0i" id="UwA-gU-vU9">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="46.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="47"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aja-pN-3Gx">
@@ -48,6 +48,7 @@
                                         <animations/>
                                         <connections>
                                             <outlet property="arretNomLabel" destination="Aja-pN-3Gx" id="JZk-BG-7ma"/>
+                                            <segue destination="aNH-4h-oKN" kind="show" identifier="ShowNextDepart" id="cmT-ew-N4R"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -74,6 +75,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7XU-mC-2OT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1442" y="256"/>
+        </scene>
+        <!--Depart-->
+        <scene sceneID="6Ih-wY-6wW">
+            <objects>
+                <tableViewController title="Depart" id="aNH-4h-oKN" customClass="DepartTableViewController" customModule="Noctambus" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="KG4-kM-sfi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HGY-OQ-ilQ">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HGY-OQ-ilQ" id="WOw-Ut-nPq">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="aNH-4h-oKN" id="oNh-w2-PXg"/>
+                            <outlet property="delegate" destination="aNH-4h-oKN" id="e4J-QY-OUt"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Départ" id="ef0-Sz-7hr"/>
+                    <connections>
+                        <outlet property="nomArretNextD" destination="ef0-Sz-7hr" id="EIL-IF-kJI"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VfV-0P-NdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2199" y="256"/>
         </scene>
         <!--Horaires-->
         <scene sceneID="38F-as-dhR">
@@ -131,7 +167,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bfh-0v-xlb" id="wfP-oO-Z9Y">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpT-L9-jVg">
@@ -260,4 +296,5 @@
         <image name="LogoTicket" width="24" height="24"/>
         <image name="logoHoraire" width="24" height="24"/>
     </resources>
+    <color key="tintColor" red="1" green="0.94117647059999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
