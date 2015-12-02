@@ -1,79 +1,124 @@
 package ch.noctambus.geneve;
 
+import android.app.ActionBar;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 
-
+import com.parse.FindCallback;
 import com.parse.ParseObject;
-//import com.parse.ParseQueryAdapter;
+import com.parse.ParseQuery;
+import com.parse.ParseQueryAdapter;
 
-import java.io.File;
-import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
-import java.util.TreeSet;
+
 
 public class TicketsActivity extends Activity {
-    private static final String[] FROM = new String[] {"typeBilletRef", "detailRef", "prixRef"};
-    private static final int[] TO = new int[] {R.id.twTypeBillet, R.id.twDetail, R.id.twPrix};
 
-    private ArrayList<Ticket> lstTicket;
-    ParseObject ticket = new ParseObject("Tickets");
-    private final String TICKET ="ticket";
-    //private ParseQueryAdapter<ParseObject> mainAdapter;
-    private ListView lvTickets;
+    private ParseQueryAdapter<ParseObject> mainAdapter;
+    private CustomAdapter urgentTodosAdapter;
+    private ListView listView;
 
-    @SuppressWarnings("unchecked")
-    private void etatInit(){
-        lstTicket=(ArrayList<Ticket>)getIntent().getSerializableExtra("lstTicket");
-        affTicket();
-    }
-
-    private void affTicket() {
-        List<HashMap<String, Object>> data = new ArrayList<HashMap<String, Object>>();
-        for(int i=0;i<lstTicket.size();i++){
-            Ticket t = (Ticket)lstTicket.get(i);
-            HashMap<String, Object> map = new HashMap<String, Object>();
-            map.put(FROM[0], t.getCode().toString());
-            map.put(FROM[1], t.getDescriptionT().toString());
-            map.put(FROM[2], t.getPrix()+" CHF");
-
-            map.put(TICKET, t);
-            data.add(map);
-        }
-    }
-
-    private class MyComp implements Comparator<Ticket> {
-        @Override
-        public int compare(Ticket lhs, Ticket rhs) {
-            return lhs.getCode().compareTo(rhs.getCode());
-        }
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tickets);
-        definirVariables();
-        etatInit();
-        //initListe();
+        gererActionBar();
+
+        // Initialize main ParseQueryAdapter
+        /*mainAdapter = new ParseQueryAdapter<ParseObject>(this, "Ticket");
+        mainAdapter.setImageKey("logo");
+        mainAdapter.setTextKey("typeBillet");
+        mainAdapter.setTextKey("description");
+        mainAdapter.setTextKey("prix");*/
+
+
+        // Initialize the subclass of ParseQueryAdapter
+        urgentTodosAdapter = new CustomAdapter(this);
+
+        // Initialize ListView and set initial view to mainAdapter
+        listView = (ListView) findViewById(R.id.list);
+       /* listView.setAdapter(mainAdapter);
+        mainAdapter.loadObjects();*/
+        listView.setAdapter(urgentTodosAdapter);
+        urgentTodosAdapter.loadObjects();
+
+        // Initialize toggle button
+        /*Button toggleButton = (Button) findViewById(R.id.toggleButton);
+        toggleButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (listView.getAdapter() == mainAdapter) {
+                    listView.setAdapter(urgentTodosAdapter);
+                    urgentTodosAdapter.loadObjects();
+                } else {
+                    listView.setAdapter(mainAdapter);
+                    mainAdapter.loadObjects();
+                }
+            }
+
+        });*/
     }
 
-    private void definirVariables() {
-        lvTickets = (ListView) findViewById(R.id.lvTickets);
-    } // definirVariables
 
+    private void gererActionBar(){
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(false);
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menutickets, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                Intent intent = new Intent(getApplicationContext(),
+                        MenuActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.refresh:
+                new AlertDialog.Builder(this)
+                        .setTitle("Information")
+                        .setMessage("Mettre à cet endroit le code 'refresh'")
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                // continue with delete
+                            }
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_info)
+                        .show();
+                return true;
+            case R.id.information:
+                new AlertDialog.Builder(this)
+                        .setTitle("Information")
+                        .setMessage("Mettre à cet endroit le code 'information'")
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                // continue with delete
+                            }
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_info)
+                        .show();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
 }
-
-
