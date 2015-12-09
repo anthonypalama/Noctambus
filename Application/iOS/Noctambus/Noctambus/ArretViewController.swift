@@ -1,9 +1,9 @@
 //
-//  ViewController.swift
-//  SwiftSearch
+//  ArretsViewController.swift
+//  Noctambus
 //
-//  Created by Shrikar Archak on 2/16/15.
-//  Copyright (c) 2015 Shrikar Archak. All rights reserved.
+//  Created by Luca Falvo on 25.11.15.
+//  Copyright © 2015 Noctambus. All rights reserved.
 //
 
 import UIKit
