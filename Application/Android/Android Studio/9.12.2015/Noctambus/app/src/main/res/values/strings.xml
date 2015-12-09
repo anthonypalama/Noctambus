@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Noctambus</string>
+    <string name="libHoraires">Horaires</string>
+    <string name="libProximite">A proximité</string>
+    <string name="libItineraires">Itinéraires</string>
+    <string name="libLignes">Lignes</string>
+    <string name="libTickets">Tickets</string>
+    <string name="libAutres">Autres</string>
+    <string name="title_activity_tickets">Tickets</string>
+    <string name="libInformations">Informations</string>
+    <string name="libRefresh">Refresh</string>
+    <string name="libCHF">CHF</string>
+</resources>

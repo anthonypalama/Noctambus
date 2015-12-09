@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.parse.ParseImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/twTypeBillet"
+        android:layout_alignTop="@+id/logo"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_toEndOf="@+id/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/twDescription"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignLeft="@+id/twTypeBillet"
+        android:layout_alignStart="@+id/twTypeBillet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/twPrix"
+        android:layout_above="@+id/twDescription"
+        android:layout_alignLeft="@+id/twDescription"
+        android:layout_alignStart="@+id/twDescription" />
+
+</RelativeLayout>
