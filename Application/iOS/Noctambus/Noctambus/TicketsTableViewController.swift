@@ -35,6 +35,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject!) -> PFTableViewCell? {
         //4
         let cell = tableView.dequeueReusableCellWithIdentifier("TicketsCell", forIndexPath: indexPath) as! TicketsTableViewCell
+        
         //5
         let ticket = object as! Tickets
         
