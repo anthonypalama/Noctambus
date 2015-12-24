@@ -7,32 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D0194671C18853C00BC9BB7 /* PhysiqueArrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0194661C18853C00BC9BB7 /* PhysiqueArrets.swift */; };
+		9D0194691C18941A00BC9BB7 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */; };
 		9D0896821C0EF0B500364E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */; };
+		9D3B24CF1C18214A00AC8AEE /* Depart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B24CE1C18214A00AC8AEE /* Depart.swift */; };
+		9D3B24D11C1826F100AC8AEE /* DepartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */; };
 		9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53F7D11C05C0B400DD8D51 /* Arrets.swift */; };
 		9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */; };
 		9D58FB4F1BD2579C00B2ACCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */; };
 		9D58FB511BD2579C00B2ACCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FB501BD2579C00B2ACCC /* Assets.xcassets */; };
 		9D58FB5F1BD2579C00B2ACCC /* NoctambusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */; };
+		9D597BF31C185AFD008DB276 /* ArretLocalisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */; };
 		9D87A9951C0F09BE007A425F /* DepartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */; };
 		9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */; };
 		9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */; };
-		9DB667991C0F264200ED25D2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB667981C0F264200ED25D2 /* SwiftyJSON.swift */; };
+		9DCCD82B1C18332400747E0E /* DepartTableViewCellLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */; };
 		9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA51BD275A7002FF393 /* Tickets.swift */; };
 		9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */; };
 		9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */; };
-		9DF0B01B1BFC6E3C006F3553 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0191BFC6E3C006F3553 /* Bolts.framework */; };
-		9DF0B01C1BFC6E3C006F3553 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B01A1BFC6E3C006F3553 /* Parse.framework */; };
-		9DF0B01E1BFC6E6D006F3553 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B01D1BFC6E6D006F3553 /* AudioToolbox.framework */; };
-		9DF0B0201BFC6E78006F3553 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B01F1BFC6E78006F3553 /* CFNetwork.framework */; };
-		9DF0B0221BFC6E81006F3553 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0211BFC6E81006F3553 /* CoreGraphics.framework */; };
-		9DF0B0241BFC6E8F006F3553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0231BFC6E8F006F3553 /* CoreLocation.framework */; };
-		9DF0B0261BFC6E95006F3553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0251BFC6E95006F3553 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		9DF0B0281BFC6E9B006F3553 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0271BFC6E9B006F3553 /* Security.framework */; };
-		9DF0B02A1BFC6EA2006F3553 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0291BFC6EA2006F3553 /* StoreKit.framework */; };
-		9DF0B02C1BFC6EAA006F3553 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B02B1BFC6EAA006F3553 /* SystemConfiguration.framework */; };
-		9DF0B02E1BFC6EB6006F3553 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B02D1BFC6EB6006F3553 /* libz.tbd */; };
-		9DF0B0301BFC6EC3006F3553 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B02F1BFC6EC3006F3553 /* libsqlite3.tbd */; };
-		9DF0B0331BFC718B006F3553 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0B0321BFC718B006F3553 /* ParseUI.framework */; };
+		9DF5317F1C2967D3008954CB /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5317E1C2967D3008954CB /* Reach.swift */; };
+		F3299398135E1AA7EBB56DF2 /* Pods_Noctambus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0194661C18853C00BC9BB7 /* PhysiqueArrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysiqueArrets.swift; sourceTree = "<group>"; };
+		9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
 		9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D3B24CE1C18214A00AC8AEE /* Depart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Depart.swift; sourceTree = "<group>"; };
+		9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewCell.swift; sourceTree = "<group>"; };
+		9D46AEC41C2BFF3800D31E82 /* Noctambus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noctambus-Bridging-Header.h"; sourceTree = "<group>"; };
 		9D53F7D11C05C0B400DD8D51 /* Arrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrets.swift; sourceTree = "<group>"; };
 		9D53F7D31C05C46100DD8D51 /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/Main.strings"; sourceTree = "<group>"; };
 		9D58FB441BD2579C00B2ACCC /* Noctambus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noctambus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,27 +57,17 @@
 		9D58FB5A1BD2579C00B2ACCC /* NoctambusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoctambusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoctambusTests.swift; sourceTree = "<group>"; };
 		9D58FB601BD2579C00B2ACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretLocalisationViewController.swift; sourceTree = "<group>"; };
 		9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewController.swift; sourceTree = "<group>"; };
 		9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretViewController.swift; sourceTree = "<group>"; };
 		9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsTableViewCell.swift; sourceTree = "<group>"; };
-		9DB667981C0F264200ED25D2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewCellLogo.swift; sourceTree = "<group>"; };
 		9DEE6AA51BD275A7002FF393 /* Tickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
 		9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
-		9DF0B0191BFC6E3C006F3553 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		9DF0B01A1BFC6E3C006F3553 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		9DF0B01D1BFC6E6D006F3553 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		9DF0B01F1BFC6E78006F3553 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		9DF0B0211BFC6E81006F3553 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9DF0B0231BFC6E8F006F3553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		9DF0B0251BFC6E95006F3553 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9DF0B0271BFC6E9B006F3553 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		9DF0B0291BFC6EA2006F3553 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		9DF0B02B1BFC6EAA006F3553 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		9DF0B02D1BFC6EB6006F3553 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		9DF0B02F1BFC6EC3006F3553 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		9DF0B0311BFC6F91006F3553 /* Noctambus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noctambus-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		9DF0B0321BFC718B006F3553 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		9DF5317E1C2967D3008954CB /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noctambus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,19 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF0B0301BFC6EC3006F3553 /* libsqlite3.tbd in Frameworks */,
-				9DF0B02E1BFC6EB6006F3553 /* libz.tbd in Frameworks */,
-				9DF0B02C1BFC6EAA006F3553 /* SystemConfiguration.framework in Frameworks */,
-				9DF0B02A1BFC6EA2006F3553 /* StoreKit.framework in Frameworks */,
-				9DF0B0281BFC6E9B006F3553 /* Security.framework in Frameworks */,
-				9DF0B0261BFC6E95006F3553 /* QuartzCore.framework in Frameworks */,
-				9DF0B0241BFC6E8F006F3553 /* CoreLocation.framework in Frameworks */,
-				9DF0B0221BFC6E81006F3553 /* CoreGraphics.framework in Frameworks */,
-				9DF0B0201BFC6E78006F3553 /* CFNetwork.framework in Frameworks */,
-				9DF0B01E1BFC6E6D006F3553 /* AudioToolbox.framework in Frameworks */,
-				9DF0B01C1BFC6E3C006F3553 /* Parse.framework in Frameworks */,
-				9DF0B01B1BFC6E3C006F3553 /* Bolts.framework in Frameworks */,
-				9DF0B0331BFC718B006F3553 /* ParseUI.framework in Frameworks */,
+				F3299398135E1AA7EBB56DF2 /* Pods_Noctambus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,11 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53C30D720412066DDAA272B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */,
+				FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D0522891BFC75D000E206A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				9DEE6AA51BD275A7002FF393 /* Tickets.swift */,
 				9D53F7D11C05C0B400DD8D51 /* Arrets.swift */,
+				9D3B24CE1C18214A00AC8AEE /* Depart.swift */,
+				9D0194661C18853C00BC9BB7 /* PhysiqueArrets.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -123,11 +112,12 @@
 		9D58FB3B1BD2579C00B2ACCC = {
 			isa = PBXGroup;
 			children = (
-				9DF0B0311BFC6F91006F3553 /* Noctambus-Bridging-Header.h */,
+				9D46AEC41C2BFF3800D31E82 /* Noctambus-Bridging-Header.h */,
 				9DF0B0181BFC6E15006F3553 /* Frameworks */,
 				9D58FB461BD2579C00B2ACCC /* Noctambus */,
 				9D58FB5D1BD2579C00B2ACCC /* NoctambusTests */,
 				9D58FB451BD2579C00B2ACCC /* Products */,
+				53C30D720412066DDAA272B3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,17 +134,21 @@
 			isa = PBXGroup;
 			children = (
 				9D0522891BFC75D000E206A0 /* Model */,
-				9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */,
-				9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */,
-				9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */,
 				9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */,
 				9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */,
 				9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */,
 				9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */,
+				9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */,
 				9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */,
-				9DB667981C0F264200ED25D2 /* SwiftyJSON.swift */,
+				9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */,
+				9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */,
 				9D58FB501BD2579C00B2ACCC /* Assets.xcassets */,
 				9D58FB551BD2579C00B2ACCC /* Info.plist */,
+				9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */,
+				9DF5317E1C2967D3008954CB /* Reach.swift */,
+				9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */,
+				9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */,
+				9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */,
 			);
 			path = Noctambus;
 			sourceTree = "<group>";
@@ -171,19 +165,7 @@
 		9DF0B0181BFC6E15006F3553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9DF0B0321BFC718B006F3553 /* ParseUI.framework */,
-				9DF0B02F1BFC6EC3006F3553 /* libsqlite3.tbd */,
-				9DF0B02D1BFC6EB6006F3553 /* libz.tbd */,
-				9DF0B02B1BFC6EAA006F3553 /* SystemConfiguration.framework */,
-				9DF0B0291BFC6EA2006F3553 /* StoreKit.framework */,
-				9DF0B0271BFC6E9B006F3553 /* Security.framework */,
-				9DF0B0251BFC6E95006F3553 /* QuartzCore.framework */,
-				9DF0B0231BFC6E8F006F3553 /* CoreLocation.framework */,
-				9DF0B0211BFC6E81006F3553 /* CoreGraphics.framework */,
-				9DF0B01F1BFC6E78006F3553 /* CFNetwork.framework */,
-				9DF0B01D1BFC6E6D006F3553 /* AudioToolbox.framework */,
-				9DF0B0191BFC6E3C006F3553 /* Bolts.framework */,
-				9DF0B01A1BFC6E3C006F3553 /* Parse.framework */,
+				E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D58FB631BD2579C00B2ACCC /* Build configuration list for PBXNativeTarget "Noctambus" */;
 			buildPhases = (
+				4C6B35041BB4419CC80D581B /* Check Pods Manifest.lock */,
 				9D58FB401BD2579C00B2ACCC /* Sources */,
 				9D58FB411BD2579C00B2ACCC /* Frameworks */,
 				9D58FB421BD2579C00B2ACCC /* Resources */,
+				BEAE78749995F4F59BCF8615 /* Embed Pods Frameworks */,
+				9AF479FB18DCD0213BFDCD3B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,20 +269,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C6B35041BB4419CC80D581B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF479FB18DCD0213BFDCD3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAE78749995F4F59BCF8615 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D58FB401BD2579C00B2ACCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3B24D11C1826F100AC8AEE /* DepartTableViewCell.swift in Sources */,
 				9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */,
+				9D0194671C18853C00BC9BB7 /* PhysiqueArrets.swift in Sources */,
 				9D87A9951C0F09BE007A425F /* DepartTableViewController.swift in Sources */,
 				9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */,
+				9D0194691C18941A00BC9BB7 /* SwiftSpinner.swift in Sources */,
 				9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */,
 				9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */,
 				9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */,
-				9DB667991C0F264200ED25D2 /* SwiftyJSON.swift in Sources */,
+				9DCCD82B1C18332400747E0E /* DepartTableViewCellLogo.swift in Sources */,
+				9DF5317F1C2967D3008954CB /* Reach.swift in Sources */,
 				9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */,
 				9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */,
+				9D3B24CF1C18214A00AC8AEE /* Depart.swift in Sources */,
+				9D597BF31C185AFD008DB276 /* ArretLocalisationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +454,7 @@
 		};
 		9D58FB641BD2579C00B2ACCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +478,7 @@
 		};
 		9D58FB651BD2579C00B2ACCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

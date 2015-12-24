@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import Parse
 
 class Arrets : PFObject, PFSubclassing{
     // MARK: Properties

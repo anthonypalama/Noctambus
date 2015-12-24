@@ -1,7 +1,16 @@
 //
-//  Use this file to import your target's public headers that you would like to expose to Swift.
+//  Noctambus-Bridging-Header.h
+//  Noctambus
+//
+//  Created by Luca Falvo on 24.12.15.
+//  Copyright © 2015 Noctambus. All rights reserved.
 //
 
-#import <Parse/Parse.h>
-#import <ParseUI/ParseUI.h>
-#import <Bolts/Bolts.h>
+#ifndef Noctambus_Bridging_Header_h
+#define Noctambus_Bridging_Header_h
+
+#import <Alamofire/Alamofire-umbrella.h>
+#import <SwiftyJSON/SwiftyJSON-umbrella.h>
+
+
+#endif /* Noctambus_Bridging_Header_h */

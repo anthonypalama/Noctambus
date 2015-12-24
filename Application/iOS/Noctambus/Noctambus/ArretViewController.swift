@@ -1,12 +1,13 @@
 //
-//  ViewController.swift
-//  SwiftSearch
+//  ArretsViewController.swift
+//  Noctambus
 //
-//  Created by Shrikar Archak on 2/16/15.
-//  Copyright (c) 2015 Shrikar Archak. All rights reserved.
+//  Created by Luca Falvo on 25.11.15.
+//  Copyright © 2015 Noctambus. All rights reserved.
 //
 
 import UIKit
+import Parse
 
 class ArretViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate{
     
@@ -22,7 +23,7 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableView.rowHeight = 50
         /* Setup delegates */
         tableView.delegate = self
         tableView.dataSource = self
@@ -39,7 +40,7 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
         query.orderByAscending("nomArret")
         if(searchText != ""){
             query.whereKey("nomArret", matchesRegex: searchText!, modifiers: "i")
-    }
+        }
         query.findObjectsInBackgroundWithBlock { (results, error) -> Void in
             self.data = results as [PFObject]?
             self.tableView.reloadData()
@@ -54,7 +55,7 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
     func searchBarTextDidEndEditing(searchBar: UISearchBar) {
         searchActive = false;
         searchBar.showsCancelButton = false;
-
+        
     }
     
     func searchBarCancelButtonClicked(searchBar: UISearchBar) {
@@ -89,23 +90,55 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
         let cell = tableView.dequeueReusableCellWithIdentifier("ArretsCell", forIndexPath: indexPath) as! ArretsTableViewCell
         let obj = self.data[indexPath.row]
         cell.arretNomLabel.text = obj["nomArret"] as? String
+        let tableLigne = obj["ligneArret"] as! NSArray
+        print(tableLigne.count)        
+
+        switch (tableLigne.count){
+        case 1:
+            cell.logoIV1.image = UIImage(named: tableLigne[0] as! String)
+            break
+        case 2:
+            cell.logoIV1.image = UIImage(named: tableLigne[0] as! String); cell.logoIV2.image = UIImage(named: tableLigne[1] as! String)
+            break
+        case 3:
+            cell.logoIV1.image = UIImage(named: tableLigne[1] as! String); cell.logoIV2.image = UIImage(named: tableLigne[2] as! String); cell.logoIV3.image = UIImage(named: tableLigne[0] as! String)
+            break
+        case 4:
+            cell.logoIV1.image = UIImage(named: tableLigne[1] as! String); cell.logoIV2.image = UIImage(named: tableLigne[3] as! String)
+            cell.logoIV3.image = UIImage(named: tableLigne[0] as! String); cell.logoIV4.image = UIImage(named: tableLigne[2] as! String)
+            break
+        case 5:
+            cell.logoIV1.image = UIImage(named: tableLigne[2] as! String); cell.logoIV2.image = UIImage(named: tableLigne[4] as! String); cell.logoIV3.image = UIImage(named: tableLigne[1] as! String)
+            cell.logoIV4.image = UIImage(named: tableLigne[3] as! String); cell.logoIV5.image = UIImage(named: tableLigne[0] as! String)
+            break
+        case _ where tableLigne.count > 5:
+            cell.logoIV1.image = UIImage(named: tableLigne[2] as! String); cell.logoIV2.image = UIImage(named: tableLigne[5] as! String); cell.logoIV3.image = UIImage(named: tableLigne[1] as! String)
+            cell.logoIV4.image = UIImage(named: tableLigne[3] as! String); cell.logoIV5.image = UIImage(named: tableLigne[0] as! String); cell.logoIV6.image = UIImage(named: tableLigne[4] as! String)
+            break
+        default:
+            break
+        }
+        
         return cell
     }
     
+    
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier ==  "ShowNextDepart"{
-            let mealDetailViewController = segue.destinationViewController as! DepartTableViewController
+            let departDetailViewController = segue.destinationViewController as! DepartTableViewController
             
             // Get the cell that generated this segue.
             if let selectedArretCell = sender as? ArretsTableViewCell {
                 let indexPath = tableView.indexPathForCell(selectedArretCell)!
-                let selectedMeal = data[indexPath.row]
-                mealDetailViewController.arret = selectedMeal as! Arrets
+                let selectedDepart = data[indexPath.row]
+                departDetailViewController.arret = selectedDepart as! Arrets
+                print(selectedDepart)
             }
         }
     }
-
-        
+    
+    
     
     
     

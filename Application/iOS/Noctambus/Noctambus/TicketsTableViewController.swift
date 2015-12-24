@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
 import MessageUI
 
 class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeViewControllerDelegate{
@@ -35,7 +37,6 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject!) -> PFTableViewCell? {
         //4
         let cell = tableView.dequeueReusableCellWithIdentifier("TicketsCell", forIndexPath: indexPath) as! TicketsTableViewCell
-        
         //5
         let ticket = object as! Tickets
         
@@ -51,31 +52,45 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        if MFMessageComposeViewController.canSendText(){
+            let ticketSelect = self.objects![indexPath.row] as! Tickets
+            let messageConfirmation = "\(ticketSelect.descriptionT), \(ticketSelect.prix)0 CHF"
+            
+            let alertController = UIAlertController(title: "Confirmer ?", message: messageConfirmation, preferredStyle: UIAlertControllerStyle.Alert)
+            
+            let deleteAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
+                print("Delete button tapped")
+            })
+            
+            alertController.addAction(deleteAction)
+            
+            let okAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
+                print("OK button tapped")
+                let messageVC = MFMessageComposeViewController()
+                
+                messageVC.body = ticketSelect.code;
+                messageVC.recipients = [Tickets.numTelSMS]
+                messageVC.messageComposeDelegate = self;
+                
+                self.presentViewController(messageVC, animated: true, completion: nil)
+                
+            })
+            alertController.addAction(okAction)
+            
+            presentViewController(alertController, animated: true, completion: nil)
+        }else{
+        
+            // create the alert
+            let alert = UIAlertController(title: "Erreur", message: "Vous ne pouvez pas envoyer de SMS", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            
+            // show the alert
+            self.presentViewController(alert, animated: true, completion: nil)        }
        
-        let ticketSelect = self.objects![indexPath.row] as! Tickets
-        let messageConfirmation = "\(ticketSelect.descriptionT), \(ticketSelect.prix)0 CHF"
-        
-        let alertController = UIAlertController(title: "Confirmer ?", message: messageConfirmation, preferredStyle: UIAlertControllerStyle.Alert)
-        
-        let deleteAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
-            print("Delete button tapped")
-        })
-        alertController.addAction(deleteAction)
-        
-        let okAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
-            print("OK button tapped")
-            let messageVC = MFMessageComposeViewController()
-            
-            messageVC.body = ticketSelect.code;
-            messageVC.recipients = [Tickets.numTelSMS]
-            messageVC.messageComposeDelegate = self;
-            
-            self.presentViewController(messageVC, animated: true, completion: nil)
-            
-        })
-        alertController.addAction(okAction)
-        
-        presentViewController(alertController, animated: true, completion: nil)
+
         
     }
     
@@ -92,7 +107,8 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             self.dismissViewControllerAnimated(true, completion: nil)
         default:
             break;
-        }    }
+        }
+    }
     
     /*
     // Override to support conditional editing of the table view.
