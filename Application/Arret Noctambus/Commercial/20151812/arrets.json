@@ -1,0 +1,2459 @@
+{
+  "results": [
+    {
+      "codeArret": "31DC",
+      "nomArret": "31.Décembre",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "AAIN",
+      "nomArret": "Av. de l'Ain",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "ABBA",
+      "nomArret": "L'Abbaye",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "ACIA",
+      "nomArret": "Acacias",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "AIRE",
+      "nomArret": "Aïre",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "AIVI",
+      "nomArret": "Aire-la-Ville",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "AJEN",
+      "nomArret": "Jeandin",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "AJUR",
+      "nomArret": "Avenue du Jura",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "ALEC",
+      "nomArret": "Avully-Ecole",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "ALVI",
+      "nomArret": "Avully-Village",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "AMDO",
+      "nomArret": "Amandolier(SNCF)",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "ANCH",
+      "nomArret": "Anières-Chavannes",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "ANCI",
+      "nomArret": "Ancienne",
+      "ligneArret": [ "NM", "NO" ]
+    },
+    {
+      "codeArret": "ANDO",
+      "nomArret": "Anières-Douane",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "ANGA",
+      "nomArret": "Annemasse Gare",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "ANGR",
+      "nomArret": "Anières-Gravière",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "ANRS",
+      "nomArret": "Anières-Village",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "APIA",
+      "nomArret": "Appia",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "ARAR",
+      "nomArret": "Arare",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "ARME",
+      "nomArret": "Armes",
+      "ligneArret": [ "NC", "NM", "NO" ]
+    },
+    {
+      "codeArret": "ATEC",
+      "nomArret": "Athenaz-Ecole",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "ATHE",
+      "nomArret": "Athénée",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "ATVI",
+      "nomArret": "Athenaz-Village",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "AUBI",
+      "nomArret": "Merle-d'Aubigné",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "AUGS",
+      "nomArret": "Augustins",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "AUMO",
+      "nomArret": "Aumônes",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "AVIA",
+      "nomArret": "Aviateurs",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "BAIR",
+      "nomArret": "Bel-Air",
+      "ligneArret": [ "NA", "NC", "NE", "NJ", "NK", "NO", "NP", "NT", "NV" ]
+    },
+    {
+      "codeArret": "BASL",
+      "nomArret": "Basselat",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "BAUD",
+      "nomArret": "Curé-Baud",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "BBAY",
+      "nomArret": "Bois-de-Bay",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BCRE",
+      "nomArret": "Baulacre",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "BDOU",
+      "nomArret": "Bourdigny-Douane",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BELL",
+      "nomArret": "Bellerive",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "BESS",
+      "nomArret": "Bessinge",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "BGRI",
+      "nomArret": "Les Bougeries",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "BHET",
+      "nomArret": "Bachet-de-Pesay",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "BISE",
+      "nomArret": "La Bise",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "BLAN",
+      "nomArret": "Blanche",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "BLDO",
+      "nomArret": "Blandonnet",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "BLHE",
+      "nomArret": "Blanché",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "BLOC",
+      "nomArret": "Château-Bloch",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BLOE",
+      "nomArret": "Baron de Loë",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "BLTE",
+      "nomArret": "La Belotte",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "BMON",
+      "nomArret": "Bout-du-Monde",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "BNDL",
+      "nomArret": "Bandol",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "BOBO",
+      "nomArret": "Bogis-Bossey",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "BOCA",
+      "nomArret": "Bois-Caran",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "BOHT",
+      "nomArret": "Bouchet",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "BOIS",
+      "nomArret": "Boissier",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "BOLX",
+      "nomArret": "Bouleaux",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BOND",
+      "nomArret": "La Blonde",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "BOQU",
+      "nomArret": "Boqueteaux",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "BORN",
+      "nomArret": "Ch. des Bornes",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "BOSY",
+      "nomArret": "Bossy",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "BOUV",
+      "nomArret": "Les Bouveries",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "BRUN",
+      "nomArret": "Brunette",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "BSOU",
+      "nomArret": "Boudigny-Dessous",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BSUS",
+      "nomArret": "Bourdigny-Dessus",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BTNI",
+      "nomArret": "Butini",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "BUTN",
+      "nomArret": "Pont-Butin",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "BVYL",
+      "nomArret": "Bovy-Lysberg",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "BXEG",
+      "nomArret": "Bernex-Eglise",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "BXMA",
+      "nomArret": "Bernex-Mairie",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "BXPL",
+      "nomArret": "Bernex-Place",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "BXSA",
+      "nomArret": "Bernex-Saule",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CAAM",
+      "nomArret": "Carre-d'Amont",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "CADO",
+      "nomArret": "Cara-Douane",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "CALA",
+      "nomArret": "Calas",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "CAMA",
+      "nomArret": "Carouge-Marché",
+      "ligneArret": [ "NM", "NO" ]
+    },
+    {
+      "codeArret": "CAPI",
+      "nomArret": "Capite",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CARO",
+      "nomArret": "Caron",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CARR",
+      "nomArret": "Rue Carrée",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CAVX",
+      "nomArret": "Canal de Versoix",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CBFO",
+      "nomArret": "Chamb-Fontaine",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CBOI",
+      "nomArret": "Chemin des Bois",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "CBPL",
+      "nomArret": "Chambésy-Place",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CCHA",
+      "nomArret": "Crêts-de-Champel",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "CCLA",
+      "nomArret": "Coll.Claparède",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CCOL",
+      "nomArret": "Croisée Cologny",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "CCOT",
+      "nomArret": "Charcot",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CEAU",
+      "nomArret": "Croisée Eaumorte",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CEGA",
+      "nomArret": "Céligny Gare",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CELI",
+      "nomArret": "Céligny",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CERN",
+      "nomArret": "CERN",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "CESL",
+      "nomArret": "CES P. Langevin",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CETX",
+      "nomArret": "Certoux",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "CFOU",
+      "nomArret": "Ch. des Fours",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CFRE",
+      "nomArret": "Champs-Fréchets",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "CFUS",
+      "nomArret": "Champ-Fusy",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "CGNY",
+      "nomArret": "Chougny",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "CHAR",
+      "nomArret": "Charrot",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "CHAV",
+      "nomArret": "Chavannes-des-Bois",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CHGI",
+      "nomArret": "Chavan. de-Bogis",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CHLA",
+      "nomArret": "Châtelaine",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CHLX",
+      "nomArret": "Choulex",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "CHNE",
+      "nomArret": "Chêne-Bougeries",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "CHOR",
+      "nomArret": "Centre Horticole",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "CHPA",
+      "nomArret": "Ch. des Palettes",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "CHPC",
+      "nomArret": "Chablais-Parc",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CHPR",
+      "nomArret": "Ch. des Princes",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CHRM",
+      "nomArret": "Charmilles",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CHTE",
+      "nomArret": "Ch. du Terraillet",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "CHTS",
+      "nomArret": "Chânats",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CING",
+      "nomArret": "Camping B.de-Bay",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CIPO",
+      "nomArret": "Corsier-Port",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CIRQ",
+      "nomArret": "Cirque",
+      "ligneArret": [ "NC", "NM" ]
+    },
+    {
+      "codeArret": "CLAP",
+      "nomArret": "Claparède",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "CLFL",
+      "nomArret": "Clos-Fleury",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CLGE",
+      "nomArret": "Collonge",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CLIG",
+      "nomArret": "Cité Lignon",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CLLY",
+      "nomArret": "Choully",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CLOS",
+      "nomArret": "Les clos",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "CLYS",
+      "nomArret": "Ch. des Clys",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "CMRE",
+      "nomArret": "Communes-Réunies",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "CNAE",
+      "nomArret": "Chênaie",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CNDA",
+      "nomArret": "Canada",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "COBI",
+      "nomArret": "Colombières",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CODN",
+      "nomArret": "Colladon",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "COET",
+      "nomArret": "Coppet",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "COGA",
+      "nomArret": "Coppet-Gare",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "COLE",
+      "nomArret": "Collège du Léman",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "COLO",
+      "nomArret": "Colovrex",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "COMC",
+      "nomArret": "Combes Chapuis",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "COMU",
+      "nomArret": "Commugny",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "COPS",
+      "nomArret": "Compesières",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "COTR",
+      "nomArret": "Au Contour",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "COUT",
+      "nomArret": "Coutance",
+      "ligneArret": [ "NC", "NE", "NO", "NP", "NT" ]
+    },
+    {
+      "codeArret": "CPAR",
+      "nomArret": "Ch. du Paradis",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CPBL",
+      "nomArret": "Champs-Blancs",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CPLT",
+      "nomArret": "Chantepoulet",
+      "ligneArret": [ "NA", "NS" ]
+    },
+    {
+      "codeArret": "CRAN",
+      "nomArret": "Crans",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "CRBS",
+      "nomArret": "Courbes",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CRCH",
+      "nomArret": "Cr.-en-Champagne",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CRCO",
+      "nomArret": "Cr. Confignon",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CRGE",
+      "nomArret": "Carouge-Rondeau",
+      "ligneArret": [ "NM", "NO" ]
+    },
+    {
+      "codeArret": "CRIG",
+      "nomArret": "Chemin du Righi",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CRNR",
+      "nomArret": "Cornière",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "CROI",
+      "nomArret": "Croisette",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CRRY",
+      "nomArret": "Crédery",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "CRTE",
+      "nomArret": "Crête",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "CRUP",
+      "nomArret": "Creux-du-Loup",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "CSSM",
+      "nomArret": "C.S. Sous-Moulin",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CTGY",
+      "nomArret": "Cartigny",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CTNT",
+      "nomArret": "Cottenets",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "CTRS",
+      "nomArret": "Châtaignières",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "CUIS",
+      "nomArret": "Cuisine",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "CVIN",
+      "nomArret": "Gare Cornavin",
+      "ligneArret": [ "NA", "NC", "ND", "NE", "NK", "NM", "NP", "NT" ]
+    },
+    {
+      "codeArret": "CXAB",
+      "nomArret": "Croix d'Ambilly",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CXCE",
+      "nomArret": "Collex-Centre",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CXEC",
+      "nomArret": "Collex-Ecole",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CYDN",
+      "nomArret": "Chancy-Douane",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CYMA",
+      "nomArret": "Cologny-Mairie",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CYNO",
+      "nomArret": "Cynodrome",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "CYNT",
+      "nomArret": "Cessy-Centre",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "CYPR",
+      "nomArret": "Cyprès",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "CYRA",
+      "nomArret": "Chancy-Raclerets",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CYTE",
+      "nomArret": "Cologny-Temple",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "CYUS",
+      "nomArret": "Chancy-Usine",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CYVI",
+      "nomArret": "Chancy-Village",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "CZPL",
+      "nomArret": "Cr.-de-Rozon-Pl.",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "DARD",
+      "nomArret": "Dardagny",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "DEBU",
+      "nomArret": "Debussy",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "DEFO",
+      "nomArret": "Deffaugt",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "DODE",
+      "nomArret": "La Dode",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "DOLE",
+      "nomArret": "Dôle",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "DUCH",
+      "nomArret": "Dusonchet",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "EAUM",
+      "nomArret": "Eaumorte",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "ECOG",
+      "nomArret": "Ecogia",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "EMED",
+      "nomArret": "Ecole-Médecine",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "ENVE",
+      "nomArret": "Entrée-Versoix",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "EPIN",
+      "nomArret": "Epinettes",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "ESIN",
+      "nomArret": "Eysins",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "ESRT",
+      "nomArret": "Les Esserts",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "ETOI",
+      "nomArret": "P+R Etoile",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "ETOL",
+      "nomArret": "Etoile",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "EVOR",
+      "nomArret": "Evordes",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "FALQ",
+      "nomArret": "Falquets",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "FAVR",
+      "nomArret": "Place Favre",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "FAYA",
+      "nomArret": "Les Fayards",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "FDUS",
+      "nomArret": "Dussaud",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "FEMA",
+      "nomArret": "Ferney-V.-Mairie",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "FENE",
+      "nomArret": "La Fenêtre",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "FEUL",
+      "nomArret": "Feuillat",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "FILI",
+      "nomArret": "Fillion",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "FLCE",
+      "nomArret": "Florence",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "FLOR",
+      "nomArret": "Floralies",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "FNEX",
+      "nomArret": "Founex",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "FOAN",
+      "nomArret": "Anières-Foyer",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "FOLN",
+      "nomArret": "Foulon",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "FONT",
+      "nomArret": "Fontenette",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "FORU",
+      "nomArret": "Forumeyrin",
+      "ligneArret": [ "NA", "NC" ]
+    },
+    {
+      "codeArret": "FOSA",
+      "nomArret": "Fossard",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "FRDI",
+      "nomArret": "Fraidieu",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "FRIS",
+      "nomArret": "Florissant",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "FRON",
+      "nomArret": "Frontenex",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "FRRE",
+      "nomArret": "Bois-des-Frères",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "FTAI",
+      "nomArret": "Foretaille",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "FVDO",
+      "nomArret": "Ferney-V.-Douane",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "GAIU",
+      "nomArret": "La Gabiule",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "GAUL",
+      "nomArret": "Général de Gaulle",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "GCAN",
+      "nomArret": "Grange-Canal",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "GCHN",
+      "nomArret": "Gros-Chêne",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "GCMP",
+      "nomArret": "Grand-Champ",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "GDHA",
+      "nomArret": "Grand-Hangar",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "GEBE",
+      "nomArret": "Genthod-Bellevue",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "GENT",
+      "nomArret": "Bois-Gentil",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "GETE",
+      "nomArret": "De-Ternier",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "GFAQ",
+      "nomArret": "Grange-Falquet",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "GIAC",
+      "nomArret": "Giacometti",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "GIOL",
+      "nomArret": "Gardiol",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "GLAI",
+      "nomArret": "Galaise",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "GMAR",
+      "nomArret": "Gaillard-Marché",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "GOS0",
+      "nomArret": "Gos",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "GOUL",
+      "nomArret": "Goulart",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "GPRE",
+      "nomArret": "Grand-Pré",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "GRAN",
+      "nomArret": "Grangettes",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "GRCA",
+      "nomArret": "Grand-Cara",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "GRDL",
+      "nomArret": "Gradelle",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "GRES",
+      "nomArret": "Grésy",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "GRVI",
+      "nomArret": "Meyrin-Gravière",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "GSAC",
+      "nomArret": "Gd-Saconnex-Pl.",
+      "ligneArret": [ "NE", "NT" ]
+    },
+    {
+      "codeArret": "GSDN",
+      "nomArret": "Gd-Saconnex-Dne",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "GSMA",
+      "nomArret": "Gd-Sac.-Mairie",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "GSON",
+      "nomArret": "Graveson",
+      "ligneArret": [ "NK", "NV" ]
+    },
+    {
+      "codeArret": "GTVI",
+      "nomArret": "Genthod-Village",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "GUYE",
+      "nomArret": "Guye",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "GYBA",
+      "nomArret": "Baraque-à-Cloud",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "GYPO",
+      "nomArret": "Gy-Poste",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "GYTE",
+      "nomArret": "Gy-Temple",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "HAMA",
+      "nomArret": "Hauts-de-Magny",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "HBOD",
+      "nomArret": "Henry Bordeaux",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "HERM",
+      "nomArret": "Hermance",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "HIMP",
+      "nomArret": "Hôtel des Impôts",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "HOFL",
+      "nomArret": "Horloge Fleurie",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "HTAI",
+      "nomArret": "Hautains",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "HTCH",
+      "nomArret": "Hôpital Trois-Chêne",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "HTOU",
+      "nomArret": "Hôpital-La Tour",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "ICC0",
+      "nomArret": "ICC",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "IFRA",
+      "nomArret": "Ile de France",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "INTR",
+      "nomArret": "Intercontinental",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "ISAM",
+      "nomArret": "Isaac-Mercier",
+      "ligneArret": [ "NK", "NM" ]
+    },
+    {
+      "codeArret": "JAGI",
+      "nomArret": "Jargilières",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "JALP",
+      "nomArret": "Jardin-Alpin-Vi.",
+      "ligneArret": [ "NA", "NC" ]
+    },
+    {
+      "codeArret": "JMEL",
+      "nomArret": "Jumelles",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "JMON",
+      "nomArret": "Jean Monnet",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "JOCT",
+      "nomArret": "Jonction",
+      "ligneArret": [ "NC", "NJ" ]
+    },
+    {
+      "codeArret": "JPSA",
+      "nomArret": "De-Sauvage",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "JUBE",
+      "nomArret": "Jussy-Bellebouche",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "JUCH",
+      "nomArret": "Jussy-Château",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "JUMR",
+      "nomArret": "Jussy-Meurets",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "JUPL",
+      "nomArret": "Jussy-Place",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "JVIL",
+      "nomArret": "De-Joinville",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "JVUY",
+      "nomArret": "Vüy",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "LABL",
+      "nomArret": "La Blanche",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "LACH",
+      "nomArret": "La Chêna",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "LACO",
+      "nomArret": "Laconnex",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "LADO",
+      "nomArret": "La Donzelle",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "LAFA",
+      "nomArret": "Parc La Fantasia",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "LAND",
+      "nomArret": "Landecy",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "LATU",
+      "nomArret": "La Tuilière",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "LBRG",
+      "nomArret": "Léon Bourgeois",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "LFOR",
+      "nomArret": "Le-Fort",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "LFRG",
+      "nomArret": "La Forge",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "LGLI",
+      "nomArret": "Lycée des Glières",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "LHCY",
+      "nomArret": "Hauts-Cessy",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "LIBR",
+      "nomArret": "Libération",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "LOCH",
+      "nomArret": "En Louche",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "LOUR",
+      "nomArret": "La Loure",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "LRON",
+      "nomArret": "Livron",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "LTOU",
+      "nomArret": "La Tour",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "LULY",
+      "nomArret": "Lully",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "LYON",
+      "nomArret": "Lyon",
+      "ligneArret": [ "NA", "NC", "NE" ]
+    },
+    {
+      "codeArret": "MACH",
+      "nomArret": "Machéry",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "MAGE",
+      "nomArret": "Maison-Rouge",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "MAIX",
+      "nomArret": "Maisonnex",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "MALA",
+      "nomArret": "Malagnou",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "MAPA",
+      "nomArret": "Maison de la Paix",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "MARG",
+      "nomArret": "Marguerite",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "MATH",
+      "nomArret": "Thônex-Mairie",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "MCON",
+      "nomArret": "Maconnex",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "MEGL",
+      "nomArret": "Meinier-Eglise",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "MEMA",
+      "nomArret": "Meyrin-Mairie",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "MEPR",
+      "nomArret": "Meinier-Pralys",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "METR",
+      "nomArret": "Métropole",
+      "ligneArret": [ "NA", "NC", "NJ", "NS" ]
+    },
+    {
+      "codeArret": "MGRE",
+      "nomArret": "Montalègre",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "MICE",
+      "nomArret": "Mies",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "MIDE",
+      "nomArret": "Mon-Idée",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "MIES",
+      "nomArret": "Mies",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "MILT",
+      "nomArret": "Millet",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "MIRE",
+      "nomArret": "Miremont",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "MLBA",
+      "nomArret": "Moillebeau",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "MLER",
+      "nomArret": "Milière",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "MLGN",
+      "nomArret": "Malagny",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "MLIN",
+      "nomArret": "Le Moulin",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "MLPT",
+      "nomArret": "Malpertuis",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "MLRD",
+      "nomArret": "Molard",
+      "ligneArret": [ "NA", "NC", "NJ", "NK", "NP", "NV" ]
+    },
+    {
+      "codeArret": "MLVT",
+      "nomArret": "Malivert",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "MNEU",
+      "nomArret": "Maisons-Neuves",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "MOIL",
+      "nomArret": "Moillesulaz",
+      "ligneArret": [ "NK", "NV" ]
+    },
+    {
+      "codeArret": "MOLE",
+      "nomArret": "Môle",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "MOLL",
+      "nomArret": "Mollaz",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "MONE",
+      "nomArret": "Lycée J.Monnet",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "MORL",
+      "nomArret": "Crêts-Morillon",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "MOUI",
+      "nomArret": "La Mouille",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "MOVE",
+      "nomArret": "Moulin-la-Grave",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "MPAR",
+      "nomArret": "Mais. Parlements",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "MRIC",
+      "nomArret": "Moulin Richelien",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "MRTI",
+      "nomArret": "Martinet",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "MSNT",
+      "nomArret": "Maisonnette",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "MTBL",
+      "nomArret": "Mont-Blanc",
+      "ligneArret": [ "NA", "NC", "NS" ]
+    },
+    {
+      "codeArret": "MTCH",
+      "nomArret": "Montchoisy",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "MTFL",
+      "nomArret": "Montfleury",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "MTOU",
+      "nomArret": "Meinier-Tour",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "MURA",
+      "nomArret": "Murailles",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "MUSE",
+      "nomArret": "Muséum",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "MVER",
+      "nomArret": "Moulin-de-Vert",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "MYRN",
+      "nomArret": "Meyrin-Village",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "NAIS",
+      "nomArret": "Nant-d'Aisy",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "NANT",
+      "nomArret": "Le Nant",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "NATI",
+      "nomArret": "Nations",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "NGAR",
+      "nomArret": "Nyon-Gare",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "OBGE",
+      "nomArret": "Observatoire GE",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "ONEX",
+      "nomArret": "Onex-Salle communale",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "ONMA",
+      "nomArret": "Onex-Marché",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "OUCH",
+      "nomArret": "Les Ouches",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "OXFR",
+      "nomArret": "Ornex-Fruitière",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "PAGN",
+      "nomArret": "Pl. d'Allemogne",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "PAIL",
+      "nomArret": "Pailly-Balexert",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "PARC",
+      "nomArret": "Parcs",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "PASS",
+      "nomArret": "La Passe",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "PBOC",
+      "nomArret": "Pont-Bochet",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PBRU",
+      "nomArret": "Planche-Brulée",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "PCEA",
+      "nomArret": "Pont-Céard",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "PCHA",
+      "nomArret": "Plateau Champel",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "PEIL",
+      "nomArret": "Peillonnex",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PEMA",
+      "nomArret": "Perly-Mairie",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PENT",
+      "nomArret": "Penthes",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "PESC",
+      "nomArret": "Peschier",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "PEUP",
+      "nomArret": "Peupliers",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PEVI",
+      "nomArret": "Perly-Village",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PGRA",
+      "nomArret": "Petite-Grave",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "PIBO",
+      "nomArret": "Pierre à Bochet",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PINC",
+      "nomArret": "Pinchat-la-Tour",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "PLDI",
+      "nomArret": "Palladium",
+      "ligneArret": [ "NC", "NJ" ]
+    },
+    {
+      "codeArret": "PLEC",
+      "nomArret": "La Plaine-Ecole",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "PLEV",
+      "nomArret": "Pl. Eaux-Vives",
+      "ligneArret": [ "NP", "NS" ]
+    },
+    {
+      "codeArret": "PLEY",
+      "nomArret": "Palais Eynard",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "PLGE",
+      "nomArret": "Genève-Plage",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "PLIO",
+      "nomArret": "Lion",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "PLMA",
+      "nomArret": "Pl. des Marchés",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "PLNT",
+      "nomArret": "Planet",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "PLOU",
+      "nomArret": "Plan-les-Ouates",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PLPA",
+      "nomArret": "Plainpalais",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PLTA",
+      "nomArret": "Planta",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "PLUL",
+      "nomArret": "Pont-de-Lully",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PMIO",
+      "nomArret": "Petit-Miolan",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "PMOR",
+      "nomArret": "Place A. Moret",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "PNEV",
+      "nomArret": "Place de Neuve",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "POCH",
+      "nomArret": "Port Choiseul",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "POLT",
+      "nomArret": "Place en Poulet",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "POMI",
+      "nomArret": "Le Pommier",
+      "ligneArret": [ "NE", "NT" ]
+    },
+    {
+      "codeArret": "PONT",
+      "nomArret": "Pontets",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "POST",
+      "nomArret": "Poste",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "POTE",
+      "nomArret": "Poterie",
+      "ligneArret": [ "NA", "NE" ]
+    },
+    {
+      "codeArret": "POUS",
+      "nomArret": "Peney-Dessous",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "PPAL",
+      "nomArret": "Prés-Palais",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "PPLA",
+      "nomArret": "Prénépla",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "PPOL",
+      "nomArret": "Pré-Polly",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PR47",
+      "nomArret": "P+R P47",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "PRAR",
+      "nomArret": "Prairie",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "PRBE",
+      "nomArret": "P+R Bernex",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "PREL",
+      "nomArret": "La Prêle",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "PREV",
+      "nomArret": "Prevessin-Möens",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "PRGM",
+      "nomArret": "P+R Gare Meyrin",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "PRGR",
+      "nomArret": "Progrès",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "PRLA",
+      "nomArret": "La Pralay",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "PRRI",
+      "nomArret": "Prairie",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "PRUL",
+      "nomArret": "Prulay",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "PSAC",
+      "nomArret": "Petit-Saconnex",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "PSGE",
+      "nomArret": "Presinge",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PSRY",
+      "nomArret": "Passeiry",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PSSY",
+      "nomArret": "Peissy",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "PSUD",
+      "nomArret": "Plein-Sud",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PTAR",
+      "nomArret": "Pont-d'Arve",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "PTLA",
+      "nomArret": "Petit-Lancy",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "PTOU",
+      "nomArret": "Les Petoux",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PTPE",
+      "nomArret": "Pont-de-Peney",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "PUMA",
+      "nomArret": "Puplinge-Mairie",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "PYMA",
+      "nomArret": "Pregny-Mairie",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "PYVI",
+      "nomArret": "Pregny-Village",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "QUID",
+      "nomArret": "Quidort",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "RANN",
+      "nomArret": "Rte d'Annecy",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "REFT",
+      "nomArret": "Le Renfort",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "RICH",
+      "nomArret": "Richelien",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "RIEU",
+      "nomArret": "Rieu",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "RIPP",
+      "nomArret": "Rippaz",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "RIVE",
+      "nomArret": "Rive",
+      "ligneArret": [ "NA", "NC", "NJ", "NK", "NP", "NS", "NV" ]
+    },
+    {
+      "codeArret": "RLAC",
+      "nomArret": "Rue du Lac",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "RLUL",
+      "nomArret": "Rte de Lullier",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "ROCH",
+      "nomArret": "Roches",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "ROMA",
+      "nomArret": "Romagny",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "RPRS",
+      "nomArret": "Rte de Presinge",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "RSMA",
+      "nomArret": "R. de St-Maurice",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "RTEP",
+      "nomArret": "Rte d'Epeisses",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "RUSS",
+      "nomArret": "Russin-Village",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "RUTH",
+      "nomArret": "Ruth",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "SADN",
+      "nomArret": "Sauverny-Douane",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "SAGY",
+      "nomArret": "Le Saugy",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "SAMA",
+      "nomArret": "Sauverny-Martinet",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "SCAS",
+      "nomArret": "Sous-Cassan",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "SCEC",
+      "nomArret": "Sainte-Cécile",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "SCHA",
+      "nomArret": "Seuchat",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "SERV",
+      "nomArret": "Servette",
+      "ligneArret": [ "NA", "NE" ]
+    },
+    {
+      "codeArret": "SEVI",
+      "nomArret": "Sézenove-Village",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "SEZG",
+      "nomArret": "Sézegnin",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "SGBO",
+      "nomArret": "Sergy-Bourg",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "SGGA",
+      "nomArret": "Sergy-Gare",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "SGNY",
+      "nomArret": "Ségny",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "SIGN",
+      "nomArret": "Signal",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "SILO",
+      "nomArret": "Sillons",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "SIMO",
+      "nomArret": "Sismondi",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "SION",
+      "nomArret": "Sionnet",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "SOLE",
+      "nomArret": "Le Soleil",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "SRMA",
+      "nomArret": "Soral-Mairie",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "SRVI",
+      "nomArret": "Soral-Village",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "SSCH",
+      "nomArret": "Sous-Chevrens",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "STAL",
+      "nomArret": "De Staël",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "STLA",
+      "nomArret": "Stand-Laconnex",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "STLO",
+      "nomArret": "Saint-Loup",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "STND",
+      "nomArret": "Stand",
+      "ligneArret": [ "NA", "NC", "NJ", "NK", "NM" ]
+    },
+    {
+      "codeArret": "SUMO",
+      "nomArret": "Sur-le-Moulin",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "SUSE",
+      "nomArret": "Susette",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "SVEY",
+      "nomArret": "Stand-de-Veyrier",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "SVON",
+      "nomArret": "Savonnière",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "SYCS",
+      "nomArret": "Satigny-CS",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "SYEG",
+      "nomArret": "Satigny-Temple",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "SYMA",
+      "nomArret": "Satigny-Mairie",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "SYPO",
+      "nomArret": "Satigny-Poste",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "TANN",
+      "nomArret": "Tannay",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "TCRE",
+      "nomArret": "Tour-Carrée",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "THMA",
+      "nomArret": "Thoiry-Mairie",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "TILL",
+      "nomArret": "Les Tilleuls",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "TLIG",
+      "nomArret": "Tours Lignon",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "TMOU",
+      "nomArret": "Terre Mousson",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "TOUR",
+      "nomArret": "Tourelle",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "TREU",
+      "nomArret": "Treulaz",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "TRIZ",
+      "nomArret": "Triaz",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "TRMB",
+      "nomArret": "Trembley",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "TRSI",
+      "nomArret": "Terrassière",
+      "ligneArret": [ "NK", "NV" ]
+    },
+    {
+      "codeArret": "TRTI",
+      "nomArret": "Tunnel Routier",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "TUIL",
+      "nomArret": "La Tuilière",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "TURA",
+      "nomArret": "Ch. des Turaines",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "TXMA",
+      "nomArret": "Troinex-Mairie",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "TXVI",
+      "nomArret": "Troinex-Ville",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "UBER",
+      "nomArret": "Lancy-Hubert",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "VALY",
+      "nomArret": "Vailly",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "VAND",
+      "nomArret": "Vandoeuvres",
+      "ligneArret": [ "NP" ]
+    },
+    {
+      "codeArret": "VARV",
+      "nomArret": "Val-d'Arve",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "VCHA",
+      "nomArret": "Vieux Château",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "VDUR",
+      "nomArret": "Duret",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "VELO",
+      "nomArret": "Vélodrome",
+      "ligneArret": [ "NM" ]
+    },
+    {
+      "codeArret": "VEMA",
+      "nomArret": "Vernier-Marché",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "VERD",
+      "nomArret": "Verdun",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "VERN",
+      "nomArret": "Vernes",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "VESY",
+      "nomArret": "Vessy",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "VEVI",
+      "nomArret": "Vernier-Village",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "VIDO",
+      "nomArret": "Vidollet",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "VIHH",
+      "nomArret": "Vich",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "VILL",
+      "nomArret": "Villereuse",
+      "ligneArret": [ "NK" ]
+    },
+    {
+      "codeArret": "VIUS",
+      "nomArret": "Vieusseux",
+      "ligneArret": [ "NA" ]
+    },
+    {
+      "codeArret": "VLLA",
+      "nomArret": "Villars",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "VLON",
+      "nomArret": "Vallon",
+      "ligneArret": [ "NV" ]
+    },
+    {
+      "codeArret": "VOLL",
+      "nomArret": "Vollandes",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "VRBE",
+      "nomArret": "Varembé",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "VREC",
+      "nomArret": "Veyrier-Ecole",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "VRLP",
+      "nomArret": "Vireloup",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "VRMT",
+      "nomArret": "Vermont",
+      "ligneArret": [ "NT" ]
+    },
+    {
+      "codeArret": "VSEG",
+      "nomArret": "Vésenaz-Eglise",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "VSNA",
+      "nomArret": "Vésenaz",
+      "ligneArret": [ "NS" ]
+    },
+    {
+      "codeArret": "VSNX",
+      "nomArret": "Versonnex",
+      "ligneArret": [ "NE" ]
+    },
+    {
+      "codeArret": "VSUI",
+      "nomArret": "Village-Suisse",
+      "ligneArret": [ "NC" ]
+    },
+    {
+      "codeArret": "VTRN",
+      "nomArret": "Veyr-Tournettes",
+      "ligneArret": [ "NO" ]
+    },
+    {
+      "codeArret": "VUIL",
+      "nomArret": "Vuillonnex",
+      "ligneArret": [ "NJ" ]
+    },
+    {
+      "codeArret": "VVRA",
+      "nomArret": "Valavran",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "VXAR",
+      "nomArret": "Versoix-Argand",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "VXBO",
+      "nomArret": "Versoix-Bourg",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "VXGA",
+      "nomArret": "Versoix-Gare",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "VXLA",
+      "nomArret": "Versoix-Lachenal",
+      "ligneArret": [ "ND", "NT" ]
+    },
+    {
+      "codeArret": "VXVV",
+      "nomArret": "Vieux-Valavran",
+      "ligneArret": [ "ND" ]
+    },
+    {
+      "codeArret": "WEBR",
+      "nomArret": "Weber",
+      "ligneArret": [ "NV" ]
+    }
+  ]
+}

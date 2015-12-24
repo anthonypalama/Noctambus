@@ -1,0 +1,1781 @@
+<stops>
+<timestamp>2015-12-18T15:16:30+0100</timestamp>
+<stops>
+<stop>
+<stopCode>APIA</stopCode>
+<stopName>Appia</stopName>
+<connections>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>OMS</destinationName>
+<destinationCode>OMS</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier</destinationName>
+<destinationCode>VEYRIER</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier-Douane</destinationName>
+<destinationCode>VEYRIER-DOUANE</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier-Tournet.</destinationName>
+<destinationCode>VEYRIER-TOURNET.</destinationCode>
+</connection>
+<connection>
+<lineCode>28</lineCode>
+<destinationName>Jar.-Botanique</destinationName>
+<destinationCode>JAR. BOTANIQUE</destinationCode>
+</connection>
+<connection>
+<lineCode>28</lineCode>
+<destinationName>Parfumerie</destinationName>
+<destinationCode>PARFUMERIE</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Ferney-Voltaire</destinationName>
+<destinationCode>FERNEY-VOLTAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Gex</destinationName>
+<destinationCode>GEX</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>BTNI</stopCode>
+<stopName>Butini</stopName>
+<connections>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Nations</destinationName>
+<destinationCode>NATIONS</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes-Bachet</destinationName>
+<destinationCode>PALETTES-BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CARO</stopCode>
+<stopName>Caron</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CBFO</stopCode>
+<stopName>Chamb-Fontaine</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CBPL</stopCode>
+<stopName>Chambésy-Place</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CEGA</stopCode>
+<stopName>Céligny Gare</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CELI</stopCode>
+<stopName>Céligny</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CHTS</stopCode>
+<stopName>Chânats</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CLYS</stopCode>
+<stopName>Ch. des Clys</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CNAE</stopCode>
+<stopName>Chênaie</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>COET</stopCode>
+<stopName>Coppet</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>COGA</stopCode>
+<stopName>Coppet-Gare</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>COLO</stopCode>
+<stopName>Colovrex</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>COMU</stopCode>
+<stopName>Commugny</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CRAN</stopCode>
+<stopName>Crans</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>CVIN</stopCode>
+<stopName>Gare Cornavin</stopName>
+<connections>
+<connection>
+<lineCode>1</lineCode>
+<destinationName>Jar.-Botanique</destinationName>
+<destinationCode>JAR. BOTANIQUE</destinationCode>
+</connection>
+<connection>
+<lineCode>1</lineCode>
+<destinationName>Petit-Bel-Air</destinationName>
+<destinationCode>PETIT-BEL-AIR</destinationCode>
+</connection>
+<connection>
+<lineCode>3</lineCode>
+<destinationName>Gardiol</destinationName>
+<destinationCode>GARDIOL</destinationCode>
+</connection>
+<connection>
+<lineCode>5</lineCode>
+<destinationName>Aéroport</destinationName>
+<destinationCode>AEROPORT</destinationCode>
+</connection>
+<connection>
+<lineCode>5</lineCode>
+<destinationName>Palexpo</destinationName>
+<destinationCode>PALEXPO</destinationCode>
+</connection>
+<connection>
+<lineCode>5</lineCode>
+<destinationName>Thônex-Vallard</destinationName>
+<destinationCode>THONEX-VALLARD</destinationCode>
+</connection>
+<connection>
+<lineCode>6</lineCode>
+<destinationName>Vernier</destinationName>
+<destinationCode>VERNIER</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>OMS</destinationName>
+<destinationCode>OMS</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier</destinationName>
+<destinationCode>VEYRIER</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier-Douane</destinationName>
+<destinationCode>VEYRIER-DOUANE</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier-Tournet.</destinationName>
+<destinationCode>VEYRIER-TOURNET.</destinationCode>
+</connection>
+<connection>
+<lineCode>9</lineCode>
+<destinationName>Petit-Bel-Air</destinationName>
+<destinationCode>PETIT-BEL-AIR</destinationCode>
+</connection>
+<connection>
+<lineCode>9</lineCode>
+<destinationName>Tours Lignon</destinationName>
+<destinationCode>TOURS LIGNON</destinationCode>
+</connection>
+<connection>
+<lineCode>10</lineCode>
+<destinationName>Aéroport</destinationName>
+<destinationCode>AEROPORT</destinationCode>
+</connection>
+<connection>
+<lineCode>14</lineCode>
+<destinationName>Bachet</destinationName>
+<destinationCode>BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>14</lineCode>
+<destinationName>Meyrin-Gravière</destinationName>
+<destinationCode>MEYRIN-GRAVIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>14</lineCode>
+<destinationName>P+R Bernex</destinationName>
+<destinationCode>P+R BERNEX</destinationCode>
+</connection>
+<connection>
+<lineCode>14</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Nations</destinationName>
+<destinationCode>NATIONS</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes-Bachet</destinationName>
+<destinationCode>PALETTES-BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>18</lineCode>
+<destinationName>CERN</destinationName>
+<destinationCode>CERN</destinationCode>
+</connection>
+<connection>
+<lineCode>18</lineCode>
+<destinationName>Carouge</destinationName>
+<destinationCode>CAROUGE</destinationCode>
+</connection>
+<connection>
+<lineCode>18</lineCode>
+<destinationName>De Staël</destinationName>
+<destinationCode>DE STAEL</destinationCode>
+</connection>
+<connection>
+<lineCode>18</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>19</lineCode>
+<destinationName>Vernier</destinationName>
+<destinationCode>VERNIER</destinationCode>
+</connection>
+<connection>
+<lineCode>25</lineCode>
+<destinationName>Jar.-Botanique</destinationName>
+<destinationCode>JAR. BOTANIQUE</destinationCode>
+</connection>
+<connection>
+<lineCode>25</lineCode>
+<destinationName>Thônex-Vallard</destinationName>
+<destinationCode>THONEX-VALLARD</destinationCode>
+</connection>
+<connection>
+<lineCode>61</lineCode>
+<destinationName>Annemasse Gare</destinationName>
+<destinationCode>ANNEMASSE GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>61</lineCode>
+<destinationName>Annemasse-Gare</destinationName>
+<destinationCode>ANNEMASSE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Ferney-Voltaire</destinationName>
+<destinationCode>FERNEY-VOLTAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Gex</destinationName>
+<destinationCode>GEX</destinationCode>
+</connection>
+<connection>
+<lineCode>NA</lineCode>
+<destinationName>CERN</destinationName>
+<destinationCode>CERN</destinationCode>
+</connection>
+<connection>
+<lineCode>NC</lineCode>
+<destinationName>Cirque</destinationName>
+<destinationCode>CIRQUE</destinationCode>
+</connection>
+<connection>
+<lineCode>NC</lineCode>
+<destinationName>La Plaine</destinationName>
+<destinationCode>LA PLAINE</destinationCode>
+</connection>
+<connection>
+<lineCode>NC</lineCode>
+<destinationName>Vernier</destinationName>
+<destinationCode>VERNIER</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NE</lineCode>
+<destinationName>Gex</destinationName>
+<destinationCode>GEX</destinationCode>
+</connection>
+<connection>
+<lineCode>NK</lineCode>
+<destinationName>Jussy</destinationName>
+<destinationCode>JUSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>NK</lineCode>
+<destinationName>Monniaz</destinationName>
+<destinationCode>MONNIAZ</destinationCode>
+</connection>
+<connection>
+<lineCode>NM</lineCode>
+<destinationName>Avusy</destinationName>
+<destinationCode>AVUSY</destinationCode>
+</connection>
+<connection>
+<lineCode>NP</lineCode>
+<destinationName>Corsier-Village</destinationName>
+<destinationCode>CORSIER-VILLAGE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>ENVE</stopCode>
+<stopName>Entrée-Versoix</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>ESIN</stopCode>
+<stopName>Eysins</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>FAYA</stopCode>
+<stopName>Les Fayards</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>FENE</stopCode>
+<stopName>La Fenêtre</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>FNEX</stopCode>
+<stopName>Founex</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>FTAI</stopCode>
+<stopName>Foretaille</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>GEBE</stopCode>
+<stopName>Genthod-Bellevue</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>GTVI</stopCode>
+<stopName>Genthod-Village</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>LATU</stopCode>
+<stopName>La Tuilière</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MACH</stopCode>
+<stopName>Machéry</stopName>
+<connections>
+<connection>
+<lineCode>53</lineCode>
+<destinationName>Bouchet</destinationName>
+<destinationCode>BOUCHET</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MAPA</stopCode>
+<stopName>Maison de la Paix</stopName>
+<connections>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Nations</destinationName>
+<destinationCode>NATIONS</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes-Bachet</destinationName>
+<destinationCode>PALETTES-BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MICE</stopCode>
+<stopName>Mies</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MIES</stopCode>
+<stopName>Mies</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MLGN</stopCode>
+<stopName>Malagny</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MOLE</stopCode>
+<stopName>Môle</stopName>
+<connections>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Nations</destinationName>
+<destinationCode>NATIONS</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes-Bachet</destinationName>
+<destinationCode>PALETTES-BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>MTFL</stopCode>
+<stopName>Montfleury</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>NANT</stopCode>
+<stopName>Le Nant</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>NATI</stopCode>
+<stopName>Nations</stopName>
+<connections>
+<connection>
+<lineCode>5</lineCode>
+<destinationName>Aéroport</destinationName>
+<destinationCode>AEROPORT</destinationCode>
+</connection>
+<connection>
+<lineCode>5</lineCode>
+<destinationName>Palexpo</destinationName>
+<destinationCode>PALEXPO</destinationCode>
+</connection>
+<connection>
+<lineCode>5</lineCode>
+<destinationName>Thônex-Vallard</destinationName>
+<destinationCode>THONEX-VALLARD</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>OMS</destinationName>
+<destinationCode>OMS</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier</destinationName>
+<destinationCode>VEYRIER</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier-Douane</destinationName>
+<destinationCode>VEYRIER-DOUANE</destinationCode>
+</connection>
+<connection>
+<lineCode>8</lineCode>
+<destinationName>Veyrier-Tournet.</destinationName>
+<destinationCode>VEYRIER-TOURNET.</destinationCode>
+</connection>
+<connection>
+<lineCode>11</lineCode>
+<destinationName>Bout-du-Monde</destinationName>
+<destinationCode>BOUT-DU-MONDE</destinationCode>
+</connection>
+<connection>
+<lineCode>11</lineCode>
+<destinationName>Jar.-Botanique</destinationName>
+<destinationCode>JAR. BOTANIQUE</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes-Bachet</destinationName>
+<destinationCode>PALETTES-BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>22</lineCode>
+<destinationName>Tours-de-Carouge</destinationName>
+<destinationCode>TOURS-DE-CAROUGE</destinationCode>
+</connection>
+<connection>
+<lineCode>28</lineCode>
+<destinationName>Jar.-Botanique</destinationName>
+<destinationCode>JAR. BOTANIQUE</destinationCode>
+</connection>
+<connection>
+<lineCode>28</lineCode>
+<destinationName>Parfumerie</destinationName>
+<destinationCode>PARFUMERIE</destinationCode>
+</connection>
+<connection>
+<lineCode>86</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Ferney-Voltaire</destinationName>
+<destinationCode>FERNEY-VOLTAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>F</lineCode>
+<destinationName>Gex</destinationName>
+<destinationCode>GEX</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>NGAR</stopCode>
+<stopName>Nyon-Gare</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>PCEA</stopCode>
+<stopName>Pont-Céard</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>PENT</stopCode>
+<stopName>Penthes</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>POCH</stopCode>
+<stopName>Port Choiseul</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>PRLA</stopCode>
+<stopName>La Pralay</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>PYMA</stopCode>
+<stopName>Pregny-Mairie</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>PYVI</stopCode>
+<stopName>Pregny-Village</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bois-Chatton</destinationName>
+<destinationCode>BOIS-CHATTON</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Bossy</destinationName>
+<destinationCode>BOSSY</destinationCode>
+</connection>
+<connection>
+<lineCode>Z</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>SAGY</stopCode>
+<stopName>Le Saugy</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>SIMO</stopCode>
+<stopName>Sismondi</stopName>
+<connections>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Nations</destinationName>
+<destinationCode>NATIONS</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes</destinationName>
+<destinationCode>PALETTES</destinationCode>
+</connection>
+<connection>
+<lineCode>15</lineCode>
+<destinationName>Palettes-Bachet</destinationName>
+<destinationCode>PALETTES-BACHET</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>TANN</stopCode>
+<stopName>Tannay</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VIHH</stopCode>
+<stopName>Vich</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VVRA</stopCode>
+<stopName>Valavran</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VXAR</stopCode>
+<stopName>Versoix-Argand</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>U</lineCode>
+<destinationName>Chavannes-des-Bois</destinationName>
+<destinationCode>CHAVANNES-DES-B.</destinationCode>
+</connection>
+<connection>
+<lineCode>U</lineCode>
+<destinationName>Richelien</destinationName>
+<destinationCode>RICHELIEN</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VXBO</stopCode>
+<stopName>Versoix-Bourg</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VXGA</stopCode>
+<stopName>Versoix-Gare</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>U</lineCode>
+<destinationName>Chavannes-des-Bois</destinationName>
+<destinationCode>CHAVANNES-DES-B.</destinationCode>
+</connection>
+<connection>
+<lineCode>U</lineCode>
+<destinationName>Richelien</destinationName>
+<destinationCode>RICHELIEN</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VXLA</stopCode>
+<stopName>Versoix-Lachenal</stopName>
+<connections>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>NT</lineCode>
+<destinationName>Divonne-Gare</destinationName>
+<destinationCode>DIVONNE-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>U</lineCode>
+<destinationName>Chavannes-des-Bois</destinationName>
+<destinationCode>CHAVANNES-DES-B.</destinationCode>
+</connection>
+<connection>
+<lineCode>U</lineCode>
+<destinationName>Richelien</destinationName>
+<destinationCode>RICHELIEN</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Entrée-Versoix</destinationName>
+<destinationCode>ENTREE-VERSOIX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+<stop>
+<stopCode>VXVV</stopCode>
+<stopName>Vieux-Valavran</stopName>
+<connections>
+<connection>
+<lineCode>82</lineCode>
+<destinationName>Bus scolaire</destinationName>
+<destinationCode>BUS SCOLAIRE</destinationCode>
+</connection>
+<connection>
+<lineCode>ND</lineCode>
+<destinationName>Gland-Gare</destinationName>
+<destinationCode>GLAND-GARE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>CS La Bécassière</destinationName>
+<destinationCode>CS LA BECASSIERE</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Colovrex</destinationName>
+<destinationCode>COLOVREX</destinationCode>
+</connection>
+<connection>
+<lineCode>V</lineCode>
+<destinationName>Gare Cornavin</destinationName>
+<destinationCode>GARE CORNAVIN</destinationCode>
+</connection>
+</connections>
+</stop>
+</stops>
+</stops>

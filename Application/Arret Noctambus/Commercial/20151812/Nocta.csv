@@ -1,0 +1,492 @@
+stopCode;stopName;ligneArret
+31DC;31.Déc;NP
+AAIN;Av. de l'Ain;NC
+ABBA;L'Abbaye;NK
+ACIA;Acacias;NV
+AIRE;Aïre;NC
+AIVI;Aire-la-Ville;NJ
+AJEN;Jeandin;NV
+AJUR;Avenue du Jura;NE
+ALEC;Avully-Ecole;NJ
+ALVI;Avully-Village;NJ
+AMDO;Amandolier(SNCF);NK
+ANCH;Anières-Chavannes;NS
+ANCI;Ancienne;NM, NO
+ANDO;Anières-Douane;NP
+ANGA;Annemasse Gare;NV
+ANGR;Anières-Gravière;NS
+ANRS;Anières-Village;NS
+APIA;Appia;ND
+ARAR;Arare;NM
+ARME;Armes;NC, NM, NO
+ATEC;Athenaz-Ecole;NM
+ATHE;Athénée;NO
+ATVI;Athenaz-Village;NM
+AUBI;Merle-d'Aubigné;NS
+AUGS;Augustins;NM
+AUMO;Aumônes;NK
+AVIA;Aviateurs;NM
+BAIR;Bel-Air;NA, NC, NE, NJ, NK, NO, NP, NT, NV
+BASL;Basselat;NK
+BAUD;Curé-Baud;NM
+BBAY;Bois-de-Bay;NC
+BCRE;Baulacre;NT
+BDOU;Bourdigny-Douane;NC
+BELL;Bellerive;NS
+BESS;Bessinge;NS
+BGRI;Les Bougeries;NP
+BHET;Bachet-de-Pesay;NM
+BISE;La Bise;NS
+BLAN;Blanche;NM
+BLDO;Blandonnet;NA
+BLHE;Blanché;NT
+BLOC;Château-Bloch;NC
+BLOE;Baron de Loë;NV
+BLTE;La Belotte;NS
+BMON;Bout-du-Monde;NO
+BNDL;Bandol;NJ
+BOBO;Bogis-Bossey;NT
+BOCA;Bois-Caran;NS
+BOHT;Bouchet;NA
+BOIS;Boissier;NS
+BOLX;Bouleaux;NC
+BOND;La Blonde;NP
+BOQU;Boqueteaux;NO
+BORN;Ch. des Bornes;NK
+BOSY;Bossy;NT
+BOUV;Les Bouveries;NJ
+BRUN;Brunette;NE
+BSOU;Boudigny-Dessous;NC
+BSUS;Bourdigny-Dessus;NC
+BTNI;Butini;ND
+BUTN;Pont-Butin;NC
+BVYL;Bovy-Lysberg;NO
+BXEG;Bernex-Eglise;NJ
+BXMA;Bernex-Mairie;NJ
+BXPL;Bernex-Place;NJ
+BXSA;Bernex-Saule;NJ
+CAAM;Carre-d'Amont;NP
+CADO;Cara-Douane;NK
+CALA;Calas;NO
+CAMA;Carouge-Marché;NM, NO
+CAPI;Capite;NS
+CARO;Caron;ND
+CARR;Rue Carrée;NC
+CAVX;Canal de Versoix;NT
+CBFO;Chamb-Fontaine;ND
+CBOI;Chemin des Bois;NO
+CBPL;Chambésy-Place;ND
+CCHA;Crêts-de-Champel;NO
+CCLA;Coll.Claparède;NV
+CCOL;Croisée Cologny;NP
+CCOT;Charcot;NV
+CEAU;Croisée Eaumorte;NJ
+CEGA;Céligny Gare;ND
+CELI;Céligny;ND
+CERN;CERN;NA
+CESL;CES P. Langevin;NV
+CETX;Certoux;NM
+CFOU;Ch. des Fours;NS
+CFRE;Champs-Fréchets;NA
+CFUS;Champ-Fusy;NA
+CGNY;Chougny;NP
+CHAR;Charrot;NO
+CHAV;Chavannes-des-Bois;NT
+CHGI;Chavan. de-Bogis;NT
+CHLA;Châtelaine;NC
+CHLX;Choulex;NP
+CHNE;Chêne-Bougeries;NK
+CHOR;Centre Horticole;NK
+CHPA;Ch. des Palettes;NM
+CHPC;Chablais-Parc;NV
+CHPR;Ch. des Princes;NS
+CHRM;Charmilles;NC
+CHTE;Ch. du Terraillet;NE
+CHTS;Chânats;ND
+CING;Camping B.de-Bay;NC
+CIPO;Corsier-Port;NS
+CIRQ;Cirque;NC, NM
+CLAP;Claparède;NO
+CLFL;Clos-Fleury;NV
+CLGE;Collonge;NS
+CLIG;Cité Lignon;NC
+CLLY;Choully;NC
+CLOS;Les clos;NM
+CLYS;Ch. des Clys;ND, NT
+CMRE;Communes-Réunies;NM
+CNAE;Chênaie;ND
+CNDA;Canada;NC
+COBI;Colombières;NT
+CODN;Colladon;NE
+COET;Coppet;ND
+COGA;Coppet-Gare;ND
+COLE;Collège du Léman;NT
+COLO;Colovrex;ND, NT
+COMC;Combes Chapuis;NT
+COMU;Commugny;ND
+COPS;Compesières;NO
+COTR;Au Contour;NM
+COUT;Coutance;NC, NE, NO, NP, NT
+CPAR;Ch. du Paradis;NC
+CPBL;Champs-Blancs;NT
+CPLT;Chantepoulet;NA, NS
+CRAN;Crans;ND
+CRBS;Courbes;NS
+CRCH;Cr.-en-Champagne;NJ
+CRCO;Cr. Confignon;NJ
+CRGE;Carouge-Rondeau;NM, NO
+CRIG;Chemin du Righi;NS
+CRNR;Cornière;NK
+CROI;Croisette;NC
+CRRY;Crédery;NC
+CRTE;Crête;NP
+CRUP;Creux-du-Loup;NM
+CSSM;C.S. Sous-Moulin;NV
+CTGY;Cartigny;NJ
+CTNT;Cottenets;NM
+CTRS;Châtaignières;NK
+CUIS;Cuisine;NP
+CVIN;Gare Cornavin;NA, NC, ND, NE, NK, NM, NP, NT
+CXAB;Croix d'Ambilly;NV
+CXCE;Collex-Centre;NT
+CXEC;Collex-Ecole;NT
+CYDN;Chancy-Douane;NJ
+CYMA;Cologny-Mairie;NS
+CYNO;Cynodrome;NT
+CYNT;Cessy-Centre;NE
+CYPR;Cyprès;NV
+CYRA;Chancy-Raclerets;NJ
+CYTE;Cologny-Temple;NS
+CYUS;Chancy-Usine;NJ
+CYVI;Chancy-Village;NJ
+CZPL;Cr.-de-Rozon-Pl.;NO
+DARD;Dardagny;NC
+DEBU;Debussy;NV
+DEFO;Deffaugt;NV
+DODE;La Dode;NJ
+DOLE;Dôle;NC
+DUCH;Dusonchet;NV
+EAUM;Eaumorte;NJ
+ECOG;Ecogia;NT
+EMED;Ecole-Médecine;NC
+ENVE;Entrée-Versoix;ND
+EPIN;Epinettes;NC
+ESIN;Eysins;ND
+ESRT;Les Esserts;NJ
+ETOI;P+R Etoile;NC
+ETOL;Etoile;NV
+EVOR;Evordes;NO
+FALQ;Falquets;NP
+FAVR;Place Favre;NK
+FAYA;Les Fayards;ND
+FDUS;Dussaud;NC
+FEMA;Ferney-V.-Mairie;NE
+FENE;La Fenêtre;ND
+FEUL;Feuillat;NO
+FILI;Fillion;NO
+FLCE;Florence;NV
+FLOR;Floralies;NA
+FNEX;Founex;ND
+FOAN;Anières-Foyer;NP
+FOLN;Foulon;NM
+FONT;Fontenette;NO
+FORU;Forumeyrin;NA, NC
+FOSA;Fossard;NV
+FRDI;Fraidieu;NS
+FRIS;Florissant;NV
+FRON;Frontenex;NP
+FRRE;Bois-des-Frères;NC
+FTAI;Foretaille;ND
+FVDO;Ferney-V.-Douane;NE
+GAIU;La Gabiule;NS
+GAUL;Général de Gaulle;NV
+GCAN;Grange-Canal;NK
+GCHN;Gros-Chêne;NJ
+GCMP;Grand-Champ;NC
+GDHA;Grand-Hangar;NA
+GEBE;Genthod-Bellevue;ND
+GENT;Bois-Gentil;NV
+GETE;De-Ternier;NJ
+GFAQ;Grange-Falquet;NK
+GIAC;Giacometti;NE
+GIOL;Gardiol;NE
+GLAI;Galaise;NM
+GMAR;Gaillard-Marché;NV
+GOS0;Gos;NO
+GOUL;Goulart;NA
+GPRE;Grand-Pré;NE
+GRAN;Grangettes;NK
+GRCA;Grand-Cara;NK
+GRDL;Gradelle;NP
+GRES;Grésy;NK
+GRVI;Meyrin-Gravière;NA
+GSAC;Gd-Saconnex-Pl.;NE, NT
+GSDN;Gd-Saconnex-Dne;NE
+GSMA;Gd-Sac.-Mairie;NT
+GSON;Graveson;NK, NV
+GTVI;Genthod-Village;ND
+GUYE;Guye;NC
+GYBA;Baraque-à-Cloud;NP
+GYPO;Gy-Poste;NP
+GYTE;Gy-Temple;NP
+HAMA;Hauts-de-Magny;NE
+HBOD;Henry Bordeaux;NV
+HERM;Hermance;NS
+HIMP;Hôtel des Impôts;NV
+HOFL;Horloge Fleurie;NS
+HTAI;Hautains;NA
+HTCH;Hôpital Trois-Chêne;NK
+HTOU;Hôpital-La Tour;NA
+ICC0;ICC;NA
+IFRA;Ile de France;NV
+INTR;Intercontinental;NT
+ISAM;Isaac-Mercier;NK, NM
+JAGI;Jargilières;NE
+JALP;Jardin-Alpin-Vi.;NA, NC
+JMEL;Jumelles;NK
+JMON;Jean Monnet;NA
+JOCT;Jonction;NC, NJ
+JPSA;De-Sauvage;NC
+JUBE;Jussy-Bellebouche;NK
+JUCH;Jussy-Château;NK
+JUMR;Jussy-Meurets;NK
+JUPL;Jussy-Place;NK
+JVIL;De-Joinville;NA
+JVUY;Vüy;NO
+LABL;La Blanche;NP
+LACH;La Chêna;NP
+LACO;Laconnex;NM
+LADO;La Donzelle;NC
+LAFA;Parc La Fantasia;NV
+LAND;Landecy;NO
+LATU;La Tuilière;ND
+LBRG;Léon Bourgeois;NV
+LFOR;Le-Fort;NP
+LFRG;La Forge;NK
+LGLI;Lycée des Glières;NV
+LHCY;Hauts-Cessy;NE
+LIBR;Libération;NV
+LOCH;En Louche;NM
+LOUR;La Loure;NK
+LRON;Livron;NV
+LTOU;La Tour;NV
+LULY;Lully;NM
+LYON;Lyon;NA, NC, NE
+MACH;Machéry;ND, NT
+MAGE;Maison-Rouge;NC
+MAIX;Maisonnex;NA
+MALA;Malagnou;NV
+MAPA;Maison de la Paix;ND
+MARG;Marguerite;NS
+MATH;Thônex-Mairie;NV
+MCON;Maconnex;NE
+MEGL;Meinier-Eglise;NP
+MEMA;Meyrin-Mairie;NA
+MEPR;Meinier-Pralys;NP
+METR;Métropole;NA, NC, NJ, NS
+MGRE;Montalègre;NS
+MICE;Mies;ND
+MIDE;Mon-Idée;NK
+MIES;Mies;ND
+MILT;Millet;NV
+MIRE;Miremont;NO
+MLBA;Moillebeau;NE
+MLER;Milière;NO
+MLGN;Malagny;ND
+MLIN;Le Moulin;NC
+MLPT;Malpertuis;NJ
+MLRD;Molard;NA, NC, NJ, NK, NP, NV
+MLVT;Malivert;NA
+MNEU;Maisons-Neuves;NP
+MOIL;Moillesulaz;NK, NV
+MOLE;Môle;ND
+MOLL;Mollaz;NM
+MONE;Lycée J.Monnet;NV
+MORL;Crêts-Morillon;NT
+MOUI;La Mouille;NO
+MOVE;Moulin-la-Grave;NM
+MPAR;Mais. Parlements;NE
+MRIC;Moulin Richelien;NT
+MRTI;Martinet;NJ
+MSNT;Maisonnette;NM
+MTBL;Mont-Blanc;NA, NC, NS
+MTCH;Montchoisy;NP
+MTFL;Montfleury;ND
+MTOU;Meinier-Tour;NP
+MURA;Murailles;NP
+MUSE;Muséum;NV
+MVER;Moulin-de-Vert;NJ
+MYRN;Meyrin-Village;NA
+NAIS;Nant-d'Aisy;NS
+NANT;Le Nant;ND, NT
+NATI;Nations;ND, NT
+NGAR;Nyon-Gare;ND
+OBGE;Observatoire GE;NT
+ONEX;Onex-Salle communale;NJ
+ONMA;Onex-Marché;NJ
+OUCH;Les Ouches;NC
+OXFR;Ornex-Fruitière;NE
+PAGN;Pl. d'Allemogne;NA
+PAIL;Pailly-Balexert;NA
+PARC;Parcs;NS
+PASS;La Passe;NJ
+PBOC;Pont-Bochet;NK
+PBRU;Planche-Brulée;NE
+PCEA;Pont-Céard;ND
+PCHA;Plateau Champel;NO
+PEIL;Peillonnex;NK
+PEMA;Perly-Mairie;NM
+PENT;Penthes;ND
+PESC;Peschier;NO
+PEUP;Peupliers;NK
+PEVI;Perly-Village;NM
+PGRA;Petite-Grave;NJ
+PIBO;Pierre à Bochet;NK
+PINC;Pinchat-la-Tour;NO
+PLDI;Palladium;NC, NJ
+PLEC;La Plaine-Ecole;NC
+PLEV;Pl. Eaux-Vives;NP, NS
+PLEY;Palais Eynard;NO
+PLGE;Genève-Plage;NS
+PLIO;Lion;NA
+PLMA;Pl. des Marchés;NV
+PLNT;Planet;NT
+PLOU;Plan-les-Ouates;NM
+PLPA;Plainpalais;NM
+PLTA;Planta;NP
+PLUL;Pont-de-Lully;NM
+PMIO;Petit-Miolan;NP
+PMOR;Place A. Moret;NV
+PNEV;Place de Neuve;NO
+POCH;Port Choiseul;ND
+POLT;Place en Poulet;NA
+POMI;Le Pommier;NE, NT
+PONT;Pontets;NM
+POST;Poste;NT
+POTE;Poterie;NA, NE
+POUS;Peney-Dessous;NC
+PPAL;Prés-Palais;NS
+PPLA;Prénépla;NE
+PPOL;Pré-Polly;NM
+PR47;P+R P47;NE
+PRAR;Prairie;NV
+PRBE;P+R Bernex;NJ
+PREL;La Prêle;NT
+PREV;Prevessin-Möens;NE
+PRGM;P+R Gare Meyrin;NC
+PRGR;Progrès;NC
+PRLA;La Pralay;ND
+PRRI;Prairie;NC
+PRUL;Prulay;NA
+PSAC;Petit-Saconnex;NE
+PSGE;Presinge;NK
+PSRY;Passeiry;NM
+PSSY;Peissy;NC
+PSUD;Plein-Sud;NK
+PTAR;Pont-d'Arve;NM
+PTLA;Petit-Lancy;NJ
+PTOU;Les Petoux;NK
+PTPE;Pont-de-Peney;NJ
+PUMA;Puplinge-Mairie;NK
+PYMA;Pregny-Mairie;ND
+PYVI;Pregny-Village;ND
+QUID;Quidort;NJ
+RANN;Rte d'Annecy;NO
+REFT;Le Renfort;NM
+RICH;Richelien;NT
+RIEU;Rieu;NV
+RIPP;Rippaz;NS
+RIVE;Rive;NA, NC, NJ, NK, NP, NS, NV
+RLAC;Rue du Lac;NS
+RLUL;Rte de Lullier;NK
+ROCH;Roches;NK
+ROMA;Romagny;NV
+RPRS;Rte de Presinge;NK
+RSMA;R. de St-Maurice;NS
+RTEP;Rte d'Epeisses;NJ
+RUSS;Russin-Village;NC
+RUTH;Ruth;NS
+SADN;Sauverny-Douane;NT
+SAGY;Le Saugy;ND
+SAMA;Sauverny-Martinet;NT
+SCAS;Sous-Cassan;NV
+SCEC;Sainte-Cécile;NA
+SCHA;Seuchat;NT
+SERV;Servette;NA, NE
+SEVI;Sézenove-Village;NM
+SEZG;Sézegnin;NM
+SGBO;Sergy-Bourg;NA
+SGGA;Sergy-Gare;NA
+SGNY;Ségny;NE
+SIGN;Signal;NC
+SILO;Sillons;NK
+SIMO;Sismondi;ND
+SION;Sionnet;NK
+SOLE;Le Soleil;NP
+SRMA;Soral-Mairie;NM
+SRVI;Soral-Village;NM
+SSCH;Sous-Chevrens;NS
+STAL;De Staël;NM
+STLA;Stand-Laconnex;NM
+STLO;Saint-Loup;NT
+STND;Stand;NA, NC, NJ, NK, NM
+SUMO;Sur-le-Moulin;NM
+SUSE;Susette;NE
+SVEY;Stand-de-Veyrier;NO
+SVON;Savonnière;NS
+SYCS;Satigny-CS;NC
+SYEG;Satigny-Temple;NC
+SYMA;Satigny-Mairie;NC
+SYPO;Satigny-Poste;NC
+TANN;Tannay;ND
+TCRE;Tour-Carrée;NS
+THMA;Thoiry-Mairie;NA
+TILL;Les Tilleuls;NC
+TLIG;Tours Lignon;NC
+TMOU;Terre Mousson;NC
+TOUR;Tourelle;NE
+TREU;Treulaz;NJ
+TRIZ;Triaz;NS
+TRMB;Trembley;NE
+TRSI;Terrassière;NK, NV
+TRTI;Tunnel Routier;NE
+TUIL;La Tuilière;NM
+TURA;Ch. des Turaines;NP
+TXMA;Troinex-Mairie;NO
+TXVI;Troinex-Ville;NO
+UBER;Lancy-Hubert;NJ
+VALY;Vailly;NJ
+VAND;Vandoeuvres;NP
+VARV;Val-d'Arve;NO
+VCHA;Vieux Château;NV
+VDUR;Duret;NJ
+VELO;Vélodrome;NM
+VEMA;Vernier-Marché;NC
+VERD;Verdun;NV
+VERN;Vernes;NA
+VESY;Vessy;NO
+VEVI;Vernier-Village;NC
+VIDO;Vidollet;NT
+VIHH;Vich;ND
+VILL;Villereuse;NK
+VIUS;Vieusseux;NA
+VLLA;Villars;NS
+VLON;Vallon;NV
+VOLL;Vollandes;NS
+VRBE;Varembé;NT
+VREC;Veyrier-Ecole;NO
+VRLP;Vireloup;NT
+VRMT;Vermont;NT
+VSEG;Vésenaz-Eglise;NS
+VSNA;Vésenaz;NS
+VSNX;Versonnex;NE
+VSUI;Village-Suisse;NC
+VTRN;Veyr-Tournettes;NO
+VUIL;Vuillonnex;NJ
+VVRA;Valavran;ND
+VXAR;Versoix-Argand;ND, NT
+VXBO;Versoix-Bourg;ND
+VXGA;Versoix-Gare;ND, NT
+VXLA;Versoix-Lachenal;ND, NT
+VXVV;Vieux-Valavran;ND
+WEBR;Weber;NV
