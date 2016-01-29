@@ -17,7 +17,8 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     // MARK: Properties
     
     override func viewDidLoad() {
-        super.viewDidLoad()        
+        super.viewDidLoad()
+        tableView.separatorStyle = .SingleLine
     }
     
    
@@ -59,13 +60,13 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             
             let alertController = UIAlertController(title: "Confirmer ?", message: messageConfirmation, preferredStyle: UIAlertControllerStyle.Alert)
             
-            let deleteAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
+            let deleteAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
                 print("Delete button tapped")
             })
             
             alertController.addAction(deleteAction)
             
-            let okAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
+            let okAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
                 print("OK button tapped")
                 let messageVC = MFMessageComposeViewController()
                 
@@ -79,8 +80,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             alertController.addAction(okAction)
             
             presentViewController(alertController, animated: true, completion: nil)
-        }else{
-        
+        }else{        
             // create the alert
             let alert = UIAlertController(title: "Erreur", message: "Vous ne pouvez pas envoyer de SMS", preferredStyle: UIAlertControllerStyle.Alert)
             
@@ -88,7 +88,8 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
             
             // show the alert
-            self.presentViewController(alert, animated: true, completion: nil)        }
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
        
 
         

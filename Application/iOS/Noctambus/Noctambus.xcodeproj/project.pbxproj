@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D0194671C18853C00BC9BB7 /* PhysiqueArrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0194661C18853C00BC9BB7 /* PhysiqueArrets.swift */; };
+		9D0010061C5BDC3700C86C32 /* ProximiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0010051C5BDC3700C86C32 /* ProximiteTableViewController.swift */; };
+		9D0194671C18853C00BC9BB7 /* ArretsLigne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */; };
 		9D0194691C18941A00BC9BB7 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */; };
 		9D0896821C0EF0B500364E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */; };
 		9D3B24CF1C18214A00AC8AEE /* Depart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B24CE1C18214A00AC8AEE /* Depart.swift */; };
@@ -18,14 +19,23 @@
 		9D58FB511BD2579C00B2ACCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FB501BD2579C00B2ACCC /* Assets.xcassets */; };
 		9D58FB5F1BD2579C00B2ACCC /* NoctambusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */; };
 		9D597BF31C185AFD008DB276 /* ArretLocalisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */; };
+		9D7B5B301C330AE600A42316 /* LigneArretsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B5B2F1C330AE600A42316 /* LigneArretsTableViewController.swift */; };
 		9D87A9951C0F09BE007A425F /* DepartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */; };
 		9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */; };
 		9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */; };
+		9DBEAFE71C5A6D2A0062C43A /* ThermoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEAFE61C5A6D2A0062C43A /* ThermoTableViewController.swift */; };
+		9DBEAFE91C5A6DD80062C43A /* ThermoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEAFE81C5A6DD80062C43A /* ThermoTableViewCell.swift */; };
+		9DBEAFEB1C5A7EA70062C43A /* ThermoA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEAFEA1C5A7EA70062C43A /* ThermoA.swift */; };
 		9DCCD82B1C18332400747E0E /* DepartTableViewCellLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */; };
+		9DD80C541C2EAA5100AEAD6C /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD80C531C2EAA5100AEAD6C /* SettingsTableViewController.swift */; };
+		9DD80C561C2EB96A00AEAD6C /* PlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD80C551C2EB96A00AEAD6C /* PlansViewController.swift */; };
 		9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA51BD275A7002FF393 /* Tickets.swift */; };
 		9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */; };
 		9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */; };
 		9DF5317F1C2967D3008954CB /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5317E1C2967D3008954CB /* Reach.swift */; };
+		9DF544481C2E958A002868F2 /* LignesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF544471C2E958A002868F2 /* LignesTableViewCell.swift */; };
+		9DF5444A1C2E95C7002868F2 /* LignesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF544491C2E95C7002868F2 /* LignesTableViewController.swift */; };
+		9DF5444C1C2E96CC002868F2 /* Lignes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5444B1C2E96CC002868F2 /* Lignes.swift */; };
 		F3299398135E1AA7EBB56DF2 /* Pods_Noctambus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +51,8 @@
 
 /* Begin PBXFileReference section */
 		605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.debug.xcconfig"; sourceTree = "<group>"; };
-		9D0194661C18853C00BC9BB7 /* PhysiqueArrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysiqueArrets.swift; sourceTree = "<group>"; };
+		9D0010051C5BDC3700C86C32 /* ProximiteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximiteTableViewController.swift; sourceTree = "<group>"; };
+		9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsLigne.swift; sourceTree = "<group>"; };
 		9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
 		9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3B24CE1C18214A00AC8AEE /* Depart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Depart.swift; sourceTree = "<group>"; };
@@ -58,14 +69,23 @@
 		9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoctambusTests.swift; sourceTree = "<group>"; };
 		9D58FB601BD2579C00B2ACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretLocalisationViewController.swift; sourceTree = "<group>"; };
+		9D7B5B2F1C330AE600A42316 /* LigneArretsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LigneArretsTableViewController.swift; sourceTree = "<group>"; };
 		9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewController.swift; sourceTree = "<group>"; };
 		9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretViewController.swift; sourceTree = "<group>"; };
 		9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsTableViewCell.swift; sourceTree = "<group>"; };
+		9DBEAFE61C5A6D2A0062C43A /* ThermoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoTableViewController.swift; sourceTree = "<group>"; };
+		9DBEAFE81C5A6DD80062C43A /* ThermoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoTableViewCell.swift; sourceTree = "<group>"; };
+		9DBEAFEA1C5A7EA70062C43A /* ThermoA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoA.swift; sourceTree = "<group>"; };
 		9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewCellLogo.swift; sourceTree = "<group>"; };
+		9DD80C531C2EAA5100AEAD6C /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		9DD80C551C2EB96A00AEAD6C /* PlansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlansViewController.swift; sourceTree = "<group>"; };
 		9DEE6AA51BD275A7002FF393 /* Tickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
 		9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
 		9DF5317E1C2967D3008954CB /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		9DF544471C2E958A002868F2 /* LignesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesTableViewCell.swift; sourceTree = "<group>"; };
+		9DF544491C2E95C7002868F2 /* LignesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesTableViewController.swift; sourceTree = "<group>"; };
+		9DF5444B1C2E96CC002868F2 /* Lignes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lignes.swift; sourceTree = "<group>"; };
 		E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noctambus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,13 +118,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9D0010041C5BDBFD00C86C32 /* A proximite */ = {
+			isa = PBXGroup;
+			children = (
+				9D0010051C5BDC3700C86C32 /* ProximiteTableViewController.swift */,
+			);
+			name = "A proximite";
+			sourceTree = "<group>";
+		};
 		9D0522891BFC75D000E206A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				9DEE6AA51BD275A7002FF393 /* Tickets.swift */,
 				9D53F7D11C05C0B400DD8D51 /* Arrets.swift */,
 				9D3B24CE1C18214A00AC8AEE /* Depart.swift */,
-				9D0194661C18853C00BC9BB7 /* PhysiqueArrets.swift */,
+				9DBEAFEA1C5A7EA70062C43A /* ThermoA.swift */,
+				9DF5444B1C2E96CC002868F2 /* Lignes.swift */,
+				9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -134,18 +164,14 @@
 			isa = PBXGroup;
 			children = (
 				9D0522891BFC75D000E206A0 /* Model */,
-				9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */,
-				9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */,
-				9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */,
-				9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */,
-				9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */,
-				9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */,
-				9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */,
-				9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */,
+				9DBEAFE11C5A6A3F0062C43A /* Horaires */,
+				9D0010041C5BDBFD00C86C32 /* A proximite */,
+				9DBEAFE41C5A6AB30062C43A /* Lignes */,
+				9DBEAFE21C5A6A6D0062C43A /* Tickets */,
+				9DBEAFE51C5A6AE40062C43A /* Autres */,
 				9D58FB501BD2579C00B2ACCC /* Assets.xcassets */,
 				9D58FB551BD2579C00B2ACCC /* Info.plist */,
-				9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */,
-				9DF5317E1C2967D3008954CB /* Reach.swift */,
+				9DBEAFE31C5A6A8E0062C43A /* Lib */,
 				9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */,
 				9D0896811C0EF0B500364E2D /* LaunchScreen.storyboard */,
 				9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */,
@@ -160,6 +186,58 @@
 				9D58FB601BD2579C00B2ACCC /* Info.plist */,
 			);
 			path = NoctambusTests;
+			sourceTree = "<group>";
+		};
+		9DBEAFE11C5A6A3F0062C43A /* Horaires */ = {
+			isa = PBXGroup;
+			children = (
+				9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */,
+				9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */,
+				9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */,
+				9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */,
+				9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */,
+				9DCCD82A1C18332400747E0E /* DepartTableViewCellLogo.swift */,
+				9DBEAFE61C5A6D2A0062C43A /* ThermoTableViewController.swift */,
+				9DBEAFE81C5A6DD80062C43A /* ThermoTableViewCell.swift */,
+			);
+			name = Horaires;
+			sourceTree = "<group>";
+		};
+		9DBEAFE21C5A6A6D0062C43A /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */,
+				9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */,
+			);
+			name = Tickets;
+			sourceTree = "<group>";
+		};
+		9DBEAFE31C5A6A8E0062C43A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9D0194681C18941900BC9BB7 /* SwiftSpinner.swift */,
+				9DF5317E1C2967D3008954CB /* Reach.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		9DBEAFE41C5A6AB30062C43A /* Lignes */ = {
+			isa = PBXGroup;
+			children = (
+				9DF544491C2E95C7002868F2 /* LignesTableViewController.swift */,
+				9DF544471C2E958A002868F2 /* LignesTableViewCell.swift */,
+				9D7B5B2F1C330AE600A42316 /* LigneArretsTableViewController.swift */,
+			);
+			name = Lignes;
+			sourceTree = "<group>";
+		};
+		9DBEAFE51C5A6AE40062C43A /* Autres */ = {
+			isa = PBXGroup;
+			children = (
+				9DD80C531C2EAA5100AEAD6C /* SettingsTableViewController.swift */,
+				9DD80C551C2EB96A00AEAD6C /* PlansViewController.swift */,
+			);
+			name = Autres;
 			sourceTree = "<group>";
 		};
 		9DF0B0181BFC6E15006F3553 /* Frameworks */ = {
@@ -323,19 +401,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3B24D11C1826F100AC8AEE /* DepartTableViewCell.swift in Sources */,
+				9DF5444C1C2E96CC002868F2 /* Lignes.swift in Sources */,
 				9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */,
-				9D0194671C18853C00BC9BB7 /* PhysiqueArrets.swift in Sources */,
+				9D0194671C18853C00BC9BB7 /* ArretsLigne.swift in Sources */,
 				9D87A9951C0F09BE007A425F /* DepartTableViewController.swift in Sources */,
+				9D0010061C5BDC3700C86C32 /* ProximiteTableViewController.swift in Sources */,
 				9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */,
+				9DBEAFE91C5A6DD80062C43A /* ThermoTableViewCell.swift in Sources */,
 				9D0194691C18941A00BC9BB7 /* SwiftSpinner.swift in Sources */,
 				9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */,
+				9D7B5B301C330AE600A42316 /* LigneArretsTableViewController.swift in Sources */,
 				9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */,
 				9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */,
+				9DF544481C2E958A002868F2 /* LignesTableViewCell.swift in Sources */,
 				9DCCD82B1C18332400747E0E /* DepartTableViewCellLogo.swift in Sources */,
 				9DF5317F1C2967D3008954CB /* Reach.swift in Sources */,
+				9DD80C561C2EB96A00AEAD6C /* PlansViewController.swift in Sources */,
+				9DBEAFEB1C5A7EA70062C43A /* ThermoA.swift in Sources */,
 				9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */,
+				9DBEAFE71C5A6D2A0062C43A /* ThermoTableViewController.swift in Sources */,
 				9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */,
 				9D3B24CF1C18214A00AC8AEE /* Depart.swift in Sources */,
+				9DD80C541C2EAA5100AEAD6C /* SettingsTableViewController.swift in Sources */,
+				9DF5444A1C2E95C7002868F2 /* LignesTableViewController.swift in Sources */,
 				9D597BF31C185AFD008DB276 /* ArretLocalisationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +559,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Noctambus-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				"TEST_HOST[sdk=*]" = "";
 			};
 			name = Debug;
@@ -495,7 +583,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Noctambus-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

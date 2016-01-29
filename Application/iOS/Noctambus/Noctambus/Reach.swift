@@ -90,7 +90,7 @@ public class Reach {
             }, &context)
         
         SCNetworkReachabilityScheduleWithRunLoop(reachability, CFRunLoopGetMain(), kCFRunLoopCommonModes)
-    }
+    }   
     
 }
 

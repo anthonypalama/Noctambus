@@ -28,9 +28,7 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
-        
         search()
-        
     }
     
     func search(searchText: String? = ""){

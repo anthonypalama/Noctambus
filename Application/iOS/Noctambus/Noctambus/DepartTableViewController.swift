@@ -7,8 +7,6 @@
 //
 
 import UIKit
-//import Alamofire
-//import SwiftyJSON
 
 class DepartTableViewController: UITableViewController {
     
@@ -44,20 +42,26 @@ class DepartTableViewController: UITableViewController {
     
     override func viewDidAppear(animated: Bool) {
         let status = Reach().connectionStatus()
-        
         switch status {
         case .Unknown, .Offline:
             noInternetCo()
-        case .Online(.WWAN):
-            print("Connected via WWAN")
+        case .Online(.WWAN), .Online(.WiFi):
+            print("Connected")
             SwiftSpinner.show("Chargement des données...")
-            InternetOK()
-        case .Online(.WiFi):
-            SwiftSpinner.show("Chargement des données...")
-            print("Connected via WiFi")
             InternetOK()
         }
-        
+    }
+    
+    func handleRefresh(refreshControl: UIRefreshControl) {
+        let status = Reach().connectionStatus()
+        switch status {
+        case .Unknown, .Offline:
+            noInternetCo()
+            self.refreshControl!.endRefreshing()
+        case .Online(.WWAN), .Online(.WiFi):
+            print("Connected")
+            InternetOK()
+        }
     }
     
     
@@ -74,11 +78,14 @@ class DepartTableViewController: UITableViewController {
             case .Success:
                 if let value = response.result.value {
                     let json = JSON(value)
-                    //print(json)
                     self.parseJSON(json)
                 }
             case .Failure(let error):
                 print(error)
+                let alert = UIAlertController(title: "Service indisponible", message: "Le service est actuellement indisponible", preferredStyle: .Alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+                alert.addAction(defaultAction)
+                self.presentViewController(alert, animated: true, completion: nil)
             }
             dispatch_async(dispatch_get_main_queue()) {
                 SwiftSpinner.hide()
@@ -86,8 +93,6 @@ class DepartTableViewController: UITableViewController {
                 self.refreshControl!.endRefreshing()
             }
         }
-        
-        
     }
     
     func parseJSON(json: JSON) {
@@ -139,7 +144,9 @@ class DepartTableViewController: UITableViewController {
             //On charge l'image en fonction si le bus est là ou il n'y en a plus
             if(temps == "0"){
                 cell.busImage.image = UIImage(named:"LogoBus")
+                cell.accessoryType = .DisclosureIndicator
             }else{
+                cell.accessoryType = .None
                 cell.busImage.image = UIImage(named:"LogoNOBus")
             }
             
@@ -162,21 +169,9 @@ class DepartTableViewController: UITableViewController {
         }
     }
     
-    func handleRefresh(refreshControl: UIRefreshControl) {
-        let status = Reach().connectionStatus()
-        switch status {
-        case .Unknown, .Offline:
-            noInternetCo()
-            self.refreshControl!.endRefreshing()
-        case .Online(.WWAN):
-            print("Connected via WWAN")
-            InternetOK()
-        case .Online(.WiFi):
-            print("Connected via WiFi")
-            InternetOK()
-        }
-    }
     
+    
+    // MARK: - Navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier ==  "showMap"{
             let mapViewController = segue.destinationViewController as! ArretLocalisationViewController
@@ -184,7 +179,34 @@ class DepartTableViewController: UITableViewController {
             mapViewController.arretC = arret!.codeArret
             mapViewController.nomArretC = arret!.nomArret
             
+        } else if (segue.identifier == "showThermo" || segue.identifier == "showThermoLogo"){
+            
+            let thermoViewController = segue.destinationViewController as! ThermoTableViewController
+            let indexPath = tableView.indexPathForSelectedRow
+            let selectedDepart = nextDepart[indexPath!.row]
+            thermoViewController.depart = selectedDepart
         }
+    }
+    
+    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+        if identifier == "showThermoLogo"{
+            let indexPath = tableView.indexPathForSelectedRow
+            let selectedDepart = nextDepart[indexPath!.row]
+            
+            if (selectedDepart.waitingTime == "no more"){
+                //alert
+                let alert = UIAlertController(title: "Service terminé", message: "Service terminé à cet arrêt pour cette linge et cette destination.", preferredStyle: .Alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+                alert.addAction(defaultAction)
+                self.presentViewController(alert, animated: true, completion: nil)
+                //segue
+                return false
+            }
+            else{
+                return true
+            }
+        }
+        return true
     }
     
     /*
@@ -222,14 +244,6 @@ class DepartTableViewController: UITableViewController {
     }
     */
     
-    /*
-    // MARK: - Navigation
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
     
 }
