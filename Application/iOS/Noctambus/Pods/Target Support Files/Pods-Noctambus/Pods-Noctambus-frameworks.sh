@@ -86,6 +86,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Noctambus/Alamofire.framework"
   install_framework "Pods-Noctambus/Bolts.framework"
+  install_framework "Pods-Noctambus/KVNProgress.framework"
   install_framework "Pods-Noctambus/Parse.framework"
   install_framework "Pods-Noctambus/ParseUI.framework"
   install_framework "Pods-Noctambus/SwiftyJSON.framework"
@@ -93,6 +94,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Noctambus/Alamofire.framework"
   install_framework "Pods-Noctambus/Bolts.framework"
+  install_framework "Pods-Noctambus/KVNProgress.framework"
   install_framework "Pods-Noctambus/Parse.framework"
   install_framework "Pods-Noctambus/ParseUI.framework"
   install_framework "Pods-Noctambus/SwiftyJSON.framework"

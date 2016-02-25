@@ -13,10 +13,10 @@ import Parse
 
 class Lignes : PFObject, PFSubclassing{
     // MARK: Properties
-    @NSManaged var departName: String
+    @NSManaged var idLignes: String
+    @NSManaged var originName: String
     @NSManaged var destinationName: String
     @NSManaged var lineCode: String
-    @NSManaged var SequenceArret : [String]
     
     override class func initialize() {
         var onceToken: dispatch_once_t = 0
@@ -26,13 +26,13 @@ class Lignes : PFObject, PFSubclassing{
     }
     
     // MARK: Initialization
-    init(departName: String, destinationName: String, lineCode: String, SequenceArret: [String]) {
+    init(idLignes: String, originName: String, destinationName: String, lineCode: String) {
         // Initialize stored properties.
         super.init()
-        self.departName = departName
+        self.idLignes = idLignes
+        self.originName = originName
         self.destinationName = destinationName
         self.lineCode = lineCode
-        self.SequenceArret = SequenceArret
     }
     
     override class func query() -> PFQuery? {

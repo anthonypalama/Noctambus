@@ -60,13 +60,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             
             let alertController = UIAlertController(title: "Confirmer ?", message: messageConfirmation, preferredStyle: UIAlertControllerStyle.Alert)
             
-            let deleteAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
-                print("Delete button tapped")
-            })
-            
-            alertController.addAction(deleteAction)
-            
-            let okAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
+            let buyAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
                 print("OK button tapped")
                 let messageVC = MFMessageComposeViewController()
                 
@@ -77,7 +71,15 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
                 self.presentViewController(messageVC, animated: true, completion: nil)
                 
             })
-            alertController.addAction(okAction)
+            alertController.addAction(buyAction)
+            
+            let cancelAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Cancel, handler: {(alert :UIAlertAction!) in
+                print("Delete button tapped")
+            })
+            
+            alertController.addAction(cancelAction)
+            
+
             
             presentViewController(alertController, animated: true, completion: nil)
         }else{        

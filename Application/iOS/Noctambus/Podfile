@@ -8,6 +8,7 @@ pod ‘Parse’
 pod ‘ParseUI’
 pod ‘Alamofire’
 pod ’SwiftyJSON’
+pod ’KVNProgress'
 end
 
 target 'NoctambusTests' do

@@ -8,6 +8,7 @@
 import MapKit
 import UIKit
 import Parse
+import KVNProgress
 
 class ArretLocalisationViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
@@ -51,10 +52,11 @@ class ArretLocalisationViewController: UIViewController, CLLocationManagerDelega
             self.locationManager.delegate = self
             self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
             self.locationManager.requestWhenInUseAuthorization()
-            SwiftSpinner.show("Localisation en cours")
+            //SwiftSpinner.show("Localisation en cours")
+            KVNProgress.showWithStatus("Localisation en cours")
             self.locationManager.startUpdatingLocation()
             self.ArretMapView.showsUserLocation = true
-            SwiftSpinner.hide()
+            KVNProgress.dismiss()
         
         }else{
            print("activer service de loca")

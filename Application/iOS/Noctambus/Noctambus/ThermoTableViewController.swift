@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KVNProgress
 
 class ThermoTableViewController: UITableViewController {
     //recupere le départ selectionne dans la vue precedente
@@ -19,12 +20,7 @@ class ThermoTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         busNavigationItem.title = "\(depart!.lineCode)\(" → ")\(depart!.destinationName)"
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.refreshControl?.addTarget(self, action: "handleRefresh:", forControlEvents: UIControlEvents.ValueChanged)
     }
     
     func noInternetCo(){
@@ -47,10 +43,21 @@ class ThermoTableViewController: UITableViewController {
             noInternetCo()
         case .Online(.WWAN), .Online(.WiFi):
             print("Connected")
-            SwiftSpinner.show("Chargement des données...")
+            KVNProgress.showWithStatus("Chargement des données...")
             InternetOK()
         }
-        
+    }
+    
+    func handleRefresh(refreshControl: UIRefreshControl) {
+        let status = Reach().connectionStatus()
+        switch status {
+        case .Unknown, .Offline:
+            noInternetCo()
+            self.refreshControl!.endRefreshing()
+        case .Online(.WWAN), .Online(.WiFi):
+            print("Connected")
+            InternetOK()
+        }
     }
     
     func callWebService(){
@@ -76,12 +83,13 @@ class ThermoTableViewController: UITableViewController {
                 self.presentViewController(alert, animated: true, completion: nil)
             }
             dispatch_async(dispatch_get_main_queue()) {
-                SwiftSpinner.hide()
+                KVNProgress.dismiss()
                 self.tableView.reloadData()
+                self.refreshControl!.endRefreshing()
                 let indexPath = NSIndexPath(forRow: self.indexSc, inSection: 0)
                 self.tableView.scrollToRowAtIndexPath(indexPath, atScrollPosition: UITableViewScrollPosition.Top, animated: true)
-                //self.refreshControl!.endRefreshing()
             }
+ 
         }
     }
     
@@ -124,7 +132,17 @@ class ThermoTableViewController: UITableViewController {
         }
         
         cell.thNomArretLabel.text = depart.stopName
-        cell.arrivalTimeLabel.text = "\(depart.arrivalTime)\'"
+        
+        let time = depart.arrivalTime
+        if time == "00"{
+            cell.arrivalTimeLabel.text = "🚍"
+        }else if time == ""{
+            cell.arrivalTimeLabel.text = ""
+        }else{
+            cell.arrivalTimeLabel.text = "\(time)\'"
+        }
+        
+        
         
         if (indexPath.row == 0){
             cell.thermoImageView.image = UIImage(named:"thermoD")

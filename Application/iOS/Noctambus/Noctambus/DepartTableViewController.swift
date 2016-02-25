@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KVNProgress
 
 class DepartTableViewController: UITableViewController {
     
@@ -46,8 +47,7 @@ class DepartTableViewController: UITableViewController {
         case .Unknown, .Offline:
             noInternetCo()
         case .Online(.WWAN), .Online(.WiFi):
-            print("Connected")
-            SwiftSpinner.show("Chargement des données...")
+            KVNProgress.showWithStatus("Chargement des données...")
             InternetOK()
         }
     }
@@ -88,9 +88,10 @@ class DepartTableViewController: UITableViewController {
                 self.presentViewController(alert, animated: true, completion: nil)
             }
             dispatch_async(dispatch_get_main_queue()) {
-                SwiftSpinner.hide()
+                KVNProgress.dismiss()
                 self.tableView.reloadData()
                 self.refreshControl!.endRefreshing()
+                
             }
         }
     }

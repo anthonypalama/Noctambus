@@ -12,44 +12,14 @@ import Parse
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    var window: UIWindow?
-    
+    var window: UIWindow?    
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        Parse.enableLocalDatastore()
-        
-        // Initialize Parse.
+        //GMSServices.provideAPIKey("AIzaSyDyGadENprhy9H-ZF6yeom6yEQtywIKZoU")
+        Parse.enableLocalDatastore()        // Initialize Parse.
         Parse.setApplicationId("PIKbWCJ808pCwESSaqPbOiey1v8YP9ju6osXBbAw", clientKey: "Ev5LuFbUPtXWYKQXj6e71npPOLpcdQ4zIWsJUDKT")
-        
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
-        
-        //LocalStorage ARRETS
-        let queryArrets = Arrets.query()
-        queryArrets!.limit = 1000
-        queryArrets!.findObjectsInBackgroundWithBlock { (objects, error) -> Void in
-            if (error == nil) {
-                // shuffle objects here?
-                PFObject.pinAllInBackground(objects, withName:"Arrets", block: nil)
-                
-            }
-        }
-        
-        //LocalStorage TICKETS
-        let query = Tickets.query()
-        query!.findObjectsInBackgroundWithBlock { (objects, error) -> Void in
-            
-            if (error == nil) {
-                // shuffle objects here?
-                PFObject.pinAllInBackground(objects, withName:"Tickets", block: nil)
-                
-            }
-        }
-
-        
-        
-        
         return true
     }
     

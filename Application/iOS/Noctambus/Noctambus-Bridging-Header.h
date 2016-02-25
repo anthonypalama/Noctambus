@@ -11,6 +11,6 @@
 
 #import <Alamofire/Alamofire-umbrella.h>
 #import <SwiftyJSON/SwiftyJSON-umbrella.h>
-
+#import <KVNProgress/KVNProgress.h>
 
 #endif /* Noctambus_Bridging_Header_h */

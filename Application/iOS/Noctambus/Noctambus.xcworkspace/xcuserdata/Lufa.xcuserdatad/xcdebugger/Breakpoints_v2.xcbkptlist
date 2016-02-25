@@ -9,14 +9,91 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Noctambus/ArretsLigne.swift"
-            timestampString = "473110718.175235"
+            filePath = "Noctambus/ItineraireViewController.swift"
+            timestampString = "477487717.307501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "ArretsLigne"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ItineraireViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Noctambus.ItineraireViewController.routeMapsButtonItem.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIBarButtonItem&gt;"
+                  moduleName = "Noctambus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lufa/Desktop/Noctambus/Noctambus/ItineraireViewController.swift"
+                  timestampString = "477487717.391954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Noctambus.ItineraireViewController.routeMapsButtonItem.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIBarButtonItem&gt;"
+                  moduleName = "Noctambus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lufa/Desktop/Noctambus/Noctambus/ItineraireViewController.swift"
+                  timestampString = "477487717.39645"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Noctambus.ItineraireViewController.routeMapsButtonItem.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIBarButtonItem&gt;"
+                  moduleName = "Noctambus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lufa/Desktop/Noctambus/Noctambus/ItineraireViewController.swift"
+                  timestampString = "477487717.396717"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Noctambus.ItineraireViewController.init (Noctambus.ItineraireViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Noctambus.ItineraireViewController"
+                  moduleName = "Noctambus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lufa/Desktop/Noctambus/Noctambus/ItineraireViewController.swift"
+                  timestampString = "477487717.396891"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Noctambus.ItineraireViewController.init (Noctambus.ItineraireViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Noctambus.ItineraireViewController&gt;"
+                  moduleName = "Noctambus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lufa/Desktop/Noctambus/Noctambus/ItineraireViewController.swift"
+                  timestampString = "477487717.39705"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

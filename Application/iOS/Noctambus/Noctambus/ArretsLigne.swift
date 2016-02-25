@@ -25,6 +25,6 @@ class ArretsLigne {
         self.stopName = stopName
         self.latitude = latitude
         self.longitude = longitude
-
+        
     }
 }

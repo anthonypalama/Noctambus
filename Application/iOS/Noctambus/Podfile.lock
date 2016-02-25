@@ -1,6 +1,7 @@
 PODS:
-  - Alamofire (3.1.5)
+  - Alamofire (3.2.0)
   - Bolts/Tasks (1.6.0)
+  - KVNProgress (2.2.2)
   - Parse (1.12.0):
     - Bolts/Tasks (~> 1.5)
   - ParseUI (1.2.0):
@@ -10,13 +11,15 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - KVNProgress
   - Parse
   - ParseUI
   - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
   Bolts: f52a250053bb517ca874523c3913776359ab3def
+  KVNProgress: 4697347e21e37fdaa5264ebc24e377c205a50328
   Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a

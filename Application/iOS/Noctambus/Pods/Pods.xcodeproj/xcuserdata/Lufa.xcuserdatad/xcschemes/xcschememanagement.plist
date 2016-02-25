@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KVNProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>069345780A430A687ACB4B57BA16A118</key>
+		<key>0186EE20AB4D310515B8041966DB7AEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>432ECC54282C84882B482CCB4CF227FC</key>
+		<key>0632E2A98746971F55C3388A7972784B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E1F78B1C5F8F2CCD0E68552EAF2B9B52</key>
+		<key>DC369E1C4A04D753FA1FC72612FF4545</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3349885F928F0F8C4A3482D2C633819</key>
+		<key>E1F78B1C5F8F2CCD0E68552EAF2B9B52</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -54,11 +54,11 @@ class LignesTableViewController: PFQueryTableViewController {
         //5
         let ligne = object as! Lignes
         
-        print(ligne)
+       // print(ligne)
         //6
         
         cell.logoLigneImageView.image = UIImage(named: ligne.lineCode)
-        cell.departLabel.text = ligne.departName
+        cell.departLabel.text = ligne.originName
         cell.destinationLabel.text = ligne.destinationName
 
         return cell

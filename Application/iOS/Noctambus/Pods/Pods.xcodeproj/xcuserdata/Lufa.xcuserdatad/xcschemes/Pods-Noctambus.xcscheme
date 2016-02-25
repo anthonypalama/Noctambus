@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5DB100FC7758F8590123997C'
+               BlueprintIdentifier = 'F5DE8D6A1F80E4BD73B39E09'
                BlueprintName = 'Pods-Noctambus'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Noctambus.framework'>

@@ -89,7 +89,6 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
         let obj = self.data[indexPath.row]
         cell.arretNomLabel.text = obj["nomArret"] as? String
         let tableLigne = obj["ligneArret"] as! NSArray
-        print(tableLigne.count)        
 
         switch (tableLigne.count){
         case 1:
@@ -111,7 +110,7 @@ class ArretViewController: UIViewController, UITableViewDataSource, UITableViewD
             break
         case _ where tableLigne.count > 5:
             cell.logoIV1.image = UIImage(named: tableLigne[2] as! String); cell.logoIV2.image = UIImage(named: tableLigne[5] as! String); cell.logoIV3.image = UIImage(named: tableLigne[1] as! String)
-            cell.logoIV4.image = UIImage(named: tableLigne[3] as! String); cell.logoIV5.image = UIImage(named: tableLigne[0] as! String); cell.logoIV6.image = UIImage(named: tableLigne[4] as! String)
+            cell.logoIV4.image = UIImage(named: tableLigne[4] as! String); cell.logoIV5.image = UIImage(named: tableLigne[0] as! String); cell.logoIV6.image = UIImage(named: tableLigne[3] as! String)
             break
         default:
             break
