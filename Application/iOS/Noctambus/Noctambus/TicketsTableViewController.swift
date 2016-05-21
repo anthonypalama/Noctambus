@@ -19,6 +19,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .SingleLine
+        //self.refreshControl?.addTarget(self, action: "handleRefresh:", forControlEvents: UIControlEvents.ValueChanged)
     }
     
    
@@ -39,10 +40,8 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
         //4
         let cell = tableView.dequeueReusableCellWithIdentifier("TicketsCell", forIndexPath: indexPath) as! TicketsTableViewCell
         //5
-        let ticket = object as! Tickets
-        
+        let ticket = object as! Tickets        
         //6
-        
         let photo = UIImage(named: ticket.namelogo)
         cell.descriptionLabel.text = ticket.descriptionT
         cell.typeLabel.text = ticket.name
@@ -61,7 +60,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             let alertController = UIAlertController(title: "Confirmer ?", message: messageConfirmation, preferredStyle: UIAlertControllerStyle.Alert)
             
             let buyAction = UIAlertAction(title: "Oui", style: UIAlertActionStyle.Destructive, handler: {(alert :UIAlertAction!) in
-                print("OK button tapped")
+                //print("OK button tapped")
                 let messageVC = MFMessageComposeViewController()
                 
                 messageVC.body = ticketSelect.code;
@@ -74,7 +73,7 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
             alertController.addAction(buyAction)
             
             let cancelAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.Cancel, handler: {(alert :UIAlertAction!) in
-                print("Delete button tapped")
+                //print("Delete button tapped")
             })
             
             alertController.addAction(cancelAction)
@@ -85,10 +84,8 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
         }else{        
             // create the alert
             let alert = UIAlertController(title: "Erreur", message: "Vous ne pouvez pas envoyer de SMS", preferredStyle: UIAlertControllerStyle.Alert)
-            
             // add an action (button)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-            
             // show the alert
             self.presentViewController(alert, animated: true, completion: nil)
         }
@@ -100,18 +97,62 @@ class TicketsTableViewController: PFQueryTableViewController, MFMessageComposeVi
     func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult){
         switch (result.rawValue) {
         case MessageComposeResultCancelled.rawValue:
-            print("Message was cancelled")
+            //print("Message was cancelled")
             self.dismissViewControllerAnimated(true, completion: nil)
         case MessageComposeResultFailed.rawValue:
-            print("Message failed")
+            //print("Message failed")
             self.dismissViewControllerAnimated(true, completion: nil)
         case MessageComposeResultSent.rawValue:
-            print("Message was sent")
+            //print("Message was sent")
             self.dismissViewControllerAnimated(true, completion: nil)
         default:
             break;
         }
     }
+    
+    /*func handleRefresh(refreshControl: UIRefreshControl) {
+        let status = Reach().connectionStatus()
+        switch status {
+        case .Unknown, .Offline:
+            noInternetCo()
+            self.refreshControl!.endRefreshing()
+        case .Online(.WWAN), .Online(.WiFi):
+            InternetOK()
+        }
+    }
+    
+    func noInternetCo(){
+        let alert = UIAlertController(title: "Pas de connexion internet", message: "La connexion internet semble interrompue.", preferredStyle: .Alert)
+        let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        alert.addAction(defaultAction)
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    func InternetOK(){
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+            //Tickets
+            let queryTickets = Tickets.query()
+            do {
+                let a = try queryTickets?.fromLocalDatastore().findObjects()
+                let b = try Tickets.query()!.findObjects()
+                
+                //UNPIN les object du localstorage
+                try PFObject.unpinAll(a, withName: "Tickets")
+                //PIn les object du serveur parse
+                try PFObject.pinAll(b, withName: "Tickets")
+                
+            }
+            catch{
+                print("error")
+            }
+            
+            dispatch_async(dispatch_get_main_queue()) {
+                self.loadObjects()
+    
+            }
+        }
+    } */
     
     /*
     // Override to support conditional editing of the table view.

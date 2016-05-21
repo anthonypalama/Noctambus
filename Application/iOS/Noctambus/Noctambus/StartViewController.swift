@@ -10,8 +10,17 @@ import UIKit
 import Parse
 
 class StartViewController: UIViewController {
+    
+    let versionNoctambus = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
+    var versionDataLocal : Double!
+    
+    var versionAppIosParse : String!
+    var versionDataParse : Double!
+    
+    
     @IBOutlet weak var loadIndicatorView: UIActivityIndicatorView!
     let messageNoInternet = "Impossible de se connecter au serveur Noctambus. Vous devez être connecté pour le 1er lancement de l'application. Veuillez vérifier vos réglages."
+    let messageNewVersion = "Une nouvelle version de l'application est disponible sur l'App Store"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,12 +33,11 @@ class StartViewController: UIViewController {
         if(NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce"))
         {
             dataSync()
-            self.startApplication()
         }
         else
         {
             // 1er lancement de l'application on recupere les donnees avant de lancer l'application
-            checkInternet()
+            checkInternetFirstLaunch()
         }
     }
     
@@ -42,7 +50,7 @@ class StartViewController: UIViewController {
     }
     
     
-    func checkInternet(){
+    func checkInternetFirstLaunch(){
         let status = Reach().connectionStatus()
         switch status {
         case .Unknown, .Offline:
@@ -50,7 +58,7 @@ class StartViewController: UIViewController {
             let alertController = UIAlertController(title: "Pas de connexion internet", message: messageNoInternet, preferredStyle: UIAlertControllerStyle.Alert)
             let deleteAction = UIAlertAction(title: "Réessayer", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
                 self.loadIndicatorView.startAnimating()
-                self.checkInternet()
+                self.checkInternetFirstLaunch()
             })
             alertController.addAction(deleteAction)
             presentViewController(alertController, animated: true, completion: nil)
@@ -63,27 +71,15 @@ class StartViewController: UIViewController {
     
     //Recueration des donnees pour le 1er lancement de l'application
     func firstDataLaunch(){
+        print("1er lacnement donnee")
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
-            //Arrêts
-            let queryArrets = Arrets.query()
-            queryArrets!.limit = 700
-            //Tickets
-            let queryTickets = Tickets.query()
+            
+            self.pinAll()
             
             
-            do {
-                let resultArrets = try queryArrets!.findObjects()
-                try PFObject.pinAll(resultArrets, withName: "Arrets")
-                
-                let resultTickets = try queryTickets!.findObjects()
-                try PFObject.pinAll(resultTickets, withName: "Tickets")
-            }
-            catch{
-                print("error")
-            }
-            dispatch_async(dispatch_get_main_queue()) {
-                print("FIN")
+            
+                        dispatch_async(dispatch_get_main_queue()) {
                 NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
                 NSUserDefaults.standardUserDefaults().synchronize()
                 self.startApplication()
@@ -92,33 +88,138 @@ class StartViewController: UIViewController {
         }
     }
     
+    func pinAll(){
+        do {
+            //arrets commericaux
+            let resultArrets = try Arrets.query()!.findObjects()
+            try PFObject.pinAll(resultArrets, withName: "Arrets")
+            //ticket
+            let resultTickets = try Tickets.query()!.findObjects()
+            try PFObject.pinAll(resultTickets, withName: "Tickets")
+            //arrets physiques
+            let resultPhyisque = try ArretsPhysique.query()!.findObjects()
+            try PFObject.pinAll(resultPhyisque, withName: "ArretsPhysique")
+            //lignes
+            let resultLignes = try Lignes.query()!.findObjects()
+            try PFObject.pinAll(resultLignes, withName: "Lignes")
+            //arets Lignes
+            let resultArrLignes = try ArretsLigne.query()!.findObjects()
+            try PFObject.pinAll(resultArrLignes, withName: "ArretsLigne")
+            //Maj
+            let resultMaj = try Maj.query()!.findObjects()
+            try PFObject.pinAll(resultMaj, withName: "Maj")
+        }
+        catch{
+            print("error")
+        }
+
+    }
+    
+    
+    
     func dataSync(){
-        
-        //LocalStorage ARRETS
-        let queryArrets = Arrets.query()
-        queryArrets!.limit = 700
-        queryArrets!.findObjectsInBackgroundWithBlock { (objects, error) -> Void in
-            if (error == nil) {
-                // shuffle objects here?
-                PFObject.pinAllInBackground(objects, withName:"Arrets", block: nil)
-            }
+        let status = Reach().connectionStatus()
+        switch status {
+        case .Unknown, .Offline:
+            self.startApplication()
+        case .Online(.WWAN), .Online(.WiFi):
+            checkVersion()
         }
         
-        //LocalStorage TICKETS
-        let query = Tickets.query()
-        query!.findObjectsInBackgroundWithBlock { (objects, error) -> Void in
+        
+        
+    }
+    
+    func checkVersion(){
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
             
-            if (error == nil) {
-                // shuffle objects here?
-                PFObject.pinAllInBackground(objects, withName:"Tickets", block: nil)
+            
+            let queryMajLocal: PFQuery = PFQuery(className: "Maj")
+            queryMajLocal.fromLocalDatastore()
+            
+            let queryMaj: PFQuery = PFQuery(className: "Maj")
+            
+            do {
+                //MAJ LOCAL
+                let resultLocal = try queryMajLocal.getFirstObject()
+                self.versionDataLocal = resultLocal.objectForKey("versionData") as! Double
                 
+                //MAJ PARSE
+                let resultParse = try queryMaj.getFirstObject()
+                self.versionAppIosParse = resultParse.objectForKey("versionIOS") as! String
+                self.versionDataParse = resultParse.objectForKey("versionData") as! Double
+            }
+            catch{
+                print("error")
+            }
+            dispatch_async(dispatch_get_main_queue()) {
+                if (self.versionNoctambus == self.versionAppIosParse){
+                    //c'est la meme version check si les données sont à jour
+                    print("tu as la derniere version de l'application")
+                    
+                    if(self.versionDataLocal == self.versionDataParse){
+                        print("tu as la derniere version des donnees")
+                        self.startApplication()
+                    }else{
+                        print("tu n'as pas la derniere version des données")
+                        self.unPinAllData()
+                    }
+                    
+                }else{
+                    print("tu n'as pas la derniere version de l'application")
+                    let alertController = UIAlertController(title: "Nouvelle version", message: self.messageNewVersion, preferredStyle: UIAlertControllerStyle.Alert)
+                    let deleteAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
+                        self.startApplication()
+                    })
+                    alertController.addAction(deleteAction)
+                    self.presentViewController(alertController, animated: true, completion: nil)
+                }
             }
         }
         
     }
     
-    
-    
+    func unPinAllData(){
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+            do {
+                //arrets commericaux
+                let a = try Arrets.query()!.fromLocalDatastore().findObjects()
+                try PFObject.unpinAll(a, withName: "Arrets")
+                //ticket
+                let b = try Tickets.query()!.fromLocalDatastore().findObjects()
+                try PFObject.unpinAll(b, withName: "Tickets")
+                //arrets physiques
+                let c = try ArretsPhysique.query()!.fromLocalDatastore().findObjects()
+                try PFObject.unpinAll(c, withName: "ArretsPhysique")
+                //lignes
+                let d = try Lignes.query()!.fromLocalDatastore().findObjects()
+                try PFObject.unpinAll(d, withName: "Lignes")
+                //arets Lignes
+                let e = try ArretsLigne.query()!.fromLocalDatastore().findObjects()
+                try PFObject.unpinAll(e, withName: "ArretsLigne")
+                //Maj
+                let f = try Maj.query()!.fromLocalDatastore().findObjects()
+                try PFObject.unpinAll(f, withName: "Maj")
+
+                print("fin unpinage")
+                
+            }
+            catch{
+                print("error")
+            }
+            
+            self.pinAll()
+            
+            dispatch_async(dispatch_get_main_queue()) {
+
+                self.startApplication()
+            }
+        }
+        
+        
+    }
     
     
     override func didReceiveMemoryWarning() {
@@ -128,13 +229,13 @@ class StartViewController: UIViewController {
     
     
     /*
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
     
 }

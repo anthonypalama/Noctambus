@@ -1,9 +1,9 @@
 PODS:
-  - Alamofire (3.2.0)
-  - Bolts/Tasks (1.6.0)
-  - KVNProgress (2.2.2)
-  - Parse (1.12.0):
-    - Bolts/Tasks (~> 1.5)
+  - Alamofire (3.4.0)
+  - Bolts/Tasks (1.7.0)
+  - KVNProgress (2.2.4)
+  - Parse (1.13.0):
+    - Bolts/Tasks (~> 1.6)
   - ParseUI (1.2.0):
     - Bolts/Tasks (~> 1.3)
     - Parse (~> 1.9)
@@ -17,11 +17,13 @@ DEPENDENCIES:
   - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
-  Bolts: f52a250053bb517ca874523c3913776359ab3def
-  KVNProgress: 4697347e21e37fdaa5264ebc24e377c205a50328
-  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  KVNProgress: 541edcea5a1fef592aceac8d791a410d38cb499d
+  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: abc982ca770da4c3ccf786915d8a7c8946926f9c
+
+COCOAPODS: 1.0.0.rc.2

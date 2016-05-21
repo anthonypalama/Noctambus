@@ -46,6 +46,8 @@ class ItineraireViewController: UIViewController, NSURLConnectionDataDelegate, U
         let tapGesture = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         tapGesture.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tapGesture)
+        //Met la date actuel
+        configDateToday()
     }
     
     override func didReceiveMemoryWarning() {
@@ -61,8 +63,8 @@ class ItineraireViewController: UIViewController, NSURLConnectionDataDelegate, U
         datePickerView.addTarget(self, action: Selector("datePickerValueChanged:"), forControlEvents: UIControlEvents.ValueChanged)
     }
     
+    //Bouton Recherche
     @IBAction func RechercheAction(sender: AnyObject) {
-        
         stepsItineraire.removeAll()
         points = ""
         
@@ -84,7 +86,7 @@ class ItineraireViewController: UIViewController, NSURLConnectionDataDelegate, U
     func callWebService(origin: String! , destination: String!, departOuArrive: String){
         var directionsURLString = baseURLDirections + "origin=" + origin + "&destination=" + destination + departOuArrive + "&mode=transit"
         directionsURLString = directionsURLString.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
-        print (directionsURLString)
+        //print (directionsURLString)
         
         Alamofire.request(.GET, directionsURLString).validate().responseJSON { response in
             switch response.result {
@@ -108,7 +110,7 @@ class ItineraireViewController: UIViewController, NSURLConnectionDataDelegate, U
     
     func parseJSON(json: JSON) {
         let status = json["status"].stringValue
-        print(status)
+        //print(status)
         if (status == "OK"){
             points = json["routes"][0]["overview_polyline"]["points"].stringValue
             let routes = json["routes"][0].dictionaryValue
@@ -409,11 +411,15 @@ class ItineraireViewController: UIViewController, NSURLConnectionDataDelegate, U
     }
     
     func tappedToolBarBtn(sender: UIBarButtonItem) {
+        configDateToday()
+        dateTextField.resignFirstResponder()
+    }
+    
+    func configDateToday(){
         let dateformatter = NSDateFormatter()
         dateformatter.dateStyle = NSDateFormatterStyle.ShortStyle
         dateformatter.timeStyle = NSDateFormatterStyle.ShortStyle
         dateTextField.text = dateformatter.stringFromDate(NSDate())
-        dateTextField.resignFirstResponder()
     }
     
     func datePickerValueChanged(sender:UIDatePicker) {

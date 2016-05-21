@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D0005D11C903238009A4D8E /* ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0005D01C903238009A4D8E /* ConditionsViewController.swift */; };
+		9D0005D31C90333E009A4D8E /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0005D21C90333E009A4D8E /* Polyline.swift */; };
 		9D0010061C5BDC3700C86C32 /* ProximiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0010051C5BDC3700C86C32 /* ProximiteTableViewController.swift */; };
 		9D0194671C18853C00BC9BB7 /* ArretsLigne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */; };
+		9D26D2DF1C8F0F720086AE17 /* ArretsPhysique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D26D2DE1C8F0F720086AE17 /* ArretsPhysique.swift */; };
 		9D33064D1C639FDB0040C56E /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D33064C1C639FDB0040C56E /* AutoCompleteTextField.swift */; };
 		9D3306501C63A12D0040C56E /* ItineraireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D33064F1C63A12D0040C56E /* ItineraireViewController.swift */; };
+		9D3B0F611CCBBD3E002F7DDB /* mentions.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B0F601CCBBD3E002F7DDB /* mentions.html */; };
+		9D3B0F631CCBC861002F7DDB /* ProximiteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B0F621CCBC861002F7DDB /* ProximiteMapViewController.swift */; };
 		9D3B24CF1C18214A00AC8AEE /* Depart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B24CE1C18214A00AC8AEE /* Depart.swift */; };
 		9D3B24D11C1826F100AC8AEE /* DepartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */; };
+		9D3FEF321CBD148C0030CC6A /* vente.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FEF311CBD148C0030CC6A /* vente.html */; };
+		9D3FEF341CBD150D0030CC6A /* VenteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FEF331CBD150D0030CC6A /* VenteViewController.swift */; };
+		9D3FEF361CBD21440030CC6A /* cond.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FEF351CBD21440030CC6A /* cond.pdf */; };
+		9D40E58F1CC6448A009AD37B /* LignesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40E58E1CC6448A009AD37B /* LignesTableViewCell.swift */; };
+		9D40E5911CC645F7009AD37B /* LignesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40E5901CC645F7009AD37B /* LignesViewController.swift */; };
+		9D464C011CEB56C9006A1C3E /* Maj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D464C001CEB56C9006A1C3E /* Maj.swift */; };
+		9D4EABCC1C934BBA00C5D66F /* ArretsAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EABCB1C934BBA00C5D66F /* ArretsAnnotation.swift */; };
 		9D4F836C1C724AF400500AD4 /* ArretsProximite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F836B1C724AF400500AD4 /* ArretsProximite.swift */; };
 		9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53F7D11C05C0B400DD8D51 /* Arrets.swift */; };
 		9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */; };
@@ -21,16 +33,20 @@
 		9D58FB5F1BD2579C00B2ACCC /* NoctambusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FB5E1BD2579C00B2ACCC /* NoctambusTests.swift */; };
 		9D597BF31C185AFD008DB276 /* ArretLocalisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */; };
 		9D5CF21E1C7354BB00F9590E /* ProximiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CF21D1C7354BB00F9590E /* ProximiteTableViewCell.swift */; };
-		9D7B5B301C330AE600A42316 /* LigneArretsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B5B2F1C330AE600A42316 /* LigneArretsTableViewController.swift */; };
+		9D8033061CEB350600109B9B /* contact.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D8033051CEB350600109B9B /* contact.html */; };
+		9D8033081CEB3D4D00109B9B /* logoNoctambus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8033071CEB3D4D00109B9B /* logoNoctambus.png */; };
 		9D8509761C6BAF24005F5BDC /* Itineraire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8509751C6BAF24005F5BDC /* Itineraire.swift */; };
 		9D8509781C6BD398005F5BDC /* firstLastStepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8509771C6BD398005F5BDC /* firstLastStepTableViewCell.swift */; };
 		9D85097A1C6BD3AB005F5BDC /* stepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8509791C6BD3AB005F5BDC /* stepTableViewCell.swift */; };
 		9D87A9951C0F09BE007A425F /* DepartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */; };
+		9D887A781CC67E8D009173A0 /* LignesArretsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D887A771CC67E8D009173A0 /* LignesArretsTableViewCell.swift */; };
 		9D8C4ECA1C5F944900C0D939 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C4EC91C5F944900C0D939 /* Launch Screen.storyboard */; };
+		9D9145B41CE0D0EE00BDBD33 /* LignesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9145B31CE0D0EE00BDBD33 /* LignesMapViewController.swift */; };
 		9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */; };
 		9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */; };
+		9DA5F60E1CCCD177000F0708 /* AccordionMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F60D1CCCD177000F0708 /* AccordionMenuTableViewController.swift */; };
+		9DA5F6101CCCD17F000F0708 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F60F1CCCD17F000F0708 /* Parent.swift */; };
 		9DAC94DB1C7487E800E98D20 /* routeMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC94DA1C7487E800E98D20 /* routeMapsViewController.swift */; };
-		9DBA36DE1C74F9C40089AF3A /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA36DD1C74F9C40089AF3A /* Polyline.swift */; };
 		9DBEAFE71C5A6D2A0062C43A /* ThermoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEAFE61C5A6D2A0062C43A /* ThermoTableViewController.swift */; };
 		9DBEAFE91C5A6DD80062C43A /* ThermoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEAFE81C5A6DD80062C43A /* ThermoTableViewCell.swift */; };
 		9DBEAFEB1C5A7EA70062C43A /* ThermoA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEAFEA1C5A7EA70062C43A /* ThermoA.swift */; };
@@ -41,11 +57,12 @@
 		9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA51BD275A7002FF393 /* Tickets.swift */; };
 		9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */; };
 		9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */; };
+		9DEFE9891C99D8FC0074E05B /* annotationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFE9871C99D8FC0074E05B /* annotationTableViewCell.swift */; };
+		9DEFE98A1C99D8FC0074E05B /* annotationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DEFE9881C99D8FC0074E05B /* annotationTableViewCell.xib */; };
 		9DF5317F1C2967D3008954CB /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5317E1C2967D3008954CB /* Reach.swift */; };
-		9DF544481C2E958A002868F2 /* LignesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF544471C2E958A002868F2 /* LignesTableViewCell.swift */; };
-		9DF5444A1C2E95C7002868F2 /* LignesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF544491C2E95C7002868F2 /* LignesTableViewController.swift */; };
 		9DF5444C1C2E96CC002868F2 /* Lignes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5444B1C2E96CC002868F2 /* Lignes.swift */; };
-		F3299398135E1AA7EBB56DF2 /* Pods_Noctambus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */; };
+		A4C6EAA62EEB2B6A6DB1622A /* Pods_NoctambusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2183C632510DFE4D7BF410 /* Pods_NoctambusTests.framework */; };
+		AC09FE38DFC5979DCE6163AB /* Pods_Noctambus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA58B144226D77D66364036 /* Pods_Noctambus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +76,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.debug.xcconfig"; sourceTree = "<group>"; };
+		0DDB3C0A4EC088BA0474A3D9 /* Pods-NoctambusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoctambusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoctambusTests/Pods-NoctambusTests.release.xcconfig"; sourceTree = "<group>"; };
+		24DA5967AB9FE0A80351F805 /* Pods-NoctambusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoctambusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoctambusTests/Pods-NoctambusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99746669E2C8B6454668AFEF /* Pods-Noctambus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.release.xcconfig"; sourceTree = "<group>"; };
+		9D0005D01C903238009A4D8E /* ConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionsViewController.swift; sourceTree = "<group>"; };
+		9D0005D21C90333E009A4D8E /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
 		9D0010051C5BDC3700C86C32 /* ProximiteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximiteTableViewController.swift; sourceTree = "<group>"; };
 		9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsLigne.swift; sourceTree = "<group>"; };
+		9D26D2DE1C8F0F720086AE17 /* ArretsPhysique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsPhysique.swift; sourceTree = "<group>"; };
 		9D33064C1C639FDB0040C56E /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
 		9D33064F1C63A12D0040C56E /* ItineraireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraireViewController.swift; sourceTree = "<group>"; };
+		9D3B0F601CCBBD3E002F7DDB /* mentions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mentions.html; sourceTree = "<group>"; };
+		9D3B0F621CCBC861002F7DDB /* ProximiteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximiteMapViewController.swift; sourceTree = "<group>"; };
 		9D3B24CE1C18214A00AC8AEE /* Depart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Depart.swift; sourceTree = "<group>"; };
 		9D3B24D01C1826F100AC8AEE /* DepartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewCell.swift; sourceTree = "<group>"; };
+		9D3FEF311CBD148C0030CC6A /* vente.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vente.html; sourceTree = "<group>"; };
+		9D3FEF331CBD150D0030CC6A /* VenteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenteViewController.swift; sourceTree = "<group>"; };
+		9D3FEF351CBD21440030CC6A /* cond.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cond.pdf; sourceTree = "<group>"; };
+		9D40E58E1CC6448A009AD37B /* LignesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesTableViewCell.swift; sourceTree = "<group>"; };
+		9D40E5901CC645F7009AD37B /* LignesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesViewController.swift; sourceTree = "<group>"; };
+		9D464C001CEB56C9006A1C3E /* Maj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maj.swift; sourceTree = "<group>"; };
 		9D46AEC41C2BFF3800D31E82 /* Noctambus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noctambus-Bridging-Header.h"; sourceTree = "<group>"; };
+		9D4EABCB1C934BBA00C5D66F /* ArretsAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsAnnotation.swift; sourceTree = "<group>"; };
 		9D4F836B1C724AF400500AD4 /* ArretsProximite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsProximite.swift; sourceTree = "<group>"; };
 		9D53F7D11C05C0B400DD8D51 /* Arrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrets.swift; sourceTree = "<group>"; };
 		9D53F7D31C05C46100DD8D51 /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -80,16 +111,20 @@
 		9D58FB601BD2579C00B2ACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D597BF21C185AFD008DB276 /* ArretLocalisationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretLocalisationViewController.swift; sourceTree = "<group>"; };
 		9D5CF21D1C7354BB00F9590E /* ProximiteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximiteTableViewCell.swift; sourceTree = "<group>"; };
-		9D7B5B2F1C330AE600A42316 /* LigneArretsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LigneArretsTableViewController.swift; sourceTree = "<group>"; };
+		9D8033051CEB350600109B9B /* contact.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = contact.html; sourceTree = "<group>"; };
+		9D8033071CEB3D4D00109B9B /* logoNoctambus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoNoctambus.png; path = Assets.xcassets/logoNoctambus.imageset/logoNoctambus.png; sourceTree = "<group>"; };
 		9D8509751C6BAF24005F5BDC /* Itineraire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itineraire.swift; sourceTree = "<group>"; };
 		9D8509771C6BD398005F5BDC /* firstLastStepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstLastStepTableViewCell.swift; sourceTree = "<group>"; };
 		9D8509791C6BD3AB005F5BDC /* stepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stepTableViewCell.swift; sourceTree = "<group>"; };
 		9D87A9941C0F09BE007A425F /* DepartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartTableViewController.swift; sourceTree = "<group>"; };
+		9D887A771CC67E8D009173A0 /* LignesArretsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesArretsTableViewCell.swift; sourceTree = "<group>"; };
 		9D8C4EC91C5F944900C0D939 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9D9145B31CE0D0EE00BDBD33 /* LignesMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesMapViewController.swift; sourceTree = "<group>"; };
 		9D96D0AF1C060EE5006C92CF /* ArretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretViewController.swift; sourceTree = "<group>"; };
 		9D96D0B11C060FD8006C92CF /* ArretsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArretsTableViewCell.swift; sourceTree = "<group>"; };
+		9DA5F60D1CCCD177000F0708 /* AccordionMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordionMenuTableViewController.swift; sourceTree = "<group>"; };
+		9DA5F60F1CCCD17F000F0708 /* Parent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
 		9DAC94DA1C7487E800E98D20 /* routeMapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = routeMapsViewController.swift; sourceTree = "<group>"; };
-		9DBA36DD1C74F9C40089AF3A /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = ../Polyline.swift; sourceTree = "<group>"; };
 		9DBEAFE61C5A6D2A0062C43A /* ThermoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoTableViewController.swift; sourceTree = "<group>"; };
 		9DBEAFE81C5A6DD80062C43A /* ThermoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoTableViewCell.swift; sourceTree = "<group>"; };
 		9DBEAFEA1C5A7EA70062C43A /* ThermoA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoA.swift; sourceTree = "<group>"; };
@@ -100,12 +135,13 @@
 		9DEE6AA51BD275A7002FF393 /* Tickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
 		9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
+		9DEFE9871C99D8FC0074E05B /* annotationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotationTableViewCell.swift; sourceTree = "<group>"; };
+		9DEFE9881C99D8FC0074E05B /* annotationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = annotationTableViewCell.xib; sourceTree = "<group>"; };
 		9DF5317E1C2967D3008954CB /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
-		9DF544471C2E958A002868F2 /* LignesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesTableViewCell.swift; sourceTree = "<group>"; };
-		9DF544491C2E95C7002868F2 /* LignesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignesTableViewController.swift; sourceTree = "<group>"; };
 		9DF5444B1C2E96CC002868F2 /* Lignes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lignes.swift; sourceTree = "<group>"; };
-		E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noctambus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.release.xcconfig"; sourceTree = "<group>"; };
+		BC2183C632510DFE4D7BF410 /* Pods_NoctambusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoctambusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA58B144226D77D66364036 /* Pods_Noctambus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noctambus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E589E40022736514799948EC /* Pods-Noctambus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noctambus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3299398135E1AA7EBB56DF2 /* Pods_Noctambus.framework in Frameworks */,
+				AC09FE38DFC5979DCE6163AB /* Pods_Noctambus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,17 +157,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C6EAA62EEB2B6A6DB1622A /* Pods_NoctambusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53C30D720412066DDAA272B3 /* Pods */ = {
+		3D85BF94758CEAC86CD1BA14 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */,
-				FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */,
+				E589E40022736514799948EC /* Pods-Noctambus.debug.xcconfig */,
+				99746669E2C8B6454668AFEF /* Pods-Noctambus.release.xcconfig */,
+				24DA5967AB9FE0A80351F805 /* Pods-NoctambusTests.debug.xcconfig */,
+				0DDB3C0A4EC088BA0474A3D9 /* Pods-NoctambusTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -141,6 +180,7 @@
 			children = (
 				9D0010051C5BDC3700C86C32 /* ProximiteTableViewController.swift */,
 				9D5CF21D1C7354BB00F9590E /* ProximiteTableViewCell.swift */,
+				9D3B0F621CCBC861002F7DDB /* ProximiteMapViewController.swift */,
 			);
 			name = "A proximite";
 			sourceTree = "<group>";
@@ -148,14 +188,17 @@
 		9D0522891BFC75D000E206A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9DEE6AA51BD275A7002FF393 /* Tickets.swift */,
 				9D53F7D11C05C0B400DD8D51 /* Arrets.swift */,
+				9D26D2DE1C8F0F720086AE17 /* ArretsPhysique.swift */,
 				9D4F836B1C724AF400500AD4 /* ArretsProximite.swift */,
+				9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */,
+				9D4EABCB1C934BBA00C5D66F /* ArretsAnnotation.swift */,
 				9D3B24CE1C18214A00AC8AEE /* Depart.swift */,
 				9DBEAFEA1C5A7EA70062C43A /* ThermoA.swift */,
 				9D8509751C6BAF24005F5BDC /* Itineraire.swift */,
 				9DF5444B1C2E96CC002868F2 /* Lignes.swift */,
-				9D0194661C18853C00BC9BB7 /* ArretsLigne.swift */,
+				9DEE6AA51BD275A7002FF393 /* Tickets.swift */,
+				9D464C001CEB56C9006A1C3E /* Maj.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -175,11 +218,11 @@
 			isa = PBXGroup;
 			children = (
 				9D46AEC41C2BFF3800D31E82 /* Noctambus-Bridging-Header.h */,
-				9DF0B0181BFC6E15006F3553 /* Frameworks */,
 				9D58FB461BD2579C00B2ACCC /* Noctambus */,
 				9D58FB5D1BD2579C00B2ACCC /* NoctambusTests */,
 				9D58FB451BD2579C00B2ACCC /* Products */,
-				53C30D720412066DDAA272B3 /* Pods */,
+				3D85BF94758CEAC86CD1BA14 /* Pods */,
+				F315E323321FF0AF8DA606DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +251,8 @@
 				9D58FB4D1BD2579C00B2ACCC /* Main.storyboard */,
 				9DC445F31C62164500A25A6F /* StartViewController.swift */,
 				9D58FB471BD2579C00B2ACCC /* AppDelegate.swift */,
+				9DEFE9871C99D8FC0074E05B /* annotationTableViewCell.swift */,
+				9DEFE9881C99D8FC0074E05B /* annotationTableViewCell.xib */,
 			);
 			path = Noctambus;
 			sourceTree = "<group>";
@@ -241,6 +286,8 @@
 			children = (
 				9DEE6AA91BD279DC002FF393 /* TicketsTableViewController.swift */,
 				9DEE6AA71BD277BE002FF393 /* TicketsTableViewCell.swift */,
+				9D3FEF311CBD148C0030CC6A /* vente.html */,
+				9D3FEF331CBD150D0030CC6A /* VenteViewController.swift */,
 			);
 			name = Tickets;
 			sourceTree = "<group>";
@@ -248,7 +295,7 @@
 		9DBEAFE31C5A6A8E0062C43A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				9DBA36DD1C74F9C40089AF3A /* Polyline.swift */,
+				9D0005D21C90333E009A4D8E /* Polyline.swift */,
 				9D33064C1C639FDB0040C56E /* AutoCompleteTextField.swift */,
 				9DF5317E1C2967D3008954CB /* Reach.swift */,
 			);
@@ -258,9 +305,12 @@
 		9DBEAFE41C5A6AB30062C43A /* Lignes */ = {
 			isa = PBXGroup;
 			children = (
-				9DF544491C2E95C7002868F2 /* LignesTableViewController.swift */,
-				9DF544471C2E958A002868F2 /* LignesTableViewCell.swift */,
-				9D7B5B2F1C330AE600A42316 /* LigneArretsTableViewController.swift */,
+				9D40E58E1CC6448A009AD37B /* LignesTableViewCell.swift */,
+				9D40E5901CC645F7009AD37B /* LignesViewController.swift */,
+				9D887A771CC67E8D009173A0 /* LignesArretsTableViewCell.swift */,
+				9DA5F60F1CCCD17F000F0708 /* Parent.swift */,
+				9DA5F60D1CCCD177000F0708 /* AccordionMenuTableViewController.swift */,
+				9D9145B31CE0D0EE00BDBD33 /* LignesMapViewController.swift */,
 			);
 			name = Lignes;
 			sourceTree = "<group>";
@@ -271,14 +321,20 @@
 				9DBEAFE21C5A6A6D0062C43A /* Tickets */,
 				9DD80C531C2EAA5100AEAD6C /* SettingsTableViewController.swift */,
 				9DD80C551C2EB96A00AEAD6C /* PlansViewController.swift */,
+				9D0005D01C903238009A4D8E /* ConditionsViewController.swift */,
+				9D3FEF351CBD21440030CC6A /* cond.pdf */,
+				9D8033051CEB350600109B9B /* contact.html */,
+				9D8033071CEB3D4D00109B9B /* logoNoctambus.png */,
+				9D3B0F601CCBBD3E002F7DDB /* mentions.html */,
 			);
 			name = Autres;
 			sourceTree = "<group>";
 		};
-		9DF0B0181BFC6E15006F3553 /* Frameworks */ = {
+		F315E323321FF0AF8DA606DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5912B0B69B29029695C7D61 /* Pods_Noctambus.framework */,
+				CCA58B144226D77D66364036 /* Pods_Noctambus.framework */,
+				BC2183C632510DFE4D7BF410 /* Pods_NoctambusTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -290,12 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D58FB631BD2579C00B2ACCC /* Build configuration list for PBXNativeTarget "Noctambus" */;
 			buildPhases = (
-				4C6B35041BB4419CC80D581B /* Check Pods Manifest.lock */,
+				D93FCDA8DF40626D19CBA83B /* 📦 Check Pods Manifest.lock */,
 				9D58FB401BD2579C00B2ACCC /* Sources */,
 				9D58FB411BD2579C00B2ACCC /* Frameworks */,
 				9D58FB421BD2579C00B2ACCC /* Resources */,
-				BEAE78749995F4F59BCF8615 /* Embed Pods Frameworks */,
-				9AF479FB18DCD0213BFDCD3B /* Copy Pods Resources */,
+				8A9513EDAAB34E7E5CED1F1D /* 📦 Embed Pods Frameworks */,
+				DEDE767DA1ACDAAD4FEBF201 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,9 +366,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D58FB661BD2579C00B2ACCC /* Build configuration list for PBXNativeTarget "NoctambusTests" */;
 			buildPhases = (
+				B80ABE38CA5BBC2BE6A9DFDD /* 📦 Check Pods Manifest.lock */,
 				9D58FB561BD2579C00B2ACCC /* Sources */,
 				9D58FB571BD2579C00B2ACCC /* Frameworks */,
 				9D58FB581BD2579C00B2ACCC /* Resources */,
+				B87642FC847E69F773FCC8A8 /* 📦 Embed Pods Frameworks */,
+				B7331BF57B08468703D3BAB2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,7 +427,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8C4ECA1C5F944900C0D939 /* Launch Screen.storyboard in Resources */,
+				9D8033081CEB3D4D00109B9B /* logoNoctambus.png in Resources */,
 				9D58FB511BD2579C00B2ACCC /* Assets.xcassets in Resources */,
+				9D3B0F611CCBBD3E002F7DDB /* mentions.html in Resources */,
+				9D8033061CEB350600109B9B /* contact.html in Resources */,
+				9D3FEF361CBD21440030CC6A /* cond.pdf in Resources */,
+				9DEFE98A1C99D8FC0074E05B /* annotationTableViewCell.xib in Resources */,
+				9D3FEF321CBD148C0030CC6A /* vente.html in Resources */,
 				9D58FB4F1BD2579C00B2ACCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,14 +448,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4C6B35041BB4419CC80D581B /* Check Pods Manifest.lock */ = {
+		8A9513EDAAB34E7E5CED1F1D /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7331BF57B08468703D3BAB2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoctambusTests/Pods-NoctambusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B80ABE38CA5BBC2BE6A9DFDD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,34 +493,49 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9AF479FB18DCD0213BFDCD3B /* Copy Pods Resources */ = {
+		B87642FC847E69F773FCC8A8 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoctambusTests/Pods-NoctambusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93FCDA8DF40626D19CBA83B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEDE767DA1ACDAAD4FEBF201 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BEAE78749995F4F59BCF8615 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noctambus/Pods-Noctambus-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -435,39 +545,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3FEF341CBD150D0030CC6A /* VenteViewController.swift in Sources */,
+				9DEFE9891C99D8FC0074E05B /* annotationTableViewCell.swift in Sources */,
 				9D3B24D11C1826F100AC8AEE /* DepartTableViewCell.swift in Sources */,
+				9DA5F6101CCCD17F000F0708 /* Parent.swift in Sources */,
 				9DF5444C1C2E96CC002868F2 /* Lignes.swift in Sources */,
 				9D4F836C1C724AF400500AD4 /* ArretsProximite.swift in Sources */,
+				9D9145B41CE0D0EE00BDBD33 /* LignesMapViewController.swift in Sources */,
 				9DEE6AA81BD277BE002FF393 /* TicketsTableViewCell.swift in Sources */,
+				9D464C011CEB56C9006A1C3E /* Maj.swift in Sources */,
 				9D0194671C18853C00BC9BB7 /* ArretsLigne.swift in Sources */,
 				9DAC94DB1C7487E800E98D20 /* routeMapsViewController.swift in Sources */,
 				9D8509761C6BAF24005F5BDC /* Itineraire.swift in Sources */,
 				9D87A9951C0F09BE007A425F /* DepartTableViewController.swift in Sources */,
 				9D0010061C5BDC3700C86C32 /* ProximiteTableViewController.swift in Sources */,
+				9D0005D31C90333E009A4D8E /* Polyline.swift in Sources */,
 				9D96D0B01C060EE5006C92CF /* ArretViewController.swift in Sources */,
+				9DA5F60E1CCCD177000F0708 /* AccordionMenuTableViewController.swift in Sources */,
 				9DBEAFE91C5A6DD80062C43A /* ThermoTableViewCell.swift in Sources */,
 				9D58FB481BD2579C00B2ACCC /* AppDelegate.swift in Sources */,
-				9D7B5B301C330AE600A42316 /* LigneArretsTableViewController.swift in Sources */,
 				9D96D0B21C060FD8006C92CF /* ArretsTableViewCell.swift in Sources */,
 				9D53F7D21C05C0B400DD8D51 /* Arrets.swift in Sources */,
-				9DBA36DE1C74F9C40089AF3A /* Polyline.swift in Sources */,
-				9DF544481C2E958A002868F2 /* LignesTableViewCell.swift in Sources */,
+				9D40E58F1CC6448A009AD37B /* LignesTableViewCell.swift in Sources */,
 				9DCCD82B1C18332400747E0E /* DepartTableViewCellLogo.swift in Sources */,
+				9D26D2DF1C8F0F720086AE17 /* ArretsPhysique.swift in Sources */,
 				9DF5317F1C2967D3008954CB /* Reach.swift in Sources */,
+				9D887A781CC67E8D009173A0 /* LignesArretsTableViewCell.swift in Sources */,
+				9D40E5911CC645F7009AD37B /* LignesViewController.swift in Sources */,
 				9D33064D1C639FDB0040C56E /* AutoCompleteTextField.swift in Sources */,
 				9DD80C561C2EB96A00AEAD6C /* PlansViewController.swift in Sources */,
 				9DBEAFEB1C5A7EA70062C43A /* ThermoA.swift in Sources */,
 				9DEE6AAA1BD279DC002FF393 /* TicketsTableViewController.swift in Sources */,
 				9DBEAFE71C5A6D2A0062C43A /* ThermoTableViewController.swift in Sources */,
+				9D4EABCC1C934BBA00C5D66F /* ArretsAnnotation.swift in Sources */,
 				9DEE6AA61BD275A7002FF393 /* Tickets.swift in Sources */,
 				9D85097A1C6BD3AB005F5BDC /* stepTableViewCell.swift in Sources */,
 				9D3306501C63A12D0040C56E /* ItineraireViewController.swift in Sources */,
 				9DC445F41C62164500A25A6F /* StartViewController.swift in Sources */,
 				9D3B24CF1C18214A00AC8AEE /* Depart.swift in Sources */,
+				9D0005D11C903238009A4D8E /* ConditionsViewController.swift in Sources */,
 				9D5CF21E1C7354BB00F9590E /* ProximiteTableViewCell.swift in Sources */,
+				9D3B0F631CCBC861002F7DDB /* ProximiteMapViewController.swift in Sources */,
 				9D8509781C6BD398005F5BDC /* firstLastStepTableViewCell.swift in Sources */,
 				9DD80C541C2EAA5100AEAD6C /* SettingsTableViewController.swift in Sources */,
-				9DF5444A1C2E95C7002868F2 /* LignesTableViewController.swift in Sources */,
 				9D597BF31C185AFD008DB276 /* ArretLocalisationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +706,7 @@
 		};
 		9D58FB641BD2579C00B2ACCC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 605C91DE751300003E9632E0 /* Pods-Noctambus.debug.xcconfig */;
+			baseConfigurationReference = E589E40022736514799948EC /* Pods-Noctambus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -597,6 +717,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Noctambus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.noctambus.Noctambus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,7 +730,7 @@
 		};
 		9D58FB651BD2579C00B2ACCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFE0C1591E3ACA3B07B99238 /* Pods-Noctambus.release.xcconfig */;
+			baseConfigurationReference = 99746669E2C8B6454668AFEF /* Pods-Noctambus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -620,6 +741,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Noctambus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.noctambus.Noctambus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -631,6 +753,7 @@
 		};
 		9D58FB671BD2579C00B2ACCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DA5967AB9FE0A80351F805 /* Pods-NoctambusTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NoctambusTests/Info.plist;
@@ -643,6 +766,7 @@
 		};
 		9D58FB681BD2579C00B2ACCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDB3C0A4EC088BA0474A3D9 /* Pods-NoctambusTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NoctambusTests/Info.plist;

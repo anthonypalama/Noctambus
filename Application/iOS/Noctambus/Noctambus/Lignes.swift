@@ -17,6 +17,8 @@ class Lignes : PFObject, PFSubclassing{
     @NSManaged var originName: String
     @NSManaged var destinationName: String
     @NSManaged var lineCode: String
+    @NSManaged var Type: Bool
+
     
     override class func initialize() {
         var onceToken: dispatch_once_t = 0
@@ -26,13 +28,14 @@ class Lignes : PFObject, PFSubclassing{
     }
     
     // MARK: Initialization
-    init(idLignes: String, originName: String, destinationName: String, lineCode: String) {
+    init(idLignes: String, originName: String, destinationName: String, lineCode: String, Type: Bool) {
         // Initialize stored properties.
         super.init()
         self.idLignes = idLignes
         self.originName = originName
         self.destinationName = destinationName
         self.lineCode = lineCode
+        self.Type = Type
     }
     
     override class func query() -> PFQuery? {

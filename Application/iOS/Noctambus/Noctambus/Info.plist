@@ -41,6 +41,13 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
+			<key>noctambus.ch</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
 			<key>tpg.ch</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>

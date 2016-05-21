@@ -13,6 +13,7 @@ class ThermoTableViewController: UITableViewController {
     //recupere le départ selectionne dans la vue precedente
     var depart: Depart?
     var steps = [ThermoA]()
+    var stepsTemp = [ThermoA]()
     var indexSc = 0
     
     @IBOutlet weak var busNavigationItem: UINavigationItem!
@@ -24,7 +25,6 @@ class ThermoTableViewController: UITableViewController {
     }
     
     func noInternetCo(){
-        print("Not connected")
         let alert = UIAlertController(title: "Pas de connexion internet", message: "La connexion internet semble interrompue.", preferredStyle: .Alert)
         let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alert.addAction(defaultAction)
@@ -32,7 +32,7 @@ class ThermoTableViewController: UITableViewController {
     }
     
     func InternetOK(){
-        steps.removeAll()
+        stepsTemp.removeAll()
         callWebService()
     }
     
@@ -42,7 +42,6 @@ class ThermoTableViewController: UITableViewController {
         case .Unknown, .Offline:
             noInternetCo()
         case .Online(.WWAN), .Online(.WiFi):
-            print("Connected")
             KVNProgress.showWithStatus("Chargement des données...")
             InternetOK()
         }
@@ -55,7 +54,6 @@ class ThermoTableViewController: UITableViewController {
             noInternetCo()
             self.refreshControl!.endRefreshing()
         case .Online(.WWAN), .Online(.WiFi):
-            print("Connected")
             InternetOK()
         }
     }
@@ -66,7 +64,6 @@ class ThermoTableViewController: UITableViewController {
         let key = "&key=5f4382a0-fc2b-11e3-b5a1-0002a5d5c51b"
         
         let urlString = "\(url)\(arretSelect)\(key)"
-        print (urlString)
         
         Alamofire.request(.GET, urlString).validate().responseJSON { response in
             switch response.result {
@@ -100,8 +97,9 @@ class ThermoTableViewController: UITableViewController {
             let arrivalTimeJ = result["arrivalTime"].stringValue
             let visibleJ = result["visible"].boolValue
             let information =   ThermoA(stopCode: stopCodeJ, stopName: stopNameJ, arrivalTime: arrivalTimeJ, visible: visibleJ)
-            self.steps.append(information)
+            self.stepsTemp.append(information)
         }
+        steps = stepsTemp
         //trouver l'indice du premier élément visible dans la tableau
         indexSc = steps.indexOf({$0.visible == true})!
     }

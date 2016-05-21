@@ -34,6 +34,7 @@ class Arrets : PFObject, PFSubclassing{
     
     override class func query() -> PFQuery? {
         let query = PFQuery(className: Arrets.parseClassName()) //1
+        query.limit = 1000
         return query
     }
     

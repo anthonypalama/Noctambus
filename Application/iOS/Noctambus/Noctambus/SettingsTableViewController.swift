@@ -28,9 +28,9 @@ class SettingsTableViewController: UITableViewController {
     }
     
     /* override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    // #warning Incomplete implementation, return the number of rows
-    return 0
-    }*/
+     // #warning Incomplete implementation, return the number of rows
+     return 0
+     }*/
     
     override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let headerView = view as! UITableViewHeaderFooterView
@@ -44,19 +44,40 @@ class SettingsTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if segue.identifier ==  "showUrbain"{
+        switch segue.identifier! {
+        case "showUrbain":
             let planViewController = segue.destinationViewController as! PlansViewController
             planViewController.nameTitle = "Plan noctambus urbain"
             planViewController.nameImage = "planUrbain"
-            
-        } else if segue.identifier ==  "showPeriurbain" {
+        case "showPeriurbain":
             let planViewController = segue.destinationViewController as! PlansViewController
             planViewController.nameTitle = "Plan noctambus périurbain"
             planViewController.nameImage = "planPeriurbain"
-        } else if segue.identifier == "showTarifs"{
+        case "showTarifs":
             let planViewController = segue.destinationViewController as! PlansViewController
             planViewController.nameTitle = "Plan de zones tarifaires"
             planViewController.nameImage = "planTarifs"
+        case "showAssociation":
+            let detailViewController = segue.destinationViewController as! ConditionsViewController
+            detailViewController.nameTitle = "Association Noctambus"
+            detailViewController.viewToLoad = 0
+        case "showConditions":
+            let detailViewController = segue.destinationViewController as! ConditionsViewController
+            detailViewController.nameTitle = "Conditions de transport"
+            detailViewController.viewToLoad = 1
+        case "showMentions":
+            let detailViewController = segue.destinationViewController as! ConditionsViewController
+            detailViewController.nameTitle = "Mentions légales"
+            detailViewController.viewToLoad = 2
+        case "showContact":
+            let detailViewController = segue.destinationViewController as! ConditionsViewController
+            detailViewController.nameTitle = "Contact"
+            detailViewController.viewToLoad = 3
+        default:
+            break
+            
         }
+        
+        
     }
 }

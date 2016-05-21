@@ -91,6 +91,9 @@ static KVNProgressConfiguration *configuration;
 
 @property (nonatomic) NSArray *constraintsToSuperview;
 
+@property (atomic) NSOperationQueue *queue;
+@property (atomic) NSBlockOperation *animateAppearanceOperation;
+
 @end
 
 @implementation KVNProgress
@@ -110,6 +113,9 @@ static KVNProgressConfiguration *configuration;
 
 		
 		sharedView = nibViews[0];
+		
+		sharedView.queue = [NSOperationQueue mainQueue];
+		sharedView.queue.maxConcurrentOperationCount = 1;
 	});
 	
 	return sharedView;
@@ -403,7 +409,7 @@ static KVNProgressConfiguration *configuration;
 		
 		[UIView animateWithDuration:KVNLayoutAnimationDuration
 						 animations:^{
-							 [KVNBlockSelf setupUI];
+							 [KVNBlockSelf setupUI:NO];
 						 }];
 		
 		KVNBlockSelf.showActionTrigerredDate = [NSDate date];
@@ -417,13 +423,20 @@ static KVNProgressConfiguration *configuration;
 			[self addToCurrentWindow];
 		}
 		
-		[self setupUI];
+		[self setupUI:YES];
+		self.animateAppearanceOperation = [NSBlockOperation blockOperationWithBlock:^{
+			[KVNBlockSelf animateUI];
+			[KVNBlockSelf animateAppearance];
+		}];
 		
 		// FIXME: find a way to wait for the views to be added to the window before launching the animations
 		// (Fix to make the animations work fine)
 		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-			[KVNBlockSelf animateUI];
-			[KVNBlockSelf animateAppearance];
+			if (![KVNBlockSelf.queue.operations containsObject:KVNBlockSelf.animateAppearanceOperation] &&
+				![KVNBlockSelf.animateAppearanceOperation isFinished])
+			{
+				[KVNBlockSelf.queue addOperation:KVNBlockSelf.animateAppearanceOperation];
+			}
 		});
 	}
 	
@@ -464,6 +477,7 @@ static KVNProgressConfiguration *configuration;
 		return;
 	} else if ([self sharedView].state == KVNProgressStateAppearing) {
 		[self sharedView].state = KVNProgressStateDismissing;
+		[[self sharedView].animateAppearanceOperation cancel];
 		[self endDismissWithCompletion:completion];
 		
 		return;
@@ -537,9 +551,12 @@ static KVNProgressConfiguration *configuration;
 
 #pragma mark - UI
 
-- (void)setupUI
+- (void)setupUI:(BOOL)needSetupStatusBar
 {
-	[self setupStatusBar];
+	if (needSetupStatusBar) {
+		[self setupStatusBar];
+	}
+	
 	[self setupGestures];
 	[self setupConstraints];
 	[self setupCircleProgressView];
@@ -1111,6 +1128,11 @@ static KVNProgressConfiguration *configuration;
 						 KVNBlockSelf.alpha = 1.0f;
 						 KVNBlockSelf.contentView.transform = CGAffineTransformIdentity;
 					 } completion:^(BOOL finished) {
+						 if (KVNBlockSelf.state != KVNProgressStateAppearing) {
+							 NSLog(@"KVNProgress: animateAppearance — animation completion — stopped, state is not appearing");
+							 return;
+						 }
+						 
 						 UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, nil);
 						 UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, self.status);
 						 

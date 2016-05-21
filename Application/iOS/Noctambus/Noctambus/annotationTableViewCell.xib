@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="40" id="KGk-i7-Jjw" customClass="annotationTableViewCell" customModule="Noctambus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H4W-0C-nxW">
+                        <rect key="frame" x="8" y="4" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="hD8-gO-x7C"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nou-98-5iG">
+                        <rect key="frame" x="48" y="9" width="194" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nou-98-5iG" firstAttribute="centerY" secondItem="H4W-0C-nxW" secondAttribute="centerY" id="Aih-Mc-Yax"/>
+                    <constraint firstItem="Nou-98-5iG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="1" id="QmB-DC-X9Y"/>
+                    <constraint firstItem="H4W-0C-nxW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="V0Q-kV-BvM"/>
+                    <constraint firstItem="H4W-0C-nxW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="h9e-Xa-ize"/>
+                    <constraint firstItem="H4W-0C-nxW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-4" id="lTV-D7-NAI"/>
+                    <constraint firstItem="Nou-98-5iG" firstAttribute="leading" secondItem="H4W-0C-nxW" secondAttribute="trailing" constant="8" symbolic="YES" id="sGV-4p-yZK"/>
+                    <constraint firstItem="Nou-98-5iG" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="w6w-YG-VxQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="destinationLabel" destination="Nou-98-5iG" id="kkn-6c-a4j"/>
+                <outlet property="logoImageView" destination="H4W-0C-nxW" id="E2M-Uv-Zwa"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -13,6 +13,8 @@ class DepartTableViewController: UITableViewController {
     
     var arret: Arrets?
     var nextDepart = [Depart]()
+    var departTemp = [Depart]()
+
     
     @IBOutlet weak var nomArretNextD: UINavigationItem!
     
@@ -29,7 +31,7 @@ class DepartTableViewController: UITableViewController {
     
     
     func noInternetCo(){
-        print("Not connected")
+        //print("Not connected")
         let alert = UIAlertController(title: "Pas de connexion internet", message: "La connexion internet semble interrompue.", preferredStyle: .Alert)
         let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alert.addAction(defaultAction)
@@ -37,7 +39,7 @@ class DepartTableViewController: UITableViewController {
     }
     
     func InternetOK(){
-        nextDepart.removeAll()
+        departTemp.removeAll()
         callWebService()
     }
     
@@ -59,7 +61,7 @@ class DepartTableViewController: UITableViewController {
             noInternetCo()
             self.refreshControl!.endRefreshing()
         case .Online(.WWAN), .Online(.WiFi):
-            print("Connected")
+            //print("Connected")
             InternetOK()
         }
     }
@@ -71,7 +73,7 @@ class DepartTableViewController: UITableViewController {
         let key = "&key=5f4382a0-fc2b-11e3-b5a1-0002a5d5c51b"
         
         let urlString = "\(url)\(arretSelect)\(key)"
-        print (urlString)
+        //print (urlString)
         
         Alamofire.request(.GET, urlString).validate().responseJSON { response in
             switch response.result {
@@ -103,14 +105,10 @@ class DepartTableViewController: UITableViewController {
             let lineCodeJ = result["line"]["lineCode"].stringValue
             let destinationNameJ = result["line"]["destinationName"].stringValue
             let information = Depart(departureCode: departureCodeJ, waitingTime: waitingTimeJ, lineCode: lineCodeJ, destinationName: destinationNameJ)
-            self.nextDepart.append(information)
-            
-            //for item in sigs! {
-            //    let id = item["lineCode"].intValue
-            //   let name = item["destinationName"].stringValue
-            //}
+            self.departTemp.append(information)
         }
-        // tableView.reloadData()
+        
+        nextDepart = departTemp
     }
     
     override func didReceiveMemoryWarning() {
@@ -119,12 +117,6 @@ class DepartTableViewController: UITableViewController {
     }
     
     // MARK: - Table view data source
-    
-    /*override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-    // #warning Incomplete implementation, return the number of sections
-    return 0
-    }*/
-    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nextDepart.count
     }
@@ -209,41 +201,6 @@ class DepartTableViewController: UITableViewController {
         }
         return true
     }
-    
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-    // Return false if you do not want the specified item to be editable.
-    return true
-    }
-    */
-    
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-    if editingStyle == .Delete {
-    // Delete the row from the data source
-    tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-    } else if editingStyle == .Insert {
-    // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }
-    }
-    */
-    
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-    
-    }
-    */
-    
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-    // Return false if you do not want the item to be re-orderable.
-    return true
-    }
-    */
     
     
     

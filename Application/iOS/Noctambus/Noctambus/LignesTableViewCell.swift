@@ -2,20 +2,18 @@
 //  LignesTableViewCell.swift
 //  Noctambus
 //
-//  Created by Luca Falvo on 26.12.15.
-//  Copyright © 2015 Noctambus. All rights reserved.
+//  Created by Luca Falvo on 19.04.16.
+//  Copyright © 2016 Noctambus. All rights reserved.
 //
 
 import UIKit
-import ParseUI
 
-class LignesTableViewCell: PFTableViewCell {
-    
-    @IBOutlet weak var logoLigneImageView: UIImageView!
-    @IBOutlet weak var departLabel: UILabel!
+class LignesTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var origineLabel: UILabel!
     @IBOutlet weak var destinationLabel: UILabel!
-    
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
